@@ -1,0 +1,25 @@
+--- good morning - enthusiastic
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> enthousiast
+S> U voelt zich enthousiast, dat is geweldig.
+
+--- joyful
+U> ik ben blij
+S> U voelt zich blij, dat is fantastisch.
+
+--- insecure - suggest activity
+U> ik voel mij onzeker
+S> U voelt zich onzeker, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- bored - suggest event
+U> vandaag voel ik mij verveeld
+S> U voelt zich verveeld, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- worried - suggest event
+U> ik maak mij zorgen
+S> U voelt zich zorgen, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- pain - suggest call
+U> vandaag heb ik pijnlijk
+S> U voelt zich pijnlijk, heeft u hulp nodig? Wilt u dat ik iemand bel?.

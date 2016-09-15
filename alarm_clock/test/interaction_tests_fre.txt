@@ -1,0 +1,17 @@
+--- hello - good
+U> Bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> Bien
+S> Vous vous sentez bien, voulez-vous que je vous suggere un jeu?.
+
+--- bored - suggest event
+U> je suis ennuye
+S> Vous vous sentez ennuye, voulez-vous que je vous suggere un evenement qui vous aiderait a vous sentir mieux?.
+
+--- irritated - suggest call
+U> aujourd'hui j'ai irrite
+S> Vous vous sentez irrite, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- bad - suggest event
+U> aujourd'hui je me sens mal
+S> Vous vous sentez mal, voulez-vous que je vous suggere un evenement qui vous aiderait a vous sentir mieux?.

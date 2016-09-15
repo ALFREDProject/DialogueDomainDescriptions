@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+
+	<action name="call">
+		<verb-phrase>
+			<verb ref="calling"/>
+		</verb-phrase>
+	</action>
+
+	<action name="send_message">
+		<noun-phrase>
+			<noun ref="message"/>
+		</noun-phrase>
+	</action>
+
+	<action name="videocall">
+		<noun-phrase>
+			<noun ref="video"/>
+		</noun-phrase>
+	</action>
+
+	<request action="call">
+		<utterance>
+			<one-of>
+				<item>bel</item>
+				<item>bellen</item>
+				<item>bel <individual sort="contact"/></item>
+				<item>bel <individual sort="first_name"/> <individual sort="last_name"/></item>
+				<item>bel <individual sort="first_name"/></item>
+				<item>bel <individual sort="last_name"/></item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<request action="send_message">
+		<utterance>
+            <one-of>
+				<item>stuur een bericht</item>
+				<item>stuur een bericht <individual sort="contact"/></item>
+				<item>stuur een bericht <individual sort="first_name"/> <individual sort="last_name"/></item>
+				<item>stuur een bericht <individual sort="first_name"/></item>
+				<item>stuur een bericht <individual sort="last_name"/></item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<request action="videocall">
+		<utterance>
+			<one-of>
+				<item>videogesprek</item>
+				<item>videogesprek voeren</item>
+				<item>videogesprek <individual sort="contact"/></item>
+				<item>videogesprek <individual sort="first_name"/> <individual sort="last_name"/></item>
+				<item>videogesprek <individual sort="first_name"/></item>
+				<item>videogesprek <individual sort="last_name"/></item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<report action="Call" status="ended">
+		<utterance>
+			bel <individual predicate="selected_contact"/>
+		</utterance>
+	</report>
+
+	<report action="SendMessage" status="ended">
+		<utterance>
+			ik stuurde het bericht naar <individual predicate="selected_contact"/>. De boodschap was <individual predicate="selected_message"/>
+		</utterance>
+	</report>
+
+	<report action="VideoCall" status="ended">
+		<utterance>
+			videobellen met <individual  predicate="selected_contact"/>
+		</utterance>
+	</report>
+
+	<question speaker="system" predicate="selected_contact" type="wh_question">
+		<utterance>wie wilt u bellen</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_first_name" type="wh_question">
+		<utterance>wat is de eerste naam</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_last_name" type="wh_question">
+		<utterance>wat is de achternaam</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_message" type="wh_question">
+		<utterance>
+			welk bericht wilt u versturen
+		</utterance>
+	</question>
+
+	<lexicon>
+		<verb id="calling">
+			<infinitive>bellen</infinitive>
+		</verb>
+		<noun id="message">
+			<singular>bericht</singular>
+		</noun>
+		<noun id="video">
+			<singular>videogesprek</singular>
+		</noun>
+	</lexicon>
+</grammar>

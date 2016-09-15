@@ -1,0 +1,39 @@
+--- call first name
+S> Que voulez-vous faire?
+U> appel john
+S> Appel en cours John.
+
+--- call one-shot
+S> Que voulez-vous faire?
+U> appel
+S> Quel contact souhaitez-vous selectionner?
+U> john
+S> Appel en cours John.
+
+--- video call first name
+S> Que voulez-vous faire?
+U> appel video john
+S> Appel video en cours John.
+
+--- videocall one-shot
+S> Que voulez-vous faire?
+U> appel video
+S> Quel contact souhaitez-vous selectionner?
+U> john
+S> Appel video en cours John.
+
+--- message split
+S> Que voulez-vous faire?
+U> envoyer un message john
+S> Quel est le contenu de votre message?
+U> à quelle heure dois-je avoir le café prêt
+S> J'ai envoye votre message a John. Le message était à quelle heure dois-je avoir le café prêt.
+
+--- message one-shot
+S> Que voulez-vous faire?
+U> envoyer un message
+S> Quel contact souhaitez-vous selectionner?
+U> john
+S> Quel est le contenu de votre message?
+U> à quelle heure dois-je avoir le café prêt
+S> J'ai envoye votre message a John. Le message était à quelle heure dois-je avoir le café prêt.

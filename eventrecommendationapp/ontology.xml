@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ontology name="EventRecommendationAppOntology">
+	<action name="show_event_recommendations"/>
+
+	
+	<action name="show_event_details"/>
+	<action name="go_to_event"/>
+	<action name="dont_go_to_event"/>
+	<sort name="event_number" dynamic="true"/>
+  	<predicate name="selected_event_number" sort="event_number"/>
+
+</ontology>

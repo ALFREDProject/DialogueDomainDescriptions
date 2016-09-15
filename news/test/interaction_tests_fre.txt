@@ -1,0 +1,6 @@
+--- aller aux actualites sport
+S> Que voulez-vous faire?
+U> aller aux actualites
+S> Quels sont les types d'actualites qui vous interessent?
+U> sport
+S> Montrant des nouvelles sport.

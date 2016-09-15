@@ -1,0 +1,39 @@
+--- call first name
+S> Wat wilt u doen?
+U> bel john
+S> Bel John.
+
+--- call one-shot
+S> Wat wilt u doen?
+U> bel
+S> Welke contactpersoon wilt u toevoegen?
+U> john
+S> Bel John.
+
+--- video call first name
+S> Wat wilt u doen?
+U> videogesprek john
+S> Videobellen met John.
+
+--- videocall one-shot
+S> Wat wilt u doen?
+U> videogesprek
+S> Welke contactpersoon wilt u toevoegen?
+U> john
+S> Videobellen met John.
+
+--- message split
+S> Wat wilt u doen?
+U> stuur een bericht john
+S> Welk bericht wilt u versturen?
+U> op welk moment moet ik de koffie klaar
+S> Ik stuurde het bericht naar John. De boodschap was op welk moment moet ik de koffie klaar.
+
+--- message one-shot
+S> Wat wilt u doen?
+U> stuur een bericht
+S> Welke contactpersoon wilt u toevoegen?
+U> john
+S> Welk bericht wilt u versturen?
+U> op welk moment moet ik de koffie klaar
+S> Ik stuurde het bericht naar John. De boodschap was op welk moment moet ik de koffie klaar.

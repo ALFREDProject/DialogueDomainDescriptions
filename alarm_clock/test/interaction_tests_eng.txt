@@ -1,0 +1,35 @@
+--- good morning - joyful
+U> good morning
+S> Good morning, how do you feel?
+U> joyful
+S> You are joyful, that's fantastic.
+
+--- hello - good
+U> hello
+S> Good morning, how do you feel?
+U> good
+S> You are good, that's OK.
+
+--- fine - suggest game
+U> i am fine
+S> You are fine, do you want me to suggest a game?.
+
+--- ok - suggest music
+U> i am ok
+S> You are OK, do you want listen to music?.
+
+--- bad - suggest event
+U> i feel bad
+S> You are bad, do you want me to suggest an event that helps you feel better?.
+
+--- annoyed - suggest call
+U> i am annoyed
+S> You are annoyed, that sounds bad. Do you want me to make a call?.
+
+--- unsupported feeling
+U> i have weight
+S> I heard you say i have weight. I don't understand*
+
+--- pain - suggest call
+U> i have pain
+S> You are pain, do you need help? Do you want me to make a call?.

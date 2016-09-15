@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar>
+        <action name="rate_event">
+                <verb-phrase>
+                        <verb ref="rating"/>
+                </verb-phrase>
+        </action>
+
+        <request action="rate_event">
+                <utterance>
+                        <one-of>
+                                <item>noter mes événements</item>
+                                <item>noter un événement</item>
+                                <item>noter</item>
+                                <item>insérer la note</item>
+                                <item>soumettre note</item>
+                                <item>noter mes événements avec <individual sort="stars_size"/> étoiles</item>
+                                <item>noter l'événement avec <individual sort="stars_size"/> étoiles</item>
+                        </one-of>
+                </utterance>
+        </request>
+
+        <report action="RateEventAction" status="ended">
+                <utterance>
+                        votre événement a été noté avec <individual predicate="selected_stars_size"/> étoiles
+                </utterance>
+        </report>
+
+        <question speaker="system" predicate="selected_stars_size" type="wh_question">
+                <utterance>
+                        quelle note souhaitez-vous donner à l’événement
+                </utterance>
+        </question>
+
+        <validity name="AmountOfStarsValidity">
+        <utterance>sélectionner jusqu’à 5 étoiles</utterance>
+    </validity>
+
+        <lexicon>
+                <verb id="rating">
+                        <infinitive>noter</infinitive>
+                </verb>
+        </lexicon>
+</grammar>

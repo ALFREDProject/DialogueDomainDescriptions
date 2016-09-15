@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar>
+	<question speaker="user" predicate="selected_battery_status">
+		<utterance>
+			<one-of>
+				<item>batterie</item>
+				<item>l'état de ma batterie</item>
+				<item>quel est l'état de ma batterie</item>
+				<item>me montrer ma batterie</item>
+				<item>me montrer l'état de ma batterie</item>
+				<item>combien me reste-t-il de batterie</item>
+			</one-of>
+		</utterance>
+	</question>
+
+	<predicate name="selected_battery_status">
+		<noun-phrase>
+			<noun ref="battery"/>
+		</noun-phrase>
+	</predicate>
+
+	<answer speaker="system" predicate="selected_battery_status">
+		<utterance>
+			l'état de votre batterie est <individual predicate="selected_battery_status"/> pourcent
+		</utterance>
+	</answer>
+
+	<lexicon>
+		<noun id="battery">
+			<singular>batterie</singular>
+		</noun>
+	</lexicon>
+</grammar>

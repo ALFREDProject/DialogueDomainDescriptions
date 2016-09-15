@@ -1,0 +1,63 @@
+--- creategroup
+U> create a group
+S> Which name do you want to have for the group?
+U> rheumatism
+S> What is the description for the group?
+U> all about rheumatism
+S> Group rheumatism with description all about rheumatism has been created.
+
+--- I_want_to_create_a_group
+U> i want to create a group
+S> Which name do you want to have for the group?
+U> rheumatism
+S> What is the description for the group?
+U> all about rheumatism
+S> Group rheumatism with description all about rheumatism has been created.
+
+--- group
+U> group
+S> Which name do you want to have for the group?
+U> rheumatism
+S> What is the description for the group?
+U> all about rheumatism
+S> Group rheumatism with description all about rheumatism has been created.
+
+--- new group
+U> new group
+S> Which name do you want to have for the group?
+U> rheumatism
+S> What is the description for the group?
+U> all about rheumatism
+S> Group rheumatism with description all about rheumatism has been created.
+
+--- group_of_discussion 
+U> discussion group
+S> Which name do you want to have for the discussion?
+U> rheumatism
+S> What is the description for the discussion?
+U> all about rheumatism
+S> Discussion rheumatism with description all about rheumatism has been created.
+
+--- create a group of discussion
+U> create a discussion group
+S> Which name do you want to have for the discussion?
+U> rheumatism
+S> What is the description for the discussion?
+U> all about rheumatism
+S> Discussion rheumatism with description all about rheumatism has been created.
+
+--- create a discussion
+U> discussion
+S> Which name do you want to have for the discussion?
+U> rheumatism
+S> What is the description for the discussion?
+U> all about rheumatism
+S> Discussion rheumatism with description all about rheumatism has been created.
+
+--- I want to create a discussion
+U> i want to create a discussion
+S> Which name do you want to have for the discussion?
+U> rheumatism
+S> What is the description for the discussion?
+U> all about rheumatism
+S> Discussion rheumatism with description all about rheumatism has been created.

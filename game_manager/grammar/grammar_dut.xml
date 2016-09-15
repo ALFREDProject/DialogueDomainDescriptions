@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+
+  	<action name="start_game">
+  		<verb-phrase>
+  			<verb ref="start"/>
+  		</verb-phrase>
+  	</action>
+
+	<request action="start_game">
+    		<utterance>
+      			<one-of>
+        			<item>start een spel</item>
+        			<item>start <individual sort="game"/></item>
+      			</one-of>
+    		</utterance>
+  	</request>
+
+  	<question speaker="system" predicate="game_to_start">
+  		<utterance>welk spel wil je beginnen</utterance>
+  	</question>
+
+  	<report action="StartGame" status="ended">
+  		<utterance><individual predicate="game_to_start"/> gestart</utterance>
+  	</report>
+
+
+
+
+
+
+  	<action name="pause_game">
+  		<verb-phrase>
+  			<verb ref="pause"/>
+  		</verb-phrase>
+  	</action>
+
+	<request action="pause_game">
+    		<utterance>
+      			<one-of>
+        			<item>pauzeer</item>
+        			<item>spel pauzeren</item>
+      			</one-of>
+    		</utterance>
+  	</request>
+
+  	<report action="PauseGame" status="ended">
+    		<utterance>spel gepauzeerd</utterance>
+  	</report>
+
+
+
+
+
+
+  	<action name="resume_game">
+  		<verb-phrase>
+  			<verb ref="resume"/>
+  		</verb-phrase>
+  	</action>
+
+	<request action="resume_game">
+    		<utterance>
+      			<one-of>
+        			<item>hervatten</item>
+        			<item>spel hervatten</item>
+      			</one-of>
+    		</utterance>
+  	</request>
+
+  	<report action="ResumeGame" status="ended">
+    		<utterance>spel hervat</utterance>
+  	</report>
+
+
+
+
+
+
+
+  	<action name="stop_game">
+  		<verb-phrase>
+  			<verb ref="stop"/>
+  		</verb-phrase>
+  	</action>
+
+	<request action="stop_game">
+    		<utterance>
+      			<one-of>
+        			<item>stoppen</item>
+        			<item>stop spel</item>
+      			</one-of>
+    		</utterance>
+  	</request>
+
+  	<report action="StopGame" status="ended">
+    		<utterance>spel gestopt</utterance>
+  	</report>
+
+  	<lexicon>		
+		<verb id="start">
+  			<infinitive>start</infinitive>
+  		</verb>
+  		<verb id="pause">
+  			<infinitive>pauzeren</infinitive>
+  		</verb>
+  		<verb id="resume">
+  			<infinitive>hervatten</infinitive>
+  		</verb>
+  		<verb id="stop">
+  			<infinitive>stop</infinitive>
+  		</verb>
+  	</lexicon>
+</grammar>
+

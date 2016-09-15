@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ontology name="TutorialOntology">
+
+	<action name="command_start"/>
+	<action name="command_continue"/>
+	<action name="command_i_understand"/>
+	<action name="command_play_a_sound"/>
+	<action name="command_show_an_image"/>
+	<action name="command_what_is_your_name"/>
+	<action name="command_age"/>
+
+	<sort name="name" dynamic="true"/>
+	<predicate name="selected_name" sort="name"/>
+
+	<sort name="age" dynamic="true"/>
+	<predicate name="selected_age" sort="age"/>
+  
+</ontology>

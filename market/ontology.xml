@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ontology name="MarketOntology">
+	<action name="search_term"/>
+  	<sort name="market_search_string" dynamic="true"/>
+  	<predicate name="selected_market_search_string" sort="market_search_string"/>
+</ontology>

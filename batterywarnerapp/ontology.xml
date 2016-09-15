@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ontology name="BatteryWarnerAppOntology">
+	<sort name="battery_status" dynamic="true"/>
+	<predicate name="selected_battery_status" sort="battery_status"/>
+</ontology>

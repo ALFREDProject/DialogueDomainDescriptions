@@ -1,0 +1,903 @@
+# agendaapp
+--- set agenda 1
+U> set agenda
+S> In how many minutes should i remind you?
+U> 15
+S> Name the agenda i should remind you of?
+U> get my laundry
+S> In 15 minutes i will remind you of your get my laundry agenda.
+
+--- set agenda 2
+U> set reminder
+S> In how many minutes should i remind you?
+U> 15
+S> Name the agenda i should remind you of?
+U> get my laundry
+S> In 15 minutes i will remind you of your get my laundry agenda.
+
+--- set agenda 3
+U> agenda
+S> In how many minutes should i remind you?
+U> 15
+S> Name the agenda i should remind you of?
+U> get my laundry
+S> In 15 minutes i will remind you of your get my laundry agenda.
+
+--- set agenda 4
+U> reminder
+S> In how many minutes should i remind you?
+U> 15
+S> Name the agenda i should remind you of?
+U> get my laundry
+S> In 15 minutes i will remind you of your get my laundry agenda.
+
+--- set agenda 5
+U> set reminder in 15 minutes
+S> Name the agenda i should remind you of?
+U> get my laundry
+S> In 15 minutes i will remind you of your get my laundry agenda.
+
+--- set agenda 6
+U> set reminder in 15 minutes
+S> Name the agenda i should remind you of?
+U> get my laundry
+S> In 15 minutes i will remind you of your get my laundry agenda.
+
+
+
+
+
+
+
+
+
+
+# batterywarnerapp
+--- battery status 1
+U> battery
+S> Your battery status is 50 percent.
+
+--- battery status 2
+U> battery status
+S> Your battery status is 50 percent.
+
+--- battery status 3
+U> what is my battery status
+S> Your battery status is 50 percent.
+
+--- battery status 4
+U> show my battery
+S> Your battery status is 50 percent.
+
+--- battery status 5
+U> show my battery status
+S> Your battery status is 50 percent.
+
+--- battery status 6
+U> how much battery is there
+S> Your battery status is 50 percent.
+
+
+
+
+
+
+
+
+# bodypostureapp
+--- how to sit one-shot
+U> how to sit correctly
+S> Look at this picture. It show you how to sit correctly.
+
+--- how to stand one-shot
+U> how to stand correctly
+S> Look at this picture. It show you how to stand correctly.
+
+--- how to lie one-shot
+U> how to lie correctly
+S> Look at this picture. It show you how to lie correctly.
+
+--- how to posture
+U> how to posture
+S> Do you sit, stand or lie?
+U> lie
+S> Look at this picture. It show you how to lie correctly.
+
+
+
+
+
+
+
+
+
+
+# calendarapp
+
+--- calendar
+U> calendar
+S> Which year are we talking about?
+U> 2016
+S> Which month are we talking about?
+U> March
+S> Here is your calendar of 2016 march.
+
+
+--- show one-shot
+U> show calendar in January 2017
+S> Here is your calendar of 2017 january.
+
+--- show month-first
+U> show calendar in January
+S> Which year are we talking about?
+
+--- show year-first
+U> show calendar in 2018
+S> Which month are we talking about?
+
+--- kevin
+U> show calendar in September 2016 0.9 | show Kevin died in September 2016 0.75 | show calendar of September 2016 0.6 | show calendar and September 2016 0.45 | so Kevin died in September 2016 0.3
+S> Here is your calendar of 2016 september.
+
+--- insert event
+U> insert event in February 7 2016
+S> How is the event called?
+U> shopping
+S> I insert your shopping event in february 7 2016.
+
+--- insert
+U> insert event
+S> Which year are we talking about?
+U> 2016
+S> Which month are we talking about?
+U> March
+S> Which day of month are we talking about?
+U> 7
+S> How is the event called?
+U> shopping
+S> I insert your shopping event in march 7 2016.
+
+--- show
+U> show events
+S> Which year are we talking about?
+U> 2016
+S> Which month are we talking about?
+U> March
+S> Which day of month are we talking about?
+U> 14
+S> I listed your events in march 14 2016.
+
+
+
+
+
+
+
+
+
+
+
+# navigationapp
+--- navigation
+U> navigation
+S> Choose your mode: walk, bike, car or transit?
+U> walk
+S> Where should i navigate you?
+U> Berlin
+S> I just draw you a way to Berlin with mode walk. If nothing was drawn, Google did not understand the place.
+
+--- navigation 2
+U> navigation with mode walk
+S> Where should i navigate you?
+U> Berlin
+S> I just draw you a way to Berlin with mode walk. If nothing was drawn, Google did not understand the place.
+
+--- where am i 1
+U> where am i
+S> Most likely, you are near Berlin.
+
+--- where am i 2
+U> tell me where i am
+S> Most likely, you are near Berlin.
+
+--- where am i 3
+U> what is my location
+S> Most likely, you are near Berlin.
+
+
+
+
+
+
+
+
+
+
+
+# personalassistant
+--- change color one-shot
+U> change microphone color to green
+S> Your microphone now has green color.
+
+--- change color 
+U> change microphone color
+S> Select the new microphone color?
+U> green
+S> Your microphone now has green color.
+
+
+
+
+
+
+
+
+# eventratingapp
+--- rate event 3
+U> let me rate my event
+S> How many stars you want to give to the event?
+U> 4
+S> Your event was rated with 4 stars.
+
+
+--- rate event 4
+U> rate event
+S> How many stars you want to give to the event?
+U> 4
+S> Your event was rated with 4 stars.
+
+--- rate event 5
+U> rate
+S> How many stars you want to give to the event?
+U> 4
+S> Your event was rated with 4 stars.
+
+--- rate event 6
+U> submit rating
+S> How many stars you want to give to the event?
+U> 4
+S> Your event was rated with 4 stars.
+
+--- rate event 7
+U> let me rate my event with 4 stars
+S> Your event was rated with 4 stars.
+
+--- rate event 8
+U> rate event with 4 stars
+S> Your event was rated with 4 stars.
+
+
+
+
+# eventrecommendationapp
+--- show recommendations
+U> show recommendations
+S> Here are the recommendations for the next 10 events.
+
+# eventrecommendationapp
+--- show recommendations 2
+U> refresh recommendations
+S> Here are the recommendations for the next 10 events.
+
+--- show recommendations 5
+U> i like to join an event
+S> Here are the recommendations for the next 10 events.
+
+--- show recommendations 6
+U> join an event
+S> Here are the recommendations for the next 10 events.
+
+--- show recommendations 7
+U> i want to join an event
+S> Here are the recommendations for the next 10 events.
+
+--- show recommendations 8
+U> i like to participate in an event
+S> Here are the recommendations for the next 10 events.
+
+--- show recommendations 10
+U> participate in an event
+S> Here are the recommendations for the next 10 events.
+
+--- show recommendations 11
+U> i like to participate in an event
+S> Here are the recommendations for the next 10 events.
+
+--- show recommendations 12
+U> i like to visit an event
+S> Here are the recommendations for the next 10 events.
+
+--- show recommendations 13
+U> visit an event
+S> Here are the recommendations for the next 10 events.
+
+--- show recommendations 14
+U> i want to visit an event
+S> Here are the recommendations for the next 10 events.
+
+--- show recommendations 15
+U> show recommendation details
+S> What it the number of the event? Select number 10 or lower?
+U> 3
+S> Here are the details for the recommendation number 3.
+
+--- show recommendations 16
+U> show details of event number 3
+S> Here are the details for the recommendation number 3.
+
+--- show recommendations 17
+U> go
+S> What it the number of the event? Select number 10 or lower?
+U> 3
+S> You are now participating in the event number 3.
+
+--- show recommendations 18
+U> participate in event number 3
+S> You are now participating in the event number 3.
+
+--- show recommendations 19
+U> don't go
+S> What it the number of the event? Select number 10 or lower?
+U> 3
+S> You have declined your participation in the event number 3.
+
+--- show recommendations 20
+U> don't participate in event number 3
+S> You have declined your participation in the event number 3.
+
+
+
+
+# socialgroupsapp
+--- creategroup
+U> create a group
+S> Which name do you want to have for the group?
+U> rheumatism
+S> What is the description for the group?
+U> all about rheumatism
+S> Group rheumatism with description all about rheumatism has been created.
+
+--- I_want_to_create_a_group
+U> i want to create a group
+S> Which name do you want to have for the group?
+U> rheumatism
+S> What is the description for the group?
+U> all about rheumatism
+S> Group rheumatism with description all about rheumatism has been created.
+
+--- group
+U> group
+S> Which name do you want to have for the group?
+U> rheumatism
+S> What is the description for the group?
+U> all about rheumatism
+S> Group rheumatism with description all about rheumatism has been created.
+
+--- new group
+U> new group
+S> Which name do you want to have for the group?
+U> rheumatism
+S> What is the description for the group?
+U> all about rheumatism
+S> Group rheumatism with description all about rheumatism has been created.
+
+--- group_of_discussion 
+U> discussion group
+S> Which name do you want to have for the discussion?
+U> rheumatism
+S> What is the description for the discussion?
+U> all about rheumatism
+S> Discussion rheumatism with description all about rheumatism has been created.
+
+--- create a group of discussion
+U> create a discussion group
+S> Which name do you want to have for the discussion?
+U> rheumatism
+S> What is the description for the discussion?
+U> all about rheumatism
+S> Discussion rheumatism with description all about rheumatism has been created.
+
+--- create a discussion
+U> discussion
+S> Which name do you want to have for the discussion?
+U> rheumatism
+S> What is the description for the discussion?
+U> all about rheumatism
+S> Discussion rheumatism with description all about rheumatism has been created.
+
+--- I want to create a discussion
+U> i want to create a discussion
+S> Which name do you want to have for the discussion?
+U> rheumatism
+S> What is the description for the discussion?
+U> all about rheumatism
+S> Discussion rheumatism with description all about rheumatism has been created.
+
+
+# meetingsapp
+--- setup_meeting
+U> setup meeting
+S> Which year are we talking about?
+U> 2016
+S> Which month are we talking about?
+U> may
+S> Which day of month are we talking about?
+U> 20
+S> What is the subject of the meeting?
+U> going for launch
+S> Which location do you want to have for the meeting?
+U> whisky bar
+S> Invitation to your meeting has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- setup_meeting year one-shot
+U> setup meeting on 2016
+S> Which month are we talking about?
+U> may
+S> Which day of month are we talking about?
+U> 20
+S> What is the subject of the meeting?
+U> going for launch
+S> Which location do you want to have for the meeting?
+U> whisky bar
+S> Invitation to your meeting has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- setup_meeting year and month one-shot
+U> setup meeting on 2016 may
+S> Which day of month are we talking about?
+U> 20
+S> What is the subject of the meeting?
+U> going for launch
+S> Which location do you want to have for the meeting?
+U> whisky bar
+S> Invitation to your meeting has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- setup_meeting one-shot
+U> setup meeting on 2016 may 20
+S> What is the subject of the meeting?
+U> going for launch
+S> Which location do you want to have for the meeting?
+U> whisky bar
+S> Invitation to your meeting has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+
+--- create_meeting
+U> create meeting
+S> Which year are we talking about?
+U> 2016
+S> Which month are we talking about?
+U> may
+S> Which day of month are we talking about?
+U> 20
+S> What is the subject of the meeting?
+U> going for launch
+S> Which location do you want to have for the meeting?
+U> whisky bar
+S> Invitation to your meeting has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- create_meeting year one-shot
+U> create meeting on 2016
+S> Which month are we talking about?
+U> may
+S> Which day of month are we talking about?
+U> 20
+S> What is the subject of the meeting?
+U> going for launch
+S> Which location do you want to have for the meeting?
+U> whisky bar
+S> Invitation to your meeting has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- create_meeting year and month one-shot
+U> create meeting on 2016 may
+S> Which day of month are we talking about?
+U> 20
+S> What is the subject of the meeting?
+U> going for launch
+S> Which location do you want to have for the meeting?
+U> whisky bar
+S> Invitation to your meeting has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- create_meeting one-shot
+U> create meeting on 2016 may 20
+S> What is the subject of the meeting?
+U> going for launch
+S> Which location do you want to have for the meeting?
+U> whisky bar
+S> Invitation to your meeting has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- meeting
+U> meeting
+S> Which year are we talking about?
+U> 2016
+S> Which month are we talking about?
+U> may
+S> Which day of month are we talking about?
+U> 20
+S> What is the subject of the meeting?
+U> going for launch
+S> Which location do you want to have for the meeting?
+U> whisky bar
+S> Invitation to your meeting has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- appointment 
+U> appointment
+S> Which year are we talking about?
+U> 2016
+S> Which month are we talking about?
+U> may
+S> Which day of month are we talking about?
+U> 20
+S> What is the subject of the appointment?
+U> going for launch
+S> Which location do you want to have for the appointment?
+U> whisky bar
+S> Invitation to your appointment has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- appointment year one-shot
+U> appointment on 2016
+S> Which month are we talking about?
+U> may
+S> Which day of month are we talking about?
+U> 20
+S> What is the subject of the appointment?
+U> going for launch
+S> Which location do you want to have for the appointment?
+U> whisky bar
+S> Invitation to your appointment has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- appointment year and month one-shot
+U> appointment on 2016 may
+S> Which day of month are we talking about?
+U> 20
+S> What is the subject of the appointment?
+U> going for launch
+S> Which location do you want to have for the appointment?
+U> whisky bar
+S> Invitation to your appointment has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- appointment one-shot
+U> appointment on 2016 may 20
+S> What is the subject of the appointment?
+U> going for launch
+S> Which location do you want to have for the appointment?
+U> whisky bar
+S> Invitation to your appointment has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- conference 
+U> conference
+S> Which year are we talking about?
+U> 2016
+S> Which month are we talking about?
+U> may
+S> Which day of month are we talking about?
+U> 20
+S> What is the subject of the conference?
+U> going for launch
+S> Which location do you want to have for the conference?
+U> whisky bar
+S> Invitation to your conference has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- invitation 
+U> invitation
+S> Which year are we talking about?
+U> 2016
+S> Which month are we talking about?
+U> may
+S> Which day of month are we talking about?
+U> 20
+S> What is the subject of the invitation?
+U> going for launch
+S> Which location do you want to have for the invitation?
+U> whisky bar
+S> Invitation has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+# health monitor
+--- request heartrate
+U> tell me a vital parameter
+S> Which parameter?
+U> heartrate
+S> Your heartrate is 100.
+
+--- request temperature
+U> tell me a vital parameter
+S> Which parameter?
+U> temperature
+S> Your temperature is 100.
+
+--- request pulse one-shot
+U> what is my pulse
+S> Your pulse is 100.
+
+--- request respiration one-shot
+U> what is my respiration
+S> Your respiration is 100.
+
+--- request weight one-shot
+U> what is my weight
+S> I heard you say what is my weight. I don't understand*
+
+--- request steps one-shot
+U> tell me my steps
+S> Your steps is 100.
+
+--- request respiration one-shot 2
+U> can you tell me my respiration
+S> Your respiration is 100.
+
+--- request temperature one-shot
+U> could you tell me my temperature
+S> Your temperature is 100.
+
+
+# alarm clock
+--- good morning - joyful
+U> good morning
+S> Good morning, how do you feel?
+U> joyful
+S> You are joyful, that's fantastic.
+
+--- hello - good
+U> hello
+S> Good morning, how do you feel?
+U> good
+S> You are good, that's OK.
+
+--- fine - suggest game
+U> i am fine
+S> You are fine, do you want me to suggest a game?.
+
+--- ok - suggest music
+U> i am ok
+S> You are OK, do you want listen to music?.
+
+--- bad - suggest event
+U> i feel bad
+S> You are bad, do you want me to suggest an event that helps you feel better?.
+
+--- annoyed - suggest call
+U> i am annoyed
+S> You are annoyed, that sounds bad. Do you want me to make a call?.
+
+--- unsupported feeling
+U> i have weight
+S> I heard you say i have weight. I don't understand*
+
+--- pain - suggest call
+U> i have pain
+S> You are pain, do you need help? Do you want me to make a call?.
+
+
+
+
+
+
+# contactsapp
+# --- compare contacts
+# U> compare contacts
+# S> How is the contact called?
+# U> John
+# S> Here is your contact comparison of contact John.
+
+
+
+# news
+--- get news culture
+S> What would you like to do?
+U> get news
+S> What type of news do you want?
+U> culture
+S> Showing culture news.
+
+--- show news about culture
+S> What would you like to do?
+U> show me news
+S> What type of news do you want?
+U> culture
+S> Showing culture news.
+
+# tutorial
+--- sound maria seventy
+S> What would you like to do?
+U> start
+S> Hello I am the Alfred assistant. I am an integrated platform in all of our Alfred apps. I am here to help you. First of all, in our applications, you will commonly see a button in the screen with a microphone. Touch the microphone button below and say continue.
+U> continue
+S> Perfect, this is important, the applications have an integrated system of conversation. You can answer me and give commands to me. In that way the interaction between you and the application will be more comfortable. Touch the microphone button below and say I understand to continue.
+U> I understand
+S> Let's put a simple example in the screen. Please, look at the bottom left of the screen. In the bottom left of the screen, you will see two blue colored commands. Each blue colored command can be executed, play a sound or show an image. Touch the microphone button below and read one blue colored command so I can hear your command.
+U> play a sound
+S> Here is the sound. I hope his has helpful for you. Now let's know each other better. What is your name?.
+U> maria
+S> maria. My name is Alfred. How old are you?.
+U> seventy
+S> seventy. You are older than me. I was recently created. I hope we can connect more in the future. Have a nice day.
+
+--- image maria sixty
+S> What would you like to do?
+U> start
+S> Hello I am the Alfred assistant. I am an integrated platform in all of our Alfred apps. I am here to help you. First of all, in our applications, you will commonly see a button in the screen with a microphone. Touch the microphone button below and say continue.
+U> continue
+S> Perfect, this is important, the applications have an integrated system of conversation. You can answer me and give commands to me. In that way the interaction between you and the application will be more comfortable. Touch the microphone button below and say I understand to continue.
+U> I understand
+S> Let's put a simple example in the screen. Please, look at the bottom left of the screen. In the bottom left of the screen, you will see two blue colored commands. Each blue colored command can be executed, play a sound or show an image. Touch the microphone button below and read one blue colored command so I can hear your command.
+U> show an image
+S> Here is the image, a bright star. I hope this has been helpful for you. Now let's know each other better. What is your name?.
+U> maria
+S> maria. My name is Alfred. How old are you?.
+U> sixty
+S> sixty. You are older than me. I was recently created. I hope we can connect more in the future. Have a nice day.
+
+# chat
+--- call 
+S> What would you like to do?
+U> call 
+S> What is the first name?
+U> John
+S> What is the last name?
+U> johnson
+S> Calling John Johnson.
+
+--- call first name
+S> What would you like to do?
+U> call john
+S> What is the last name?
+U> johnson
+S> Calling John Johnson.
+
+--- call last-name
+S> What would you like to do?
+U> call johnson
+S> Calling John Johnson.
+
+--- call one-shot
+S> What would you like to do?
+U> call john thompson
+S> Calling John Thompson.
+
+--- video call 
+S> What would you like to do?
+U> video call 
+S> What is the first name?
+U> John
+S> What is the last name?
+U> johnson
+S> Video calling John Johnson.
+
+--- video call first name
+S> What would you like to do?
+U> video call john
+S> What is the last name?
+U> johnson
+S> Video calling John Johnson.
+
+--- video call last-name
+S> What would you like to do?
+U> video call johnson
+S> Video calling John Johnson.
+
+--- video call one-shot
+S> What would you like to do?
+U> video call john thompson
+S> Video calling John Thompson.
+
+--- message 
+S> What would you like to do?
+U> send message
+S> What is the first name?
+U> John
+S> What is the last name?
+U> johnson
+S> What message do you want to put?
+U> at what time should I have the coffee ready
+S> I sent your message to John Johnson. The message was at what time should I have the coffee ready.
+
+--- message first name
+S> What would you like to do?
+U> send message to john
+S> What is the last name?
+U> johnson
+S> What message do you want to put?
+U> at what time should I have the coffee ready
+S> I sent your message to John Johnson. The message was at what time should I have the coffee ready.
+
+--- message last-name
+S> What would you like to do?
+U> send message to johnson
+S> What message do you want to put?
+U> at what time should I have the coffee ready
+S> I sent your message to John Johnson. The message was at what time should I have the coffee ready.
+
+--- message one-shot
+S> What would you like to do?
+U> send message to john johnson
+S> What message do you want to put?
+U> at what time should I have the coffee ready
+S> I sent your message to John Johnson. The message was at what time should I have the coffee ready.
+
+# questionnaire
+--- get information culture
+S> What would you like to do?
+U> get information
+S> What type of information do you want?
+U> culture
+S> Here is culture information.
+
+--- get information sports
+S> What would you like to do?
+U> get information
+S> What type of information do you want?
+U> sports
+S> Here is sports information.
+
+--- get information world
+S> What would you like to do?
+U> get information
+S> What type of information do you want?
+U> world
+S> Here is world information.
+
+--- get information exhibitions
+S> What would you like to do?
+U> get information
+S> What type of information do you want?
+U> exhibitions
+S> Here is exhibitions information.
+
+--- get information cinema
+S> What would you like to do?
+U> get information
+S> What type of information do you want?
+U> cinema
+S> Here is cinema information.
+
+--- get information curiosities
+S> What would you like to do?
+U> get information
+S> What type of information do you want?
+U> curiosities
+S> Here is curiosities information.
+
+# help
+--- contact caregiver
+S> What would you like to do?
+U> contact caregiver
+S> Contacting caregiver.
+
+--- caregiver
+S> What would you like to do?
+U> caregiver
+S> Contacting caregiver.
+
+--- need help
+S> What would you like to do?
+U> need help
+S> Contacting help.
+
+--- help
+S> What would you like to do?
+U> help
+S> Contacting help.
+
+
+# market
+--- market 11
+S> What would you like to do?
+U> search
+S> What do you want to search?
+U> tools
+S> Showing tools search.
+
+--- market 12
+S> What would you like to do?
+U> find
+S> What do you want to search?
+U> tools
+S> Showing tools search.
+
+--- market 21
+S> What would you like to do?
+U> search tools
+S> Showing tools search.
+
+--- market 22
+S> What would you like to do?
+U> find tools
+S> Showing tools search.

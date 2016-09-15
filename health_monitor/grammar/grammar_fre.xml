@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+  <question speaker="system" predicate="selected_vital_parameter" type="wh_question">
+    <utterance>quels paramètres</utterance>
+  </question>
+
+  <predicate name="value_of_vital_parameter">
+    <noun-phrase>
+      <noun ref="parameter" />
+    </noun-phrase>
+  </predicate>
+
+  <question speaker="user" predicate="value_of_vital_parameter">
+    <utterance>
+      <one-of>
+        <item>donnez-moi un paramètre vital</item>
+        <item>connaître ma <individual sort="vital_parameter"/></item>
+        <item>connaître mon <individual sort="vital_parameter"/></item>
+        <item>peux-tu me donner mon <individual sort="vital_parameter"/></item>
+        <item>peux-tu me donner ma <individual sort="vital_parameter"/></item>
+        <item>donne-moi mon <individual sort="vital_parameter"/></item>
+        <item>quel est mon <individual sort="vital_parameter"/></item>
+        <item>savoir le nombre de <individual sort="vital_parameter"/></item>
+        <item>m'indiquer ma <individual sort="vital_parameter"/></item>
+        <item>ma <individual sort="vital_parameter"/></item>
+        <item>calcule ma <individual sort="vital_parameter"/></item>
+        <item>montre ma <individual sort="vital_parameter"/></item>
+        <item>montre-moi ma <individual sort="vital_parameter"/></item>
+       </one-of>
+    </utterance>
+  </question>
+
+  <answer speaker="system" predicate="value_of_vital_parameter">
+    <utterance>
+      Votre <individual predicate="selected_vital_parameter"/> est de
+      <individual predicate="value_of_vital_parameter"/>
+    </utterance>
+  </answer>
+
+  <lexicon>
+    <noun id="parameter">
+      <singular>paramètre</singular>
+    </noun>
+  </lexicon>
+</grammar>

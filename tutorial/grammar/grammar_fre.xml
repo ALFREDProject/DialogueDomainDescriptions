@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+    <action name="command_start">
+        <verb-phrase>
+            <verb ref="start"/>
+        </verb-phrase>
+    </action>
+
+    <action name="command_continue">
+        <verb-phrase>
+            <verb ref="continue"/>
+        </verb-phrase>
+    </action>
+
+    <action name="command_i_understand">
+        <verb-phrase>
+            <verb ref="understand"/>
+        </verb-phrase>
+    </action>
+
+    <action name="command_play_a_sound">
+        <noun-phrase>
+            <noun ref="sound"/>
+        </noun-phrase>
+    </action>
+
+    <action name="command_show_an_image">
+        <noun-phrase>
+            <noun ref="image"/>
+        </noun-phrase>
+    </action>
+
+    <action name="command_what_is_your_name">
+        <noun-phrase>
+            <noun ref="name"/>
+        </noun-phrase>
+    </action>
+
+    <action name="command_age">
+        <noun-phrase>
+            <noun ref="age"/>
+        </noun-phrase>
+    </action>
+
+    <request action="command_start">
+        <utterance>
+            <one-of>
+                <item>commencer</item>
+            </one-of>
+        </utterance>
+    </request>
+
+    <request action="command_continue">
+        <utterance>
+            <one-of>
+                <item>continuer</item>
+            </one-of>
+        </utterance>
+    </request>
+
+    <request action="command_i_understand">
+        <utterance>
+            <one-of>
+                <item>comprendre</item>
+                <item>je comprends</item>
+            </one-of>
+        </utterance>
+    </request>
+
+    <request action="command_play_a_sound">
+        <utterance>
+            <one-of>
+                <item>jouer un son</item>
+            </one-of>
+        </utterance>
+    </request>
+
+    <request action="command_show_an_image">
+        <utterance>
+            <one-of>
+                <item>montrer une image</item>
+            </one-of>
+        </utterance>
+    </request>
+
+    <request action="command_what_is_your_name">
+        <utterance>
+            <one-of>
+                <item>mon nom est</item>
+                <item>mon nom est <individual sort="name"/></item>
+            </one-of>
+        </utterance>
+    </request>
+
+    <request action="command_age">
+        <utterance>
+            <one-of>
+                <item>j'ai</item>
+                <item>j'ai <individual sort="age"/></item>
+                <item>j'ai <individual sort="age"/> ans</item>
+            </one-of>
+        </utterance>
+    </request>
+
+
+    <question speaker="system" predicate="selected_name" type="wh_question">
+        <utterance>
+            comment vous appelez-vous
+        </utterance>
+    </question>
+
+    <question speaker="system" predicate="selected_age" type="wh_question">
+        <utterance>
+            quel age avez-vous
+        </utterance>
+    </question>
+
+    <report action="CommandStart" status="ended">
+        <utterance>
+            bonjour. Je suis votre assistant ALFRED. Je suis une plateforme regroupant toutes vos applications ALFRED. Je suis ici pour vous aider. Tout d'abord, dans vos applications, vous verrez fréquemment sur l'ecran un bouton representant un micro. Touchez le et dites Continuer
+        </utterance>
+    </report>
+
+    <report action="CommandContinue" status="ended">
+        <utterance>
+            parfait! Ce qui suit est important.  Les applications fonctionnent avec un systeme de conversation. Vous pouvez me repondre et me soumettre vos requetes. De cette maniere, votre intéraction avec les applications est facilitee. Touchez le bouton représentant le micro et dîtes je comprends pour continuer
+        </utterance>
+    </report>
+
+    <report action="CommandIUnderstand" status="ended">
+        <utterance>
+            prenons un exemple afin d'illustrer cela. Regardez en bas a gauche de votre ecran. Vous voyez deux phrases en bleu qui sont en fait des requetes: jouer un son et montrer une image. Touchez le bouton representant le micro et lisez une des deux requetes afin que je comprenne ce que vous voulez
+        </utterance>
+    </report>
+
+    <report action="CommandPlayASound" status="ended">
+        <utterance>
+            voila un son. J'espere que cela vous a aide. Maintenant, faisons connaissance. Quel est votre nom?
+        </utterance>
+    </report>
+
+    <report action="CommandShowAnImage" status="ended">
+        <utterance>
+            voici une image. J'espere que cela a ete utile. Maintenant, faisons connaissance. Quel est votre nom?
+        </utterance>
+    </report>
+
+    <report action="CommandWhatIsYourName" status="ended">
+        <utterance>
+            <individual predicate="selected_name"/>. Mon nom est Alfred. Quel âge avez-vous?
+        </utterance>
+    </report>
+
+    <report action="CommandAge" status="ended">
+        <utterance>
+            <individual predicate="selected_age"/>. Vous etes plus vieux que moi vu que je viens juste d'etre cree! J'espère que nous pourrons mieux nous connaitre par la suite. Passez une bonne journee
+        </utterance>
+    </report>
+
+    <lexicon>
+        <verb id="start">
+            <infinitive>commencer</infinitive>
+        </verb>
+        <verb id="continue">
+            <infinitive>continuer</infinitive>
+        </verb>
+        <verb id="understand">
+            <infinitive>comprendre</infinitive>
+        </verb>
+        <noun id="sound">
+            <singular>son</singular>
+        </noun>
+        <noun id="image">
+            <singular>image</singular>
+        </noun>
+        <noun id="age">
+            <singular>age</singular>
+        </noun>
+        <noun id="name">
+            <singular>nom</singular>
+        </noun>
+    </lexicon>
+</grammar>

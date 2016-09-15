@@ -1,0 +1,19 @@
+--- contact opnemen met verzorger
+S> Wat wilt u doen?
+U> contact opnemen met verzorger
+S> Contact met verzorger wordt opgenomen.
+
+--- verzorger
+S> Wat wilt u doen?
+U> verzorger
+S> Contact met verzorger wordt opgenomen.
+
+--- hulp nodig
+S> Wat wilt u doen?
+U> hulp nodig
+S> Contact opnemen met de hulpdiensten.
+
+--- help
+S> Wat wilt u doen?
+U> help
+S> Contact opnemen met de hulpdiensten.

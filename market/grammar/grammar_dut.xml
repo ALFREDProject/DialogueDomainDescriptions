@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+	<action name="search_term">
+		<noun-phrase>
+			<noun ref="term"/>
+		</noun-phrase>
+	</action>
+
+	<request action="search_term">
+		<utterance>
+			<one-of>
+				<item>zoeken</item>
+				<item>zoek</item>
+				<item>vind</item>
+				<item>vinden</item>
+				<item>zoeken <individual sort="market_search_string"/></item>
+				<item>zoek <individual sort="market_search_string"/></item>
+				<item>vind <individual sort="market_search_string"/></item>
+				<item>vinden <individual sort="market_search_string"/></item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<question speaker="system" predicate="selected_market_search_string" type="wh_question">
+		<utterance>
+			wat wil je zoeken
+		</utterance>
+	</question>
+
+	<report action="SearchTerm" status="ended">
+		<utterance>
+			resultaat <individual predicate="selected_market_search_string"/>
+		</utterance>
+	</report>
+
+	<lexicon>
+		<noun id="term">
+			<singular>term</singular>
+		</noun>
+	</lexicon>
+
+</grammar>

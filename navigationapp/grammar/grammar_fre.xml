@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar>
+	<question speaker="user" predicate="result_location">
+		<utterance>
+			<one-of>
+				<item>où suis-je</item>
+				<item>où je suis</item>
+				<item>je suis où</item>
+				<item>dites moi où je suis</item>
+				<item>quelle est ma localisation</item>
+			</one-of>
+		</utterance>
+	</question>
+
+	<predicate name="result_location">
+		<noun-phrase>
+			<noun ref="location"/>
+		</noun-phrase>
+	</predicate>
+
+	<answer speaker="system" predicate="result_location">
+		<utterance>
+			vous êtes probablement près de <individual predicate="result_location"/>
+		</utterance>
+	</answer>
+
+	<action name="show_way_to_town">
+		<noun-phrase>
+			<noun ref="navigation"/>
+		</noun-phrase>
+	</action>
+
+	<request action="show_way_to_town">
+		<utterance>
+			<one-of>
+				<item>navigation</item>
+				<item>navigation avec la mode <individual sort="transport"/></item>
+			</one-of>
+		</utterance>
+	</request>
+	
+	<question speaker="system" predicate="selected_transport" type="wh_question">
+		<utterance>
+			choisissez votre mode: Marche, vélo, voiture ou transit
+		</utterance>
+	</question>
+	
+	<question speaker="system" predicate="selected_place" type="wh_question">
+		<utterance>
+			où dois-je vous emmener
+		</utterance>
+	</question>
+
+	<report action="ShowWayToTownAction" status="ended">
+		<utterance>
+			je viens de vous dessiner l'itinéraire vers <individual predicate="selected_place"/> en mode <individual predicate="selected_transport"/>. Si rien qui dessinée, Google ne comprenait pas l'endroit
+		</utterance>
+	</report>
+
+	<lexicon>
+		<noun id="location">
+			<singular>location</singular>
+		</noun>
+		<noun id="navigation">
+			<singular>navigation</singular>
+		</noun>
+	</lexicon>
+
+</grammar>

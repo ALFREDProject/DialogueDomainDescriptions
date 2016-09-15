@@ -1,0 +1,32 @@
+{
+    "active_ddd": "personalassistant",
+    "asr": "android",
+    "ddds": [
+        "navigationapp",
+        "batterywarnerapp",
+        "calendarapp",
+        "personalassistant",
+        "bodypostureapp",
+        "agendaapp",
+        "socialgroupsapp",
+        "meetingapp",
+        "health_monitor",
+        "alarm_clock",
+        "questionnaire",
+        "news",
+        "tutorial",
+        "help",
+        "eventratingapp",
+        "eventrecommendationapp",
+        "chat",
+        "market",
+        "game_manager"
+    ],
+    "repeat_questions": true,
+    "supported_languages": [
+        "eng",
+        "fre",
+        "dut"
+    ],
+    "use_recognition_profile": false
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar>
+    <action name="set_agenda_action">
+        <noun-phrase>
+            <noun ref="agenda"/>
+        </noun-phrase>
+    </action>
+
+    <request action="set_agenda_action">
+        <utterance>
+            <one-of>
+                <item>stel agenda in <individual sort="alert_time"/> minuten</item>
+                <item>stel agenda in </item>
+                <item>stel een herinnering in <individual sort="alert_time"/> minuten</item>
+                <item>stel een herinnering in </item>
+                <item>herinnering</item>
+                <item>agenda</item>
+            </one-of>
+        </utterance>
+    </request>
+
+    <question speaker="system" predicate="selected_alert_time" type="wh_question">
+        <utterance>
+            in hoeveel minuten moet ik u eraan herinneren
+        </utterance>
+    </question>
+
+    <question speaker="system" predicate="selected_agenda_mode" type="wh_question">
+        <utterance>
+            waar moet ik u aan herinneren
+        </utterance>
+    </question>
+
+    <report action="SetAgendaAction" status="ended">
+        <utterance>
+            over <individual predicate="selected_alert_time"/> minuten zal ik u herinneren aan <individual predicate="selected_agenda_mode"/> agenda
+        </utterance>
+    </report>
+
+    <lexicon>
+        <noun id="agenda">
+            <singular>agenda</singular>
+        </noun>
+    </lexicon>
+</grammar>

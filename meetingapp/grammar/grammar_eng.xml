@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar>
+	<action name="create_meeting">
+		<noun-phrase>
+			<noun ref="meeting"/>
+		</noun-phrase>
+	</action>
+
+	<action name="create_appointment">
+		<noun-phrase>
+			<noun ref="appointment"/>
+		</noun-phrase>
+	</action>
+
+	<action name="create_conference">
+		<noun-phrase>
+			<noun ref="conference"/>
+		</noun-phrase>
+	</action>
+
+	<action name="create_invitation">
+		<noun-phrase>
+			<noun ref="invitation"/>
+		</noun-phrase>
+	</action>
+	
+	<request action="create_meeting">
+		<utterance>
+			<one-of>
+				<item>setup meeting on <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>setup meeting on <individual sort="year"/> <individual sort="month"/> </item>
+				<item>setup meeting on <individual sort="year"/></item>
+				<item>setup meeting</item>
+				<item>create meeting on <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>create meeting on <individual sort="year"/> <individual sort="month"/> </item>
+				<item>create meeting on <individual sort="year"/></item>
+				<item>create meeting</item>
+				<item>meeting on <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>meeting on <individual sort="year"/> <individual sort="month"/> </item>
+				<item>meeting on <individual sort="year"/></item>
+				<item>meeting</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<request action="create_appointment">
+		<utterance>
+			<one-of>
+				<item>appointment</item>
+				<item>appointment on <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>appointment on <individual sort="year"/> <individual sort="month"/> </item>
+				<item>appointment on <individual sort="year"/></item>
+				<item>setup appointment</item>
+				<item>setup appointment on <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>setup appointment on <individual sort="year"/> <individual sort="month"/> </item>
+				<item>setup appointment on <individual sort="year"/></item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<request action="create_conference">
+		<utterance>
+			<one-of>
+				<item>conference</item>
+				<item>conference on <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>conference on <individual sort="year"/> <individual sort="month"/> </item>
+				<item>conference on <individual sort="year"/></item>
+				<item>setup conference</item>
+				<item>setup conference on <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>setup conference on <individual sort="year"/> <individual sort="month"/> </item>
+				<item>setup conference on <individual sort="year"/></item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<request action="create_invitation">
+		<utterance>
+			<one-of>
+				<item>invitation</item>
+				<item>invitation on <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>invitation on <individual sort="year"/> <individual sort="month"/> </item>
+				<item>invitation on <individual sort="year"/></item>
+				<item>setup invitation</item>
+				<item>setup invitation on <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>setup invitation on <individual sort="year"/> <individual sort="month"/> </item>
+				<item>setup invitation on <individual sort="year"/></item>
+			</one-of>
+		</utterance>
+	</request>
+	
+	<question speaker="system" predicate="selected_year" type="wh_question">
+		<utterance>
+			which year are we talking about
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_month" type="wh_question">
+		<utterance>
+			which month are we talking about
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_day" type="wh_question">
+		<utterance>
+			which day of month are we talking about
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_subject" type="wh_question">
+		<utterance>
+			what is the subject of the meeting
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_location" type="wh_question">
+		<utterance>
+			which location do you want to have for the meeting
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_subject_appointment" type="wh_question">
+		<utterance>
+			what is the subject of the appointment
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_location_appointment" type="wh_question">
+		<utterance>
+			which location do you want to have for the appointment
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_subject_conference" type="wh_question">
+		<utterance>
+			what is the subject of the conference
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_location_conference" type="wh_question">
+		<utterance>
+			which location do you want to have for the conference
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_subject_invitation" type="wh_question">
+		<utterance>
+			what is the subject of the invitation
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_location_invitation" type="wh_question">
+		<utterance>
+			which location do you want to have for the invitation
+		</utterance>
+	</question>
+	
+	<report action="CreateMeetingAction" status="ended">
+		<utterance>
+			Invitation to your meeting has been sent <individual predicate="selected_month"/> <individual predicate="selected_day"/> <individual predicate="selected_year"/> subject is <individual predicate="selected_subject"/> and location is <individual predicate="selected_location"/>
+		</utterance>
+	</report>
+
+	<report action="CreateAppointmentAction" status="ended">
+		<utterance>
+			Invitation to your appointment has been sent <individual predicate="selected_month"/> <individual predicate="selected_day"/> <individual predicate="selected_year"/> subject is <individual predicate="selected_subject_appointment"/> and location is <individual predicate="selected_location_appointment"/>
+		</utterance>
+	</report>
+
+	<report action="CreateConferenceAction" status="ended">
+		<utterance>
+			Invitation to your conference has been sent <individual predicate="selected_month"/> <individual predicate="selected_day"/> <individual predicate="selected_year"/> subject is <individual predicate="selected_subject_conference"/> and location is <individual predicate="selected_location_conference"/>
+		</utterance>
+	</report>
+
+	<report action="CreateInvitationAction" status="ended">
+		<utterance>
+			Invitation has been sent <individual predicate="selected_month"/> <individual predicate="selected_day"/> <individual predicate="selected_year"/> subject is <individual predicate="selected_subject_invitation"/> and location is <individual predicate="selected_location_invitation"/>
+		</utterance>
+	</report>
+	
+	<lexicon>
+		<noun id="meeting">
+			<singular>meeting</singular>
+		</noun>
+		<noun id="appointment">
+			<singular>appointment</singular>
+		</noun>
+		<noun id="conference">
+			<singular>conference</singular>
+		</noun>
+		<noun id="invitation">
+			<singular>invitation</singular>
+		</noun>
+	</lexicon>
+</grammar>

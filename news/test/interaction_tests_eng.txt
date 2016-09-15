@@ -1,0 +1,13 @@
+--- get news culture
+S> What would you like to do?
+U> get news
+S> What type of news do you want?
+U> culture
+S> Showing culture news.
+
+--- show news about culture
+S> What would you like to do?
+U> show me news
+S> What type of news do you want?
+U> culture
+S> Showing culture news.

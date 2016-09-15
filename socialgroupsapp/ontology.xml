@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ontology name="SocialGroupsAppOntology">
+	<action name="create_social_group"/>
+	<action name="create_discussion"/>
+	<sort name="groupname" dynamic="true"/>
+	<sort name="groupdescription" dynamic="true"/>
+	<predicate name="selected_groupname" sort="groupname"/>
+	<predicate name="selected_groupdescription" sort="groupdescription"/>
+	<predicate name="selected_discussionname" sort="groupname"/>
+	<predicate name="selected_discussiondescription" sort="groupdescription"/>
+</ontology>

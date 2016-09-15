@@ -1,0 +1,13 @@
+--- request temperature
+U> vertel me een belangrijke parameter
+S> Welke parameter?
+U> lichaamstemperatuur
+S> Uw lichaamstemperatuur is 100.
+
+--- request heartrate one-shot
+U> ik wil mijn hartslag weten
+S> Uw hartslag is 100.
+
+--- request number one-shot
+U> ik wil mijn ademfrequentie weten
+S> Uw ademfrequentie is 100.

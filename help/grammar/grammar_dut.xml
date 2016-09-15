@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+	<action name="need_help">
+		<noun-phrase>
+			<noun ref="help"/>
+		</noun-phrase>
+	</action>
+
+	<action name="contact_caregiver">
+		<noun-phrase>
+			<noun ref="caregiver"/>
+		</noun-phrase>
+	</action>
+
+	<request action="need_help">
+		<utterance>
+			<one-of>
+				<item>hulp nodig</item>
+				<item>help</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<request action="contact_caregiver">
+		<utterance>
+			<one-of>
+				<item>contact opnemen met verzorger</item>
+				<item>verzorger</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<report action="NeedHelp" status="ended">
+		<utterance>
+			contact opnemen met de hulpdiensten
+		</utterance>
+	</report>
+
+	<report action="ContactCaregiver" status="ended">
+		<utterance>
+			contact met verzorger wordt opgenomen
+		</utterance>
+	</report>
+
+	<lexicon>
+		<noun id="help">
+			<singular>hulp</singular>
+		</noun>
+		<noun id="caregiver">
+			<singular>verzorger</singular>
+		</noun>
+	</lexicon>
+</grammar>
+

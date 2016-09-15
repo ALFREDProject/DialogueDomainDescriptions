@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar>
+	<action name="posture">
+		<noun-phrase>
+			<noun ref="posture"/>
+		</noun-phrase>
+	</action>
+
+	<request action="posture">
+		<utterance>
+			<one-of>
+				<item>comment <individual sort="bodyposture"/> correctement</item>
+				<item>comment s'<individual sort="bodyposture"/> correctement</item>
+				<item>comment être <individual sort="bodyposture"/> correctement</item>
+				<item>suis-je <individual sort="bodyposture"/> correctement</item>
+				<item>suis-je bien <individual sort="bodyposture"/></item>
+				<item>comment se tenir correctement</item>
+				<item>comment se tenir</item>
+				<item>comment bien se tenir</item>
+				<item>j'ai mal au dos</item>
+				<item>j'ai mal</item>
+				<item>comment me tenir correctement</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<question speaker="system" predicate="selected_bodyposture" type="wh_question">
+		<utterance>
+			etes vous assis, debout ou allongé
+		</utterance>
+	</question>
+
+	<report action="HowToPostureAction" status="ended">
+		<utterance>
+			regardez cette image. Elle vous montre comment <individual predicate="selected_bodyposture"/> correctement
+		</utterance>
+	</report>
+
+	<lexicon>
+		<noun id="posture">
+			<singular>posture</singular>
+		</noun>
+	</lexicon>
+</grammar>

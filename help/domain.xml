@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<domain name="HelpDomain" is_super_domain="true">
+
+  <goal type="perform" action="top" reraise_on_resume="false">
+    <plan>
+      <forget_all/>
+      <findout type="goal"/>
+    </plan>
+  </goal>
+  
+  <goal type="perform" action="need_help">
+    <plan>
+      <dev_perform action="NeedHelp" device="HelpDevice" postconfirm="true"/>
+    </plan>
+    <postcond><device_activity_terminated action="NeedHelp"/></postcond>
+  </goal>
+  
+  <goal type="perform" action="contact_caregiver">
+    <plan>
+      <dev_perform action="ContactCaregiver" device="HelpDevice" postconfirm="true"/>
+    </plan>
+    <postcond><device_activity_terminated action="ContactCaregiver"/></postcond>
+  </goal>
+  
+</domain>

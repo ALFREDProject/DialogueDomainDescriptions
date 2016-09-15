@@ -1,0 +1,7 @@
+--- base test
+U> calendrier
+S> De quelle année parlons-nous?
+U> 2016
+S> De quel mois parlons nous?
+U> mars
+S> Voici votre calendrier du 2016 mars.

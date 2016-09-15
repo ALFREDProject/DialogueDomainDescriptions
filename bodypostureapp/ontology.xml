@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ontology name="BodyPostureAppOntology">
+	<action name="posture"/>
+  	<sort name="bodyposture" dynamic="true"/>
+  	<predicate name="selected_bodyposture" sort="bodyposture"/>
+</ontology>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ontology name="NavigationAppOntology">
+	<action name="show_way_to_town"/>
+	<sort name="near_location" dynamic="true"/>
+  	<sort name="place" dynamic="true"/>
+	<sort name="transport" dynamic="true"/>
+	<predicate name="result_location" sort="near_location"/>
+  	<predicate name="selected_place" sort="place"/>
+	<predicate name="selected_transport" sort="transport"/>
+</ontology>

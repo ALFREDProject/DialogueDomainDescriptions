@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar>
+    <action name="show_calendar">
+        <noun-phrase>
+            <noun ref="calendar"/>
+        </noun-phrase>
+    </action>
+
+    <action name="insert_event">
+        <verb-phrase>
+            <verb ref="insert"/>
+        </verb-phrase>
+    </action>
+
+    <action name="show_event">
+        <verb-phrase>
+            <verb ref="show"/>
+        </verb-phrase>
+    </action>
+
+    <request action="show_calendar">
+        <utterance>
+            <one-of>
+                <item>show calendar in <individual sort="month"/> <individual sort="year"/></item>
+                <item>show calendar in <individual sort="year"/></item>
+                <item>show calendar in <individual sort="month"/></item>
+                <item>show calendar</item>
+            </one-of>
+        </utterance>
+    </request>
+
+    <request action="insert_event">
+        <utterance>
+            <one-of>
+                <item>insert event in <individual sort="month"/> <individual sort="day"/> <individual sort="year"/></item>
+                <item>insert event in <individual sort="month"/> <individual sort="year"/></item>
+                <item>insert event in <individual sort="year"/></item>
+                <item>insert event in <individual sort="month"/></item>
+                <item>insert event</item>
+            </one-of>
+        </utterance>
+    </request>
+
+    <request action="show_event">
+        <utterance>
+            <one-of>
+                <item>show events in <individual sort="month"/> <individual sort="day"/> <individual sort="year"/></item>
+                <item>show events in <individual sort="month"/> <individual sort="year"/></item>
+                <item>show events in <individual sort="year"/></item>
+                <item>show events in <individual sort="month"/></item>
+                <item>show events</item>
+            </one-of>
+        </utterance>
+    </request>
+
+    <question speaker="system" predicate="selected_year" type="wh_question">
+        <utterance>
+            which year are we talking about
+        </utterance>
+    </question>
+
+    <question speaker="system" predicate="selected_month" type="wh_question">
+        <utterance>
+            which month are we talking about
+        </utterance>
+    </question>
+
+    <question speaker="system" predicate="selected_day" type="wh_question">
+        <utterance>
+            which day of month  are we talking about
+        </utterance>
+    </question>
+
+    <question speaker="system" predicate="selected_event" type="wh_question">
+        <utterance>
+            how is the event called
+        </utterance>
+    </question>
+
+    <report action="ShowCalendarAction" status="ended">
+        <utterance>
+            Here is your calendar of <individual predicate="selected_month"/> <individual predicate="selected_year"/>
+        </utterance>
+    </report>
+
+    <report action="InsertEventAction" status="ended">
+        <utterance>
+            I insert your <individual predicate="selected_event"/> event in <individual predicate="selected_month"/> <individual predicate="selected_day"/> <individual predicate="selected_year"/>
+        </utterance>
+    </report>
+
+    <report action="ShowEventAction" status="ended">
+        <utterance>
+            I listed your events in <individual predicate="selected_month"/> <individual predicate="selected_day"/> <individual predicate="selected_year"/>
+        </utterance>
+    </report>
+
+    <lexicon>
+        <verb id="show">
+            <infinitive>show</infinitive>
+        </verb>
+        <verb id="insert">
+            <infinitive>insert</infinitive>
+        </verb>
+        <noun id="calendar">
+            <singular>calendar</singular>
+        </noun>
+    </lexicon>
+</grammar>
+ 

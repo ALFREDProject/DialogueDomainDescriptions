@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar>
+        <action name="rate_event">
+                <verb-phrase>
+                        <verb ref="rating"/>
+                </verb-phrase>
+        </action>
+
+        <request action="rate_event">
+                <utterance>
+                        <one-of>
+                                <item>waardeer dit evenement</item>
+                                <item>evenement waarderen</item>
+                                <item>waardering</item>
+                                <item>waardering opsturen</item>
+                                <item>ik geef mijn evenement<individual sort="stars_size"/> sterren</item>
+                                <item>evenement<individual sort="stars_size"/> sterren geven</item>
+                        </one-of>
+                </utterance>
+        </request>
+
+        <report action="RateEventAction" status="ended">
+                <utterance>
+                        uw evenement heeft <individual predicate="selected_stars_size"/> sterren
+                </utterance>
+        </report>
+
+        <question speaker="system" predicate="selected_stars_size" type="wh_question">
+                <utterance>
+                        hoeveel sterren wilt u aan het evenement geven
+                </utterance>
+        </question>
+
+        <validity name="AmountOfStarsValidity">
+        <utterance>selecteer maximaal 5 sterren</utterance>
+    </validity>
+
+
+        <lexicon>
+                <verb id="rating">
+                        <infinitive>waardering</infinitive>
+                </verb>
+        </lexicon>
+</grammar>

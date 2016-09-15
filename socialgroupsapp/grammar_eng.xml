@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar>
+	<action name="create_social_group">
+		<noun-phrase>
+			<noun ref="group"/>
+		</noun-phrase>
+	</action>
+
+	<request action="create_social_group">
+		<utterance>
+			<one-of>
+				<item>create a group</item>
+				<item>i want to create a group</item>
+				<item>group</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<question speaker="system" predicate="selected_groupname" type="wh_question">
+		<utterance>
+			which name do you want to have for the group
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_groupdescription" type="wh_question">
+		<utterance>
+			what is the description for the group
+		</utterance>
+	</question>
+
+	<report action="CreateSocialGroupAction" status="ended">
+		<utterance>
+			group <individual predicate="selected_groupname"/> with description <individual predicate="selected_groupdescription"/> has been created
+		</utterance>
+	</report>
+
+	<lexicon>
+		
+		<noun id="group">
+			<singular>group</singular>
+		</noun>
+	</lexicon>
+</grammar>
+ 

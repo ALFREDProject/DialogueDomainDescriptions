@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ontology name="GameManagerOntology">
+  <action name="start_game"/>
+  <action name="pause_game"/>
+  <action name="resume_game"/>
+  <action name="stop_game"/>
+  <sort name="game" dynamic="true"/>
+  <predicate name="game_to_start" sort="game"/>
+</ontology>

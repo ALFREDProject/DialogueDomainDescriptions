@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar>
+	<action name="create_meeting">
+		<noun-phrase>
+			<noun ref="meeting"/>
+		</noun-phrase>
+	</action>
+
+	<action name="create_appointment">
+		<noun-phrase>
+			<noun ref="appointment"/>
+		</noun-phrase>
+	</action>
+
+	<action name="create_conference">
+		<noun-phrase>
+			<noun ref="conference"/>
+		</noun-phrase>
+	</action>
+
+	<action name="create_invitation">
+		<noun-phrase>
+			<noun ref="invitation"/>
+		</noun-phrase>
+	</action>
+	
+	<request action="create_meeting">
+		<utterance>
+			<one-of>
+				<item>een ontmoeting maken op <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>een ontmoeting maken op <individual sort="year"/> <individual sort="month"/> </item>
+				<item>een ontmoeting maken op <individual sort="year"/></item>
+				<item>een ontmoeting maken</item>
+				<item>bijeenkomst op <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>bijeenkomst op <individual sort="year"/> <individual sort="month"/> </item>
+				<item>bijeenkomst op <individual sort="year"/></item>
+				<item>bijeenkomst</item>
+				<item>ontmoeting op <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>ontmoeting op <individual sort="year"/> <individual sort="month"/> </item>
+				<item>ontmoeting op <individual sort="year"/></item>
+				<item>ontmoeting</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<request action="create_appointment">
+		<utterance>
+			<one-of>
+				<item>afspraak</item>
+				<item>afspraak op <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>afspraak op <individual sort="year"/> <individual sort="month"/> </item>
+				<item>afspraak op <individual sort="year"/></item>
+				<item>maak een afspraak</item>
+				<item>maak een afspraak op <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>smaak een afspraak op <individual sort="year"/> <individual sort="month"/> </item>
+				<item>maak een afspraak op <individual sort="year"/></item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<request action="create_conference">
+		<utterance>
+			<one-of>
+				<item>conferentie</item>
+				<item>conferentie op <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>conference op <individual sort="year"/> <individual sort="month"/> </item>
+				<item>conference op <individual sort="year"/></item>
+				<item>een conferentie maken</item>
+				<item>een conferentie maken op <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>een conferentie maken op <individual sort="year"/> <individual sort="month"/> </item>
+				<item>een conferentie maken op <individual sort="year"/></item>
+				<item>een conferentie opzetten</item>
+				<item>een conferentie opzetten op <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>een conferentie opzetten op <individual sort="year"/> <individual sort="month"/> </item>
+				<item>een conferentie opzetten op <individual sort="year"/></item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<request action="create_invitation">
+		<utterance>
+			<one-of>
+				<item>uitnodiging</item>
+				<item>uitnodiging op <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>uitnodiging op <individual sort="year"/> <individual sort="month"/> </item>
+				<item>uitnodiging op <individual sort="year"/></item>
+				<item>uitnodiging maken</item>
+				<item>uitnodiging maken op <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>uitnodiging maken op <individual sort="year"/> <individual sort="month"/> </item>
+				<item>uitnodiging maken op <individual sort="year"/></item>
+				<item>een uitnodiging opzetten</item>
+				<item>een uitnodiging opzetten op <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>een uitnodiging opzetten op <individual sort="year"/> <individual sort="month"/> </item>
+				<item>een uitnodiging opzetten op <individual sort="year"/></item>
+			</one-of>
+		</utterance>
+	</request>
+	
+	<question speaker="system" predicate="selected_year" type="wh_question">
+		<utterance>
+			over welk jaar hebben we het
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_month" type="wh_question">
+		<utterance>
+			over welke maand hebben we het
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_day" type="wh_question">
+		<utterance>
+			over welke dag van de maand hebben we het
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_subject" type="wh_question">
+		<utterance>
+			wat is het onderwerp van de ontmoeting
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_location" type="wh_question">
+		<utterance>
+			welke locatie wil je voor deze ontmoeting
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_subject_appointment" type="wh_question">
+		<utterance>
+			wat is het onderwerp van de afspraak
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_location_appointment" type="wh_question">
+		<utterance>
+			waar vind de afspraak plaats
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_subject_conference" type="wh_question">
+		<utterance>
+			wat is het onderwerp van de conferentie
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_location_conference" type="wh_question">
+		<utterance>
+			op welke plek is de conferentie
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_subject_invitation" type="wh_question">
+		<utterance>
+			wat is het onderwerp van de uitnodiging
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_location_invitation" type="wh_question">
+		<utterance>
+			op welke plek is de uitnodiging
+		</utterance>
+	</question>
+	
+	<report action="CreateMeetingAction" status="ended">
+		<utterance>
+			de uitnodiging voor uw ontmoeting is verzonden <individual predicate="selected_month"/> <individual predicate="selected_day"/> <individual predicate="selected_year"/> onderwerp is <individual predicate="selected_subject"/> en de locatie is  <individual predicate="selected_location"/>
+		</utterance>
+	</report>
+
+	<report action="CreateAppointmentAction" status="ended">
+		<utterance>
+			de uitnodiging van uw afspraak is verzonden <individual predicate="selected_month"/> <individual predicate="selected_day"/> <individual predicate="selected_year"/> onderwerp is <individual predicate="selected_subject_appointment"/> en de locatie is <individual predicate="selected_location_appointment"/>
+		</utterance>
+	</report>
+
+	<report action="CreateConferenceAction" status="ended">
+		<utterance>
+			de uitnodiging van uw conferentie is verzonden <individual predicate="selected_month"/> <individual predicate="selected_day"/> <individual predicate="selected_year"/> onderwerp is <individual predicate="selected_subject_conference"/> en de locatie is <individual predicate="selected_location_conference"/>
+		</utterance>
+	</report>
+
+	<report action="CreateInvitationAction" status="ended">
+		<utterance>
+			de uitnodiging is verzonden <individual predicate="selected_month"/> <individual predicate="selected_day"/> <individual predicate="selected_year"/> onderwerp is <individual predicate="selected_subject_invitation"/> en de locatie is <individual predicate="selected_location_invitation"/>
+		</utterance>
+	</report>
+	
+	<lexicon>
+		<noun id="meeting">
+			<singular>ontmoeting</singular>
+		</noun>
+		<noun id="appointment">
+			<singular>afspraak</singular>
+		</noun>
+		<noun id="conference">
+			<singular>conferentie</singular>
+		</noun>
+		<noun id="invitation">
+			<singular>uitnodiging</singular>
+		</noun>
+	</lexicon>
+</grammar>
+ 

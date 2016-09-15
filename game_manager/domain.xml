@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<domain name="GameManagerDomain" is_super_domain="true">
+  <goal type="perform" action="top">
+    <plan>
+      <forget_all/>
+      <findout type="goal"/>
+    </plan>
+  </goal>
+
+  <goal type="perform" action="pause_game">
+    <plan>
+      <dev_perform action="PauseGame" device="GameManagerDevice" postconfirm="true"/>
+    </plan>
+    <postcond>
+      <device_activity_terminated action="PauseGame"/>
+    </postcond>
+  </goal>
+
+  <goal type="perform" action="resume_game">
+    <plan>
+      <dev_perform action="ResumeGame" device="GameManagerDevice" postconfirm="true"/>
+    </plan>
+    <postcond>
+      <device_activity_terminated action="ResumeGame"/>
+    </postcond>
+  </goal>
+
+  <goal type="perform" action="stop_game">
+    <plan>
+      <dev_perform action="StopGame" device="GameManagerDevice" postconfirm="true"/>
+    </plan>
+    <postcond>
+      <device_activity_terminated action="StopGame"/>
+    </postcond>
+  </goal>
+
+  <goal type="perform" action="start_game">
+    <plan>
+      <findout type="wh_question" predicate="game_to_start"/>
+      <dev_perform action="StartGame" device="GameManagerDevice" postconfirm="true"/>
+    </plan>
+    <postcond>
+      <device_activity_terminated action="StartGame"/>
+    </postcond>
+  </goal>
+  
+  <parameters question_type="goal" verbalize="false"/>
+</domain>

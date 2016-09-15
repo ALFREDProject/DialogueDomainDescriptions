@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+
+
+	<action name="change_mic_color_action">
+		<noun-phrase>
+			<noun ref="microphone"/>
+		</noun-phrase>
+	</action>
+
+	<request action="change_mic_color_action">
+		<utterance>
+			<one-of>
+				<item>changer la couleur du microphone en <individual sort="color"/></item>
+				<item>changer la couleur du microphone <individual sort="color"/></item>
+				<item>changer la couleur du microphone</item>
+				<item>changer la couleur du micro</item>
+				<item>changer le microphone en <individual sort="color"/></item>
+				<item>changer le microphone <individual sort="color"/></item>
+				<item>changer le microphone</item>
+				<item>régler la couleur du microphone en <individual sort="color"/></item>
+				<item>régler la couleur du microphone <individual sort="color"/></item>				
+				<item>régler la couleur du microphone</item>
+				<item>régler la couleur du micro</item>
+				<item>modifier le microphone en <individual sort="color"/></item>
+				<item>modifier le microphone <individual sort="color"/></item>
+				<item>modifier le microphone</item>
+				<item>modifier le micro</item>
+				<item>couleur du microphone</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<question speaker="system" predicate="selected_mircophone_color" type="wh_question">
+		<utterance>
+			sélectionner la nouvelle couleur du microphone
+		</utterance>
+	</question>
+
+	<report action="ChangeMicrophoneColorAction" status="ended">
+		<utterance>
+			votre microphone est maintenant  <individual predicate="selected_mircophone_color"/> coleur
+		</utterance>
+	</report>
+
+	<lexicon>
+		<noun id="microphone">
+			<singular>microphone</singular>
+		</noun>
+	</lexicon>
+</grammar>

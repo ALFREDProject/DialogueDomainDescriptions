@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ontology name="NewsOntology">
+	<action name="get_news"/>
+  	<sort name="news_search_string" dynamic="true"/>
+  	<predicate name="selected_news_search_string" sort="news_search_string"/>
+</ontology>

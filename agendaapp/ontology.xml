@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ontology name="AgendaAppOntology">
+    <action name="set_agenda_action"/>
+    <sort name="alert_time" dynamic="true"/>
+    <predicate name="selected_alert_time" sort="alert_time"/>
+    <sort name="agenda_mode" dynamic="true"/>
+    <predicate name="selected_agenda_mode" sort="agenda_mode"/>
+</ontology>

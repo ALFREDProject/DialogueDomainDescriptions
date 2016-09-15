@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+  <question speaker="system" predicate="selected_feeling" type="wh_question">
+    <utterance>Bonjour, comment vous sentez-vous aujourd’hui</utterance>
+  </question>
+
+  <predicate name="response_to_feeling">
+    <noun-phrase>
+      <noun ref="feeling" />
+    </noun-phrase>
+  </predicate>
+
+  <question speaker="user" predicate="response_to_feeling">
+    <utterance>
+      <one-of>
+        <item>bonjour</item>
+        <item>bonjour alfred</item>
+        <item>je suis <individual sort="feeling"/></item>
+        <item>aujourd'hui j'ai <individual sort="feeling"/></item>
+        <item>aujourd'hui je me sens <individual sort="feeling"/></item>
+        <item>je m'<individual sort="feeling"/></item>
+        <item>aujourd'hui je suis <individual sort="feeling"/></item>
+        <item>je me sens <individual sort="feeling"/></item>
+        <item>tout va <individual sort="feeling"/></item>
+      </one-of>
+    </utterance>
+  </question>
+
+  <answer speaker="system" predicate="response_to_feeling">
+    <utterance>
+      Vous vous sentez <individual predicate="selected_feeling"/> ,
+      <individual predicate="response_to_feeling"/>
+    </utterance>
+  </answer>
+
+  <lexicon>
+    <noun id="feeling">
+      <singular>sentiment</singular>
+    </noun>
+  </lexicon>
+</grammar>

@@ -1,0 +1,161 @@
+--- setup_meeting
+U> bijeenkomst
+S> Over welk jaar hebben we het?
+U> 2016
+S> Over welke maand hebben we het?
+U> mei
+S> Over welke dag van de maand hebben we het?
+U> 20
+S> Wat is het onderwerp van de ontmoeting?
+U> vieren
+S> Welke locatie wil je voor deze ontmoeting?
+U> whisky bar
+S> De uitnodiging voor uw ontmoeting is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+--- setup_meeting year one-shot
+U> bijeenkomst op 2016
+S> Over welke maand hebben we het?
+U> mei
+S> Over welke dag van de maand hebben we het?
+U> 20
+S> Wat is het onderwerp van de ontmoeting?
+U> vieren
+S> Welke locatie wil je voor deze ontmoeting?
+U> whisky bar
+S> De uitnodiging voor uw ontmoeting is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+--- setup_meeting year and month one-shot
+U> bijeenkomst op 2016 mei
+S> Over welke dag van de maand hebben we het?
+U> 20
+S> Wat is het onderwerp van de ontmoeting?
+U> vieren
+S> Welke locatie wil je voor deze ontmoeting?
+U> whisky bar
+S> De uitnodiging voor uw ontmoeting is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+--- setup_meeting one-shot
+U> bijeenkomst op 2016 mei 20
+S> Wat is het onderwerp van de ontmoeting?
+U> vieren
+S> Welke locatie wil je voor deze ontmoeting?
+U> whisky bar
+S> De uitnodiging voor uw ontmoeting is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+
+--- create_meeting
+U> een ontmoeting maken
+S> Over welk jaar hebben we het?
+U> 2016
+S> Over welke maand hebben we het?
+U> mei
+S> Over welke dag van de maand hebben we het?
+U> 20
+S> Wat is het onderwerp van de ontmoeting?
+U> vieren
+S> Welke locatie wil je voor deze ontmoeting?
+U> whisky bar
+S> De uitnodiging voor uw ontmoeting is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+--- create_meeting year one-shot
+U> een ontmoeting maken op 2016
+S> Over welke maand hebben we het?
+U> mei
+S> Over welke dag van de maand hebben we het?
+U> 20
+S> Wat is het onderwerp van de ontmoeting?
+U> vieren
+S> Welke locatie wil je voor deze ontmoeting?
+U> whisky bar
+S> De uitnodiging voor uw ontmoeting is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+--- create_meeting year and month one-shot
+U> een ontmoeting maken op 2016 mei
+S> Over welke dag van de maand hebben we het?
+U> 20
+S> Wat is het onderwerp van de ontmoeting?
+U> vieren
+S> Welke locatie wil je voor deze ontmoeting?
+U> whisky bar
+S> De uitnodiging voor uw ontmoeting is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+--- create_meeting one-shot
+U> een ontmoeting maken op 2016 mei 20
+S> Wat is het onderwerp van de ontmoeting?
+U> vieren
+S> Welke locatie wil je voor deze ontmoeting?
+U> whisky bar
+S> De uitnodiging voor uw ontmoeting is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+--- appointment
+U> afspraak
+S> Over welk jaar hebben we het?
+U> 2016
+S> Over welke maand hebben we het?
+U> mei
+S> Over welke dag van de maand hebben we het?
+U> 20
+S> Wat is het onderwerp van de afspraak?
+U> vieren
+S> Waar vind de afspraak plaats?
+U> whisky bar
+S> De uitnodiging van uw afspraak is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+--- afspraak year one-shot
+U> afspraak op 2016
+S> Over welke maand hebben we het?
+U> mei
+S> Over welke dag van de maand hebben we het?
+U> 20
+S> Wat is het onderwerp van de afspraak?
+U> vieren
+S> Waar vind de afspraak plaats?
+U> whisky bar
+S> De uitnodiging van uw afspraak is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+--- afspraak year and month one-shot
+U> afspraak op 2016 mei
+S> Over welke dag van de maand hebben we het?
+U> 20
+S> Wat is het onderwerp van de afspraak?
+U> vieren
+S> Waar vind de afspraak plaats?
+U> whisky bar
+S> De uitnodiging van uw afspraak is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+--- afspraak one-shot
+U> afspraak op 2016 mei 20
+S> Wat is het onderwerp van de afspraak?
+U> vieren
+S> Waar vind de afspraak plaats?
+U> whisky bar
+S> De uitnodiging van uw afspraak is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+--- conferentie
+U> conferentie
+S> Over welk jaar hebben we het?
+U> 2016
+S> Over welke maand hebben we het?
+U> mei
+S> Over welke dag van de maand hebben we het?
+U> 20
+S> Wat is het onderwerp van de conferentie?
+U> vieren
+S> Op welke plek is de conferentie?
+U> whisky bar
+S> De uitnodiging van uw conferentie is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+--- uitnodiging
+U> uitnodiging
+S> Over welk jaar hebben we het?
+U> 2016
+S> Over welke maand hebben we het?
+U> mei
+S> Over welke dag van de maand hebben we het?
+U> 20
+S> Wat is het onderwerp van de uitnodiging?
+U> vieren
+S> Op welke plek is de uitnodiging?
+U> whisky bar
+S> De uitnodiging is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+

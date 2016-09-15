@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ontology name="HelpOntology">
+
+  <action name="need_help"/>
+  <action name="contact_caregiver"/>
+  
+</ontology>

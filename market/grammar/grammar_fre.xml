@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+	<action name="search_term">
+		<noun-phrase>
+			<noun ref="term"/>
+		</noun-phrase>
+	</action>
+
+	<request action="search_term">
+		<utterance>
+			<one-of>
+				<item>recherche</item>
+				<item>cherche</item>
+				<item>trouver</item>
+				<item>recherche <individual sort="market_search_string"/></item>
+				<item>cherche <individual sort="market_search_string"/></item>
+				<item>trouver <individual sort="market_search_string"/></item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<question speaker="system" predicate="selected_market_search_string" type="wh_question">
+		<utterance>
+			que voulez-vous chercher
+		</utterance>
+	</question>
+
+	<report action="SearchTerm" status="ended">
+		<utterance>
+			afficher <individual predicate="selected_market_search_string"/>
+		</utterance>
+	</report>
+
+	<lexicon>
+		<noun id="term">
+			<singular>term</singular>
+		</noun>
+	</lexicon>
+
+</grammar>

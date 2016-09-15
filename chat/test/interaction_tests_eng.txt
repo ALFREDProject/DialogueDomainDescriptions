@@ -1,0 +1,39 @@
+--- call first name
+S> What would you like to do?
+U> call john
+S> Calling John.
+
+--- call one-shot
+S> What would you like to do?
+U> call
+S> What contact do you want to choose?
+U> john
+S> Calling John.
+
+--- video call first name
+S> What would you like to do?
+U> video call john
+S> Video calling John.
+
+--- videocall one-shot
+S> What would you like to do?
+U> video call
+S> What contact do you want to choose?
+U> john
+S> Video calling John.
+
+--- message split
+S> What would you like to do?
+U> send message to john
+S> What message do you want to put?
+U> at what time should I have the coffee ready
+S> I sent your message to John. The message was at what time should I have the coffee ready.
+
+--- message one-shot
+S> What would you like to do?
+U> send message
+S> What contact do you want to choose?
+U> john
+S> What message do you want to put?
+U> at what time should I have the coffee ready
+S> I sent your message to John. The message was at what time should I have the coffee ready.

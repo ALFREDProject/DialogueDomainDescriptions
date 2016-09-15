@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+
+
+	<action name="change_mic_color_action">
+		<noun-phrase>
+			<noun ref="microphone"/>
+		</noun-phrase>
+	</action>
+
+	<request action="change_mic_color_action">
+		<utterance>
+			<one-of>
+				<item>change microphone color to <individual sort="color"/></item>
+				<item>change microphone color <individual sort="color"/></item>
+				<item>change microphone color</item>
+				<item>set microphone color</item>
+				<item>set microphone color to <individual sort="color"/></item>
+				<item>set microphone color <individual sort="color"/></item>
+				<item>microphone color <individual sort="color"/></item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<question speaker="system" predicate="selected_mircophone_color" type="wh_question">
+		<utterance>
+			select the new microphone color
+		</utterance>
+	</question>
+
+	<report action="ChangeMicrophoneColorAction" status="ended">
+		<utterance>
+			your microphone now has <individual predicate="selected_mircophone_color"/> color
+		</utterance>
+	</report>
+
+	<lexicon>
+		<noun id="microphone">
+			<singular>microphone</singular>
+		</noun>
+	</lexicon>
+</grammar>

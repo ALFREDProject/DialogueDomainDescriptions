@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ontology name="AlarmClockOntology">
+  <sort name="feeling" dynamic="true"/>
+  <sort name="response" dynamic="true"/>
+  <predicate name="response_to_feeling" sort="response"/>
+  <predicate name="selected_feeling" sort="feeling"/>
+</ontology>

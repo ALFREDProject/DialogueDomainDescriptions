@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+	<action name="compare_contacts_action">
+		<noun-phrase>
+			<noun ref="contact"/>
+		</noun-phrase>
+	</action>
+
+	<request action="compare_contacts_action">
+		<utterance>
+			<one-of>
+				<item>vergelijk contact <individual sort="contact_name"/> </item>
+				<item>vergelijk contacten</item>
+				<item>contacten</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<question speaker="system" predicate="selected_contact_name" type="wh_question">
+		<utterance>
+			hoe wordt de contactpersoon genoemd
+		</utterance>
+	</question>
+
+	<report action="ContactsComparisonAction" status="ended">
+		<utterance>
+			hier is uw contactpersoon vergelijking van contact <individual predicate="selected_contact_name"/>
+		</utterance>
+	</report>
+
+	<lexicon>
+		<noun id="contact">
+			<singular>contact</singular>
+		</noun>
+	</lexicon>
+</grammar>

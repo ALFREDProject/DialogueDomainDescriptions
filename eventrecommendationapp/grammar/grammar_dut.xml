@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar>
+        <action name="show_event_recommendations">
+                <noun-phrase>
+                        <noun ref="recommendation"/>
+                </noun-phrase>
+        </action>
+
+        <request action="show_event_recommendations">
+                <utterance>
+                        <one-of>
+                                <item>ververs aanbevelingen</item>
+                                <item>laat aanbevelingen zien</item>
+                                <item>ik wil aan een evenement meedoen</item>
+                                <item>aan een evenement meedoen</item>
+                                <item>ik wil aan een evenement meedoen</item>
+                                <item>ik wil deelnemen aan evenement</item>
+                                <item>deelnemen aan een evenement</item>
+                                <item>ik wil deelnemen aan een evenement</item>
+                                <item>ik wil graag een evenement bezoeken</item>
+                                <item>bezoek een evenement</item>
+                                <item>ik wil een evenement bezoeken</item>
+                        </one-of>
+                </utterance>
+        </request>
+
+        <report action="ShowEventRecommendationAction" status="ended">
+                <utterance>
+                        hier zijn de aanbevelingen voor de komende 10 evenementen
+                </utterance>
+        </report>
+
+        <action name="show_event_details">
+                <noun-phrase>
+                        <noun ref="details"/>
+                </noun-phrase>
+        </action>
+
+        <request action="show_event_details">
+                <utterance>
+                        <one-of>
+                                <item>laat de informatie van de aanbeveling zien</item>
+                                <item>laat de informatie van het evenement zien</item>
+                                <item>laat de informatie van evenement nummer <individual sort="event_number"/> zien</item>
+                                <item>laat de informatie van evenement nummer  <individual sort="event_number"/> zien</item>
+                                <item>laat informatie van evenement  <individual sort="event_number"/> zien</item>
+                                <item>laat informatie aanbeveling <individual sort="event_number"/> zien</item>
+                        </one-of>
+                </utterance>
+        </request>
+
+        <question speaker="system" predicate="selected_event_number" type="wh_question">
+                <utterance>
+                        welk evenement nummer? Selecteer een nummer onder 10
+                </utterance>
+        </question>
+
+        <report action="ShowEventDetailsAction" status="ended">
+                <utterance>
+                        hier is de informatie van evenement nummer <individual predicate="selected_event_number"/>
+                </utterance>
+        </report>
+
+        <action name="go_to_event">
+                <verb-phrase>
+                        <verb ref="join"/>
+                </verb-phrase>
+        </action>
+
+        <action name="dont_go_to_event">
+                <verb-phrase>
+                        <verb ref="decline"/>
+                </verb-phrase>
+        </action>
+
+        <request action="go_to_event">
+                <utterance>
+                        <one-of>
+                                <item>meedoen</item>
+                                <item>gaan</item>
+                                <item>deelnemen</item>
+                                <item>deelnemen aan evenement nummer  <individual sort="event_number"/></item>
+                                <item>deelnemen aan evenement nummer  <individual sort="event_number"/></item>
+                                <item>meedoen aan evenement nummer <individual sort="event_number"/></item>
+                                <item>meedoen aan aanbeveling nummer  <individual sort="event_number"/></item>
+                                <item>gaan naar evenement nummer <individual sort="event_number"/></item>
+                                <item>gaan naar aanbeveling nummer <individual sort="event_number"/></item>
+                                <item>deelnemen aan evenement <individual sort="event_number"/></item>
+                                <item>deelnemen aan aanbeveling <individual sort="event_number"/></item>
+                                <item>meedoen aan evenement <individual sort="event_number"/></item>
+                                <item>meedoen aan aanbeveling <individual sort="event_number"/></item>
+                                <item>ga naar evenement <individual sort="event_number"/></item>
+                                <item>ga naar aanbeveling <individual sort="event_number"/></item>
+                        </one-of>
+                </utterance>
+        </request>
+
+        <request action="dont_go_to_event">
+                <utterance>
+                        <one-of>
+                                <item>ga naar aanbeveling</item>
+                                <item>niet gaan</item>
+                                <item>niet deelnemen</item>
+                                <item>niet deelnemen aan evenement nummer <individual sort="event_number"/></item>
+                                <item>niet deelnemen aan aanbeveling nummer <individual sort="event_number"/></item>
+                                <item>niet meedoen aan evenement nummer <individual sort="event_number"/></item>
+                                <item>niet meedoen aan aanbeveling nummer <individual sort="event_number"/></item>
+                                <item>niet gaan naar evenement nummer <individual sort="event_number"/></item>
+                                <item>niet gaan naar aanbeveling nummer <individual sort="event_number"/></item>
+                                <item>niet deelnemen aan evenement <individual sort="event_number"/></item>
+                                <item>niet deelnemen aan aanbeveling <individual sort="event_number"/></item>
+                                <item>niet meedoen aan evenement <individual sort="event_number"/></item>
+                                <item>niet meedoen aan aanbeveling <individual sort="event_number"/></item>
+                                <item>niet gaan naar evenement <individual sort="event_number"/></item>
+                                <item>niet gaan naar aanbeveling <individual sort="event_number"/></item>
+                        </one-of>
+                </utterance>
+        </request>
+
+
+        <report action="GoToEventAction" status="ended">
+                <utterance>
+                        bent u niet deelneemt aan het evenement <individual predicate="selected_event_number"/>
+                </utterance>
+        </report>
+
+        <report action="DontGoToEventAction" status="ended">
+                <utterance>
+                        u uw deelname zijn afgenomen in het geval <individual predicate="selected_event_number"/>
+                </utterance>
+        </report>
+
+        <lexicon>
+                <noun id="recommendation">
+                        <singular>aanbeveling</singular>
+                </noun>
+                <noun id="details">
+                        <singular>detail</singular>
+                </noun>
+                <verb id="decline">
+                        <infinitive>afwijzen</infinitive>
+                </verb>
+                <verb id="join">
+                        <infinitive>toetreden</infinitive>
+                </verb>
+        </lexicon>
+</grammar>

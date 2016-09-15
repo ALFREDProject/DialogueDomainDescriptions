@@ -1,0 +1,47 @@
+--- 11
+S> Wat wilt u doen?
+U> zoeken
+S> Wat wil je zoeken?
+U> gereedschap
+S> Resultaat gereedschap.
+
+--- 12
+S> Wat wilt u doen?
+U> zoek
+S> Wat wil je zoeken?
+U> gereedschap
+S> Resultaat gereedschap.
+
+--- 13
+S> Wat wilt u doen?
+U> vind
+S> Wat wil je zoeken?
+U> gereedschap
+S> Resultaat gereedschap.
+
+--- 14
+S> Wat wilt u doen?
+U> vinden
+S> Wat wil je zoeken?
+U> gereedschap
+S> Resultaat gereedschap.
+
+--- 21
+S> Wat wilt u doen?
+U> zoeken gereedschap
+S> Resultaat gereedschap.
+
+--- 22
+S> Wat wilt u doen?
+U> zoek gereedschap
+S> Resultaat gereedschap.
+
+--- 23
+S> Wat wilt u doen?
+U> vind gereedschap
+S> Resultaat gereedschap.
+
+--- 24
+S> Wat wilt u doen?
+U> vinden gereedschap
+S> Resultaat gereedschap.

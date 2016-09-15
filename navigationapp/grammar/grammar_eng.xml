@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar>
+	<question speaker="user" predicate="result_location">
+		<utterance>
+			<one-of>
+				<item>where am i</item>
+				<item>tell me where i am</item>
+				<item>what is my location</item>
+			</one-of>
+		</utterance>
+	</question>
+
+	<predicate name="result_location">
+		<noun-phrase>
+			<noun ref="location"/>
+		</noun-phrase>
+	</predicate>
+
+	<answer speaker="system" predicate="result_location">
+		<utterance>
+			most likely, you are near <individual predicate="result_location"/>
+		</utterance>
+	</answer>
+
+	<action name="show_way_to_town">
+		<noun-phrase>
+			<noun ref="navigation"/>
+		</noun-phrase>
+	</action>
+
+	<request action="show_way_to_town">
+		<utterance>
+			<one-of>
+				<item>navigation</item>
+				<item>navigation with mode <individual sort="transport"/></item>
+			</one-of>
+		</utterance>
+	</request>
+	
+	<question speaker="system" predicate="selected_transport" type="wh_question">
+		<utterance>
+			choose your mode: walk, bike, car or transit
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_place" type="wh_question">
+		<utterance>
+			where should i navigate you
+		</utterance>
+	</question>
+
+	<report action="ShowWayToTownAction" status="ended">
+		<utterance>
+			I just draw you a way to <individual predicate="selected_place"/> with mode <individual predicate="selected_transport"/>. If nothing was drawn, Google did not understand the place
+		</utterance>
+	</report>
+
+	<lexicon>
+		<noun id="location">
+			<singular>location</singular>
+		</noun>
+		<noun id="navigation">
+			<singular>navigation</singular>
+		</noun>
+	</lexicon>
+
+</grammar>

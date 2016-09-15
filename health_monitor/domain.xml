@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<domain name="HealthMonitorDomain" is_super_domain="true">
+  <goal type="perform" action="top" reraise_on_resume="false">
+    <plan>
+      <forget_all/>
+      <findout type="goal"/>
+    </plan>
+  </goal>
+  <goal type="resolve" question_type="wh_question" predicate="value_of_vital_parameter">
+    <plan>
+      <findout type="wh_question" predicate="selected_vital_parameter"/>
+      <dev_query device="HealthMonitorDevice" type="wh_question" predicate="value_of_vital_parameter"/>
+    </plan>
+  </goal>
+  <parameters predicate="value_of_vital_parameter">
+    <background predicate="selected_vital_parameter"/>
+  </parameters>
+</domain>

@@ -1,0 +1,13 @@
+--- request temperature
+U> donnez-moi un parametre vital
+S> Quels parametres?
+U> temperature
+S> Votre temperature est 100.
+
+--- request heartrate one-shot
+U> connaitre ma rythmecardiaque
+S> Votre rythmecardiaque est 100.
+
+--- request respiration one-shot
+U> peux-tu me donner mon respiration
+S> Votre respiration est 100.

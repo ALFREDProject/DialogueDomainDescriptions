@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar>
+	<action name="show_event_recommendations">
+		<noun-phrase>
+			<noun ref="recommendation"/>
+		</noun-phrase>
+	</action>
+
+	<request action="show_event_recommendations">
+		<utterance>
+			<one-of>
+				<item>refresh recommendations</item>
+				<item>show recommendations</item>
+				<item>i like to join an event</item>
+				<item>join an event</item>
+				<item>i want to join an event</item>
+				<item>i like to participate in an event</item>
+				<item>participate in an event</item>
+				<item>i want to participate in an event</item>
+				<item>i like to visit an event</item>
+				<item>visit an event</item>
+				<item>i want to visit an event</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<report action="ShowEventRecommendationAction" status="ended">
+		<utterance>
+			here are the recommendations for the next 10 events
+		</utterance>
+	</report>
+	
+	<action name="show_event_details">
+		<noun-phrase>
+			<noun ref="details"/>
+		</noun-phrase>
+	</action>
+
+	<request action="show_event_details">
+		<utterance>
+			<one-of>
+				<item>show recommendation details</item>
+				<item>show event details</item>
+				<item>show details of event number <individual sort="event_number"/></item>
+				<item>show details of recommendation number <individual sort="event_number"/></item>
+				<item>show details of event <individual sort="event_number"/></item>
+				<item>show details of recommendation <individual sort="event_number"/></item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<question speaker="system" predicate="selected_event_number" type="wh_question">
+		<utterance>
+			what it the number of the event? Select number 10 or lower
+		</utterance>
+	</question>
+
+	<report action="ShowEventDetailsAction" status="ended">
+		<utterance>
+			here are the details for the recommendation number <individual predicate="selected_event_number"/>
+		</utterance>
+	</report>
+	
+	<action name="go_to_event">
+		<verb-phrase>
+			<verb ref="join"/>
+		</verb-phrase>
+	</action>
+	
+	<action name="dont_go_to_event">
+		<verb-phrase>
+			<verb ref="decline"/>
+		</verb-phrase>
+	</action>
+	
+	<request action="go_to_event">
+		<utterance>
+			<one-of>
+				<item>join</item>
+				<item>go</item>
+				<item>participate</item>
+				<item>participate in event number <individual sort="event_number"/></item>
+				<item>participate in recommendation number <individual sort="event_number"/></item>
+				<item>join event number <individual sort="event_number"/></item>
+				<item>join recommendation number <individual sort="event_number"/></item>
+				<item>go to event number <individual sort="event_number"/></item>
+				<item>go to recommendation number <individual sort="event_number"/></item>
+				<item>participate in event <individual sort="event_number"/></item>
+				<item>participate in recommendation <individual sort="event_number"/></item>
+				<item>join event <individual sort="event_number"/></item>
+				<item>join recommendation <individual sort="event_number"/></item>
+				<item>go to event <individual sort="event_number"/></item>
+				<item>go to recommendation <individual sort="event_number"/></item>
+			</one-of>
+		</utterance>
+	</request>
+	
+	<request action="dont_go_to_event">
+		<utterance>
+			<one-of>
+				<item>don't join</item>
+				<item>don't go</item>
+				<item>don't participate</item>
+				<item>don't participate in event number <individual sort="event_number"/></item>
+				<item>don't participate in recommendation number <individual sort="event_number"/></item>
+				<item>don't join event number <individual sort="event_number"/></item>
+				<item>don't join recommendation number <individual sort="event_number"/></item>
+				<item>don't go to event number <individual sort="event_number"/></item>
+				<item>don't go to recommendation number <individual sort="event_number"/></item>
+				<item>don't participate in event <individual sort="event_number"/></item>
+				<item>don't participate in recommendation <individual sort="event_number"/></item>
+				<item>don't join event <individual sort="event_number"/></item>
+				<item>don't join recommendation <individual sort="event_number"/></item>
+				<item>don't go to event <individual sort="event_number"/></item>
+				<item>don't go to recommendation <individual sort="event_number"/></item>
+			</one-of>
+		</utterance>
+	</request>
+	
+	
+	<report action="GoToEventAction" status="ended">
+		<utterance>
+			you are now participating in the event number <individual predicate="selected_event_number"/>
+		</utterance>
+	</report>
+		
+	<report action="DontGoToEventAction" status="ended">
+		<utterance>
+			you have declined your participation in the event number <individual predicate="selected_event_number"/>
+		</utterance>
+	</report>
+	
+	<lexicon>
+		<noun id="recommendation">
+			<singular>recommendation</singular>
+		</noun>	
+		<noun id="details">
+			<singular>detail</singular>
+		</noun>
+		<verb id="decline">
+			<infinitive>decline</infinitive>
+		</verb>
+		<verb id="join">
+			<infinitive>join</infinitive>
+		</verb>
+	</lexicon>
+</grammar>

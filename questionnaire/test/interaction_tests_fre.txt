@@ -1,0 +1,41 @@
+--- obtenir l'information culture
+S> Que voulez-vous faire?
+U> obtenir l'information
+S> Quel type d'information souhaitez-vous obtenir?
+U> culture
+S> Voici la culture information.
+
+--- obtenir l'information sport
+S> Que voulez-vous faire?
+U> obtenir l'information
+S> Quel type d'information souhaitez-vous obtenir?
+U> sport
+S> Voici la sport information.
+
+--- obtenir l'information monde
+S> Que voulez-vous faire?
+U> obtenir l'information
+S> Quel type d'information souhaitez-vous obtenir?
+U> monde
+S> Voici la monde information.
+
+--- obtenir l'information cinéma
+S> Que voulez-vous faire?
+U> obtenir l'information
+S> Quel type d'information souhaitez-vous obtenir?
+U> cinéma
+S> Voici la cinéma information.
+
+--- obtenir l'information curiosités
+S> Que voulez-vous faire?
+U> obtenir l'information
+S> Quel type d'information souhaitez-vous obtenir?
+U> curiosités
+S> Voici la curiosités information.
+
+--- obtenir l'information expositions
+S> Que voulez-vous faire?
+U> obtenir l'information
+S> Quel type d'information souhaitez-vous obtenir?
+U> expositions
+S> Voici la expositions information.

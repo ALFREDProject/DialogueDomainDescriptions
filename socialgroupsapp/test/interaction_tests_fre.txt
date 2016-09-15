@@ -1,0 +1,63 @@
+--- create_a_group
+U> créer un groupe
+S> Quel nom voulez-vous donner au groupe?
+U> rhumatisme
+S> Quelle est la description du groupe?
+U> a propos de rhumatismale
+S> Le groupe rhumatisme avec la description a propos de rhumatismale a été créé.
+
+--- I_want_to_create_a_group
+U> je veux créer un groupe
+S> Quel nom voulez-vous donner au groupe?
+U> rhumatisme
+S> Quelle est la description du groupe?
+U> a propos de rhumatismale
+S> Le groupe rhumatisme avec la description a propos de rhumatismale a été créé.
+
+--- group
+U> groupe
+S> Quel nom voulez-vous donner au groupe?
+U> rhumatisme
+S> Quelle est la description du groupe?
+U> a propos de rhumatismale
+S> Le groupe rhumatisme avec la description a propos de rhumatismale a été créé.
+
+--- new_group
+U> nouveau groupe
+S> Quel nom voulez-vous donner au groupe?
+U> rhumatisme
+S> Quelle est la description du groupe?
+U> discussion sur les rhumatismes
+S> Le groupe rhumatisme avec la description discussion sur les rhumatismes a été créé.
+
+--- group_of_discussion 
+U> groupe de discussion
+S> Quel nom voulez-vous donner à la discussion?
+U> rhumatisme
+S> Quelle est la description de la discussion?
+U> discussion sur les rhumatismes
+S> La discussion rhumatisme avec la description discussion sur les rhumatismes a été créé.
+
+--- create a group of discussion
+U> créer un groupe de discussion
+S> Quel nom voulez-vous donner à la discussion?
+U> rhumatisme
+S> Quelle est la description de la discussion?
+U> discussion sur les rhumatismes
+S> La discussion rhumatisme avec la description discussion sur les rhumatismes a été créé.
+
+--- create a discussion
+U> discussion
+S> Quel nom voulez-vous donner à la discussion?
+U> rhumatisme
+S> Quelle est la description de la discussion?
+U> discussion sur les rhumatismes
+S> La discussion rhumatisme avec la description discussion sur les rhumatismes a été créé.
+
+--- I want to create a discussion
+U> je veux créer une discussion
+S> Quel nom voulez-vous donner à la discussion?
+U> rhumatisme
+S> Quelle est la description de la discussion?
+U> discussion sur les rhumatismes
+S> La discussion rhumatisme avec la description discussion sur les rhumatismes a été créé.

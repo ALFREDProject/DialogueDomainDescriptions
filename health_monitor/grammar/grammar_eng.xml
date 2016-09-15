@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+  <question speaker="system" predicate="selected_vital_parameter" type="wh_question">
+    <utterance>which parameter</utterance>
+  </question>
+
+  <predicate name="value_of_vital_parameter">
+    <noun-phrase>
+      <noun ref="parameter" />
+    </noun-phrase>
+  </predicate>
+
+  <question speaker="user" predicate="value_of_vital_parameter">
+    <utterance>
+      <one-of>
+        <item>tell me a vital parameter</item>
+        <item>what is my <individual sort="vital_parameter"/></item>
+        <item>tell me my <individual sort="vital_parameter"/></item>
+        <item>can you tell me my <individual sort="vital_parameter"/></item>
+        <item>could you tell me my <individual sort="vital_parameter"/></item>
+      </one-of>
+    </utterance>
+  </question>
+
+  <answer speaker="system" predicate="value_of_vital_parameter">
+    <utterance>
+      Your
+      <individual predicate="selected_vital_parameter"/> is
+      <individual predicate="value_of_vital_parameter"/>
+    </utterance>
+  </answer>
+
+  <lexicon>
+    <noun id="parameter">
+      <singular>parameter</singular>
+    </noun>
+  </lexicon>
+</grammar>

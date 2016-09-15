@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar>
+	<action name="set_agenda_action">
+		<noun-phrase>
+			<noun ref="agenda"/>
+		</noun-phrase>
+	</action>
+
+	<request action="set_agenda_action">
+		<utterance>
+			<one-of>
+				<item>set agenda in <individual sort="alert_time"/> minutes</item>
+				<item>set agenda </item>
+				<item>set reminder in <individual sort="alert_time"/> minutes</item>
+				<item>set reminder </item>
+				<item>reminder</item>
+				<item>agenda</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<question speaker="system" predicate="selected_alert_time" type="wh_question">
+		<utterance>
+			in how many minutes should i remind you
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_agenda_mode" type="wh_question">
+		<utterance>
+			name the agenda i should remind you of
+		</utterance>
+	</question>
+
+	<report action="SetAgendaAction" status="ended">
+		<utterance>
+			in <individual predicate="selected_alert_time"/> minutes i will remind you of your <individual predicate="selected_agenda_mode"/> agenda
+		</utterance>
+	</report>
+
+	<lexicon>
+		<noun id="agenda">
+			<singular>agenda</singular>
+		</noun>
+	</lexicon>
+</grammar>

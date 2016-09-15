@@ -1,0 +1,42 @@
+--- haal informatie op cultuur
+S> Wat wilt u doen?
+U> haal informatie op
+S> Wat voor soort informatie wilt u hebben?
+U> cultuur
+S> Hier is de cultuur informatie.
+
+--- haal informatie op tentoonstellingen
+S> Wat wilt u doen?
+U> haal informatie op
+S> Wat voor soort informatie wilt u hebben?
+U> tentoonstellingen
+S> Hier is de tentoonstellingen informatie.
+
+--- haal informatie op werelds
+S> Wat wilt u doen?
+U> haal informatie op
+S> Wat voor soort informatie wilt u hebben?
+U> werelds
+S> Hier is de werelds informatie.
+
+--- haal informatie op bioscoop
+S> Wat wilt u doen?
+U> haal informatie op
+S> Wat voor soort informatie wilt u hebben?
+U> bioscoop
+S> Hier is de bioscoop informatie.
+
+--- haal informatie op curiosa
+S> Wat wilt u doen?
+U> haal informatie op
+S> Wat voor soort informatie wilt u hebben?
+U> curiosa
+S> Hier is de curiosa informatie.
+
+--- haal informatie op sport
+S> Wat wilt u doen?
+U> haal informatie op
+S> Wat voor soort informatie wilt u hebben?
+U> sport
+S> Hier is de sport informatie.
+

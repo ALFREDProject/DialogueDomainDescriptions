@@ -1,0 +1,19 @@
+--- contacter mon aidant
+S> Que voulez-vous faire?
+U> contacter mon aidant
+S> Appel en cours aidant.
+
+--- aidant
+S> Que voulez-vous faire?
+U> aidant
+S> Appel en cours aidant.
+
+--- besoin d'aide
+S> Que voulez-vous faire?
+U> besoin d'aide
+S> Appel a l'aide en cours.
+
+--- aide
+S> Que voulez-vous faire?
+U> aide
+S> Appel a l'aide en cours.

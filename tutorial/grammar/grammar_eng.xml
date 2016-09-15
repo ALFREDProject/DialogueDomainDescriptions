@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+	<action name="command_start">
+		<verb-phrase>
+			<verb ref="start"/>
+		</verb-phrase>
+	</action>
+
+	<action name="command_continue">
+		<verb-phrase>
+			<verb ref="continue"/>
+		</verb-phrase>
+	</action>
+
+	<action name="command_i_understand">
+		<verb-phrase>
+			<verb ref="understand"/>
+		</verb-phrase>
+	</action>
+
+	<action name="command_play_a_sound">
+		<noun-phrase>
+			<noun ref="sound"/>
+		</noun-phrase>
+	</action>
+
+	<action name="command_show_an_image">
+		<noun-phrase>
+			<noun ref="image"/>
+		</noun-phrase>
+	</action>
+
+	<action name="command_what_is_your_name">
+		<noun-phrase>
+			<noun ref="name"/>
+		</noun-phrase>
+	</action>
+
+	<action name="command_age">
+		<noun-phrase>
+			<noun ref="age"/>
+		</noun-phrase>
+	</action>
+
+	<request action="command_start">
+		<utterance>
+			<one-of>
+				<item>start</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<request action="command_continue">
+		<utterance>
+			<one-of>
+				<item>continue</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<request action="command_i_understand">
+		<utterance>
+			<one-of>
+				<item>understand</item>
+				<item>i understand</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<request action="command_play_a_sound">
+		<utterance>
+			<one-of>
+				<item>play a sound</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<request action="command_show_an_image">
+		<utterance>
+			<one-of>
+				<item>show an image</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<request action="command_what_is_your_name">
+		<utterance>
+			<one-of>
+				<item>my name is</item>
+				<item>my name is <individual sort="name"/></item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<request action="command_age">
+		<utterance>
+			<one-of>
+				<item>I am</item>
+				<item>I am <individual sort="age"/></item>
+				<item>I am <individual sort="age"/> years</item>
+				<item>I am <individual sort="age"/> years old</item>
+			</one-of>
+		</utterance>
+	</request>
+
+
+	<question speaker="system" predicate="selected_name" type="wh_question">
+		<utterance>
+			what is your name
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_age" type="wh_question">
+		<utterance>
+			how old are you
+		</utterance>
+	</question>
+
+	<report action="CommandStart" status="ended">
+		<utterance>
+			hello I am the Alfred assistant. I am an integrated platform in all of our Alfred apps. I am here to help you. First of all, in our applications, you will commonly see a button in the screen with a microphone. Touch the microphone button below and say continue
+		</utterance>
+	</report>
+
+	<report action="CommandContinue" status="ended">
+		<utterance>
+			perfect, this is important, the applications have an integrated system of conversation. You can answer me and give commands to me. In that way the interaction between you and the application will be more comfortable. Touch the microphone button below and say I understand to continue
+		</utterance>
+	</report>
+
+	<report action="CommandIUnderstand" status="ended">
+		<utterance>
+			let's put a simple example in the screen. Please, look at the bottom left of the screen. In the bottom left of the screen, you will see two blue colored commands. Each blue colored command can be executed, play a sound or show an image. Touch the microphone button below and read one blue colored command so I can hear your command
+		</utterance>
+	</report>
+
+	<report action="CommandPlayASound" status="ended">
+		<utterance>
+			here is the sound. I hope his has helpful for you. Now let's know each other better. What is your name?
+		</utterance>
+	</report>
+
+	<report action="CommandShowAnImage" status="ended">
+		<utterance>
+			here is the image, a bright star. I hope this has been helpful for you. Now let's know each other better. What is your name?
+		</utterance>
+	</report>
+
+	<report action="CommandWhatIsYourName" status="ended">
+		<utterance>
+			<individual predicate="selected_name"/>. My name is Alfred. How old are you?
+		</utterance>
+	</report>
+
+	<report action="CommandAge" status="ended">
+		<utterance>
+			<individual predicate="selected_age"/>. You are older than me. I was recently created. I hope we can connect more in the future. Have a nice day
+		</utterance>
+	</report>
+
+	<lexicon>
+		<verb id="start">
+			<infinitive>start</infinitive>
+		</verb>
+		<verb id="continue">
+			<infinitive>continue</infinitive>
+		</verb>
+		<verb id="understand">
+			<infinitive>understand</infinitive>
+		</verb>
+		<noun id="sound">
+			<singular>sound</singular>
+		</noun>
+		<noun id="image">
+			<singular>image</singular>
+		</noun>
+		<noun id="age">
+			<singular>age</singular>
+		</noun>
+		<noun id="name">
+			<singular>name</singular>
+		</noun>
+	</lexicon>
+
+</grammar>

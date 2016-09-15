@@ -1,0 +1,35 @@
+--- request heartrate
+U> tell me a vital parameter
+S> Which parameter?
+U> heartrate
+S> Your heartrate is 100.
+
+--- request temperature
+U> tell me a vital parameter
+S> Which parameter?
+U> temperature
+S> Your temperature is 100.
+
+--- request pulse one-shot
+U> what is my pulse
+S> Your pulse is 100.
+
+--- request respiration one-shot
+U> what is my respiration
+S> Your respiration is 100.
+
+--- request weight one-shot
+U> what is my weight
+S> I heard you say what is my weight. I don't understand*
+
+--- request steps one-shot
+U> tell me my steps
+S> Your steps is 100.
+
+--- request respiration one-shot 2
+U> can you tell me my respiration
+S> Your respiration is 100.
+
+--- request temperature one-shot
+U> could you tell me my temperature
+S> Your temperature is 100.

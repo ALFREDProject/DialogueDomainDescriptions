@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<domain name="CalendarAppDomain" is_super_domain="true">
+	<goal type="perform" action="top" reraise_on_resume="false">
+		<plan>
+			<forget_all/>
+			<findout type="goal"/>
+		</plan>
+	</goal>
+
+	<goal type="perform" action="show_calendar">
+    		<plan>
+      			<findout type="wh_question" predicate="selected_year"/>
+			<findout type="wh_question" predicate="selected_month"/>
+      			<dev_perform action="ShowCalendarAction" device="CalendarAppDevice" postconfirm="true"/>
+    		</plan>
+    		<postcond>
+			<device_activity_terminated action="ShowCalendarAction"/>
+		</postcond>
+  	</goal>
+
+	<goal type="perform" action="insert_event">
+    		<plan>
+      			<findout type="wh_question" predicate="selected_year"/>
+			<findout type="wh_question" predicate="selected_month"/>
+      			<findout type="wh_question" predicate="selected_day"/>
+			<dev_perform action="RecogEvent" device="CalendarAppDevice" postconfirm="false"/>
+			<findout type="wh_question" predicate="selected_event"/>
+      			<dev_perform action="InsertEventAction" device="CalendarAppDevice" postconfirm="true"/>
+    		</plan>
+    		<postcond>
+			<device_activity_terminated action="InsertEventAction"/>
+		</postcond>
+  	</goal>  
+
+	<goal type="perform" action="show_event">
+    		<plan>
+      			<findout type="wh_question" predicate="selected_year"/>
+			<findout type="wh_question" predicate="selected_month"/>
+      			<findout type="wh_question" predicate="selected_day"/>
+      			<dev_perform action="ShowEventAction" device="CalendarAppDevice" postconfirm="true"/>
+    		</plan>
+    		<postcond>
+			<device_activity_terminated action="ShowEventAction"/>
+		</postcond>
+  	</goal>  
+	<parameters question_type="goal" verbalize="false"/>
+</domain>

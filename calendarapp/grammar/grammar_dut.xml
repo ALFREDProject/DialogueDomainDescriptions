@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar>
+    <action name="show_calendar">
+        <noun-phrase>
+            <noun ref="calendar"/>
+        </noun-phrase>
+    </action>
+
+    <action name="insert_event">
+        <verb-phrase>
+            <verb ref="insert"/>
+        </verb-phrase>
+    </action>
+
+    <action name="show_event">
+        <verb-phrase>
+            <verb ref="show"/>
+        </verb-phrase>
+    </action>
+
+    <request action="show_calendar">
+        <utterance>
+            <one-of>
+                <item>toon de kalender in <individual sort="month"/> <individual sort="year"/></item>
+                <item>toon de kalender in <individual sort="year"/></item>
+                <item>toon de kalender in <individual sort="month"/></item>
+                <item>toon de kalender</item>
+            </one-of>
+        </utterance>
+    </request>
+
+    <request action="insert_event">
+        <utterance>
+            <one-of>
+                <item>voeg gebeurtenis toe in <individual sort="month"/> <individual sort="day"/> <individual sort="year"/></item>
+                <item>voeg gebeurtenis toe in <individual sort="month"/> <individual sort="year"/></item>
+                <item>voeg gebeurtenis toe in <individual sort="year"/></item>
+                <item>voeg gebeurtenis toe in <individual sort="month"/></item>
+                <item>voeg gebeurtenis toe</item>
+            </one-of>
+        </utterance>
+    </request>
+
+    <request action="show_event">
+        <utterance>
+            <one-of>
+                <item>laat gebeurtenis zien in <individual sort="month"/> <individual sort="day"/> <individual sort="year"/></item>
+                <item>laat gebeurtenis zien in <individual sort="month"/> <individual sort="year"/></item>
+                <item>laat gebeurtenis zien in <individual sort="year"/></item>
+                <item>laat gebeurtenis zien in <individual sort="month"/></item>
+                <item>laat gebeurtenis zien</item>
+            </one-of>
+        </utterance>
+    </request>
+
+    <question speaker="system" predicate="selected_year" type="wh_question">
+        <utterance>
+            over welk jaar hebben we het
+        </utterance>
+    </question>
+
+    <question speaker="system" predicate="selected_month" type="wh_question">
+        <utterance>
+            over welke maand hebben we het
+        </utterance>
+    </question>
+
+    <question speaker="system" predicate="selected_day" type="wh_question">
+        <utterance>
+            over welke dag van de maand hebben we het
+        </utterance>
+    </question>
+
+    <question speaker="system" predicate="selected_event" type="wh_question">
+        <utterance>
+            hoe heet de gebeurtenis
+        </utterance>
+    </question>
+
+    <report action="ShowCalendarAction" status="ended">
+        <utterance>
+            hier is uw kalender van <individual predicate="selected_month"/> <individual predicate="selected_year"/>
+        </utterance>
+    </report>
+
+    <report action="InsertEventAction" status="ended">
+        <utterance>
+            ik voeg uw <individual predicate="selected_event"/> evenement in <individual predicate="selected_month"/> <individual predicate="selected_day"/> <individual predicate="selected_year"/>
+        </utterance>
+    </report>
+
+    <report action="ShowEventAction" status="ended">
+        <utterance>
+            ik voeg uw gebeurtenis toe in<individual predicate="selected_month"/> <individual predicate="selected_day"/> <individual predicate="selected_year"/> geplaatst
+        </utterance>
+    </report>
+
+    <lexicon>
+        <verb id="show">
+            <infinitive>zien</infinitive>
+        </verb>
+        <verb id="insert">
+            <infinitive>toevoegen</infinitive>
+        </verb>
+        <noun id="calendar">
+            <singular>kalender</singular>
+        </noun>
+    </lexicon>
+</grammar>
+ 

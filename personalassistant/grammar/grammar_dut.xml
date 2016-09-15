@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+
+
+	<action name="change_mic_color_action">
+		<noun-phrase>
+			<noun ref="microphone"/>
+		</noun-phrase>
+	</action>
+
+	<request action="change_mic_color_action">
+		<utterance>
+			<one-of>
+				<item>verander microfoon kleur in <individual sort="color"/></item>
+				<item>verander microfoon kleur <individual sort="color"/></item>
+				<item>verander microfoon kleur</item>
+				<item>stel microfoon kleur in</item>
+				<item>stel microfoon kleur in naar <individual sort="color"/></item>
+				<item>stel microfoon kleur in <individual sort="color"/></item>
+				<item>microfoon kleur<individual sort="color"/></item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<question speaker="system" predicate="selected_mircophone_color" type="wh_question">
+		<utterance>
+			noem een nieuwe microfoon kleur
+		</utterance>
+	</question>
+
+	<report action="ChangeMicrophoneColorAction" status="ended">
+		<utterance>
+			uw microfoon is nu <individual predicate="selected_mircophone_color"/> kleur
+		</utterance>
+	</report>
+
+	<lexicon>
+		<noun id="microphone">
+			<singular>microfoon</singular>
+		</noun>
+	</lexicon>
+</grammar>

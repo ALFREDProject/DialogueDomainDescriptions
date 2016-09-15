@@ -1,0 +1,9 @@
+--- sit1
+U> how to sit correctly
+S> Look at this picture. It show you how to sit correctly.
+
+--- sit2
+U> how to posture
+S> Do you sit, stand or lie?
+U> sit
+S> Look at this picture. It show you how to sit correctly.

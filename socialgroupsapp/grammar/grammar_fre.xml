@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar>
+	<action name="create_social_group">
+		<noun-phrase>
+			<noun ref="group"/>
+		</noun-phrase>
+	</action>
+
+	<action name="create_discussion">
+		<noun-phrase>
+			<noun ref="discussion"/>
+		</noun-phrase>
+	</action>
+	
+	<request action="create_social_group">
+		<utterance>
+			<one-of>
+				<item>créer un groupe</item>
+				<item>je veux créer un groupe</item>
+				<item>groupe</item>
+				<item>nouveau groupe</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<request action="create_discussion">
+		<utterance>
+			<one-of>
+				<item>groupe de discussion</item>
+				<item>créer un groupe de discussion</item>
+				<item>discussion</item>
+				<item>je veux créer un discussion</item>
+			</one-of>
+		</utterance>
+	</request>
+	
+	<question speaker="system" predicate="selected_groupname" type="wh_question">
+		<utterance>
+			quel nom voulez-vous donner au groupe
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_discussionname" type="wh_question">
+		<utterance>
+			quel nom voulez-vous donner à la discussion
+		</utterance>
+	</question>
+	
+	<question speaker="system" predicate="selected_groupdescription" type="wh_question">
+		<utterance>
+			quelle est la description du groupe
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_discussiondescription" type="wh_question">
+		<utterance>
+			quelle est la description de la discussion
+		</utterance>
+	</question>
+	
+	<report action="CreateSocialGroupAction" status="ended">
+		<utterance>
+			le groupe <individual predicate="selected_groupname"/> avec la description <individual predicate="selected_groupdescription"/> a été créé
+		</utterance>
+	</report>
+
+	<report action="CreateDiscussionAction" status="ended">
+		<utterance>
+			la discussion <individual predicate="selected_discussionname"/> avec la description <individual predicate="selected_discussiondescription"/> a été créé
+		</utterance>
+	</report>
+	
+	<lexicon>
+		<noun id="group">
+			<singular>groupe</singular>
+		</noun>
+		<noun id="discussion">
+			<singular>discussion</singular>
+		</noun>
+	</lexicon>
+</grammar>
+ 

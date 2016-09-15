@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar>
+	<action name="set_agenda_action">
+		<noun-phrase>
+			<noun ref="agenda"/>
+		</noun-phrase>
+	</action>
+
+	<request action="set_agenda_action">
+		<utterance>
+			<one-of>
+				<item>régler l'agenda <individual sort="alert_time"/> minutes</item>
+				<item>réglages agenda</item>
+				<item>régler un rappel <individual sort="alert_time"/> minutes</item>
+				<item>réglages rappel</item>
+				<item>créer une agenda</item>
+				<item>créer un rappel</item>
+				<item>rappel</item>
+				<item>agenda</item>
+				<item>rappelez-moi</item>
+				<item>rappelle-moi</item>
+				<item>nouveau rendez-vous</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<question speaker="system" predicate="selected_alert_time" type="wh_question">
+		<utterance>
+			dans combien de minutes dois-je vous le rappeler
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_agenda_mode" type="wh_question">
+		<utterance>
+			nommer l'événement que je dois vous rappeler
+		</utterance>
+	</question>
+
+	<report action="SetAgendaAction" status="ended">
+		<utterance>
+			dans <individual predicate="selected_alert_time"/> minutes je vous rappelle votre <individual predicate="selected_agenda_mode"/> événement
+		</utterance>
+	</report>
+
+	<lexicon>
+		<noun id="agenda">
+			<singular>agenda</singular>
+		</noun>
+	</lexicon>
+</grammar>

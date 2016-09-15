@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<domain name="BodyPostureAppDomain" is_super_domain="true">
+  
+	<goal type="perform" action="top" reraise_on_resume="false">
+		<plan>     
+			<forget_all/>
+			<findout type="goal"/>
+		</plan>
+	</goal>
+
+
+	<goal type="perform" action="posture">  
+		<plan>
+			<findout type="wh_question" predicate="selected_bodyposture"/>
+			<dev_perform action="HowToPostureAction" device="BodyPostureAppDevice" postconfirm="true"/>
+    		</plan>
+    		<postcond>
+      			<device_activity_terminated action="HowToPostureAction"/>
+    		</postcond>
+	</goal>
+
+	<parameters question_type="goal" verbalize="false"/>
+</domain>

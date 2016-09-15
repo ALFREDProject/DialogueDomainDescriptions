@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+	<action name="get_info">
+    		<noun-phrase>
+      			<noun ref="info"/>
+    		</noun-phrase>
+  	</action>
+
+	<request action="get_info">
+		<utterance>
+			<one-of>
+				<item>get information</item>
+				<item>get information <individual sort="info_type"/></item>
+				<item>get info</item>
+				<item>get info <individual sort="info_type"/></item>
+				<item>get <individual sort="info_type"/></item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<question speaker="system" predicate="selected_info_type" type="wh_question">
+		<utterance>
+			what type of information do you want
+		</utterance>
+	</question>
+
+	<report action="GetInfo" status="ended">
+		<utterance>
+			here is <individual predicate="selected_info_type"/> information
+		</utterance>	
+	</report>
+
+  	<lexicon>
+    		<noun id="info">
+      			<singular>information</singular>
+    		</noun>
+  	</lexicon>
+</grammar>

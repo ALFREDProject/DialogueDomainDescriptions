@@ -1,0 +1,2956 @@
+
+# agendaapp
+--- set agenda 1
+U> réglages agenda
+S> Dans combien de minutes dois-je vous le rappeler?
+U> 15
+S> Nommer l'événement que je dois vous rappeler?
+U> obtenir ma lessive
+S> Dans 15 minutes je vous rappelle votre obtenir ma lessive événement.
+
+
+--- set agenda 2
+U> réglages rappel 
+S> Dans combien de minutes dois-je vous le rappeler?
+U> 15
+S> Nommer l'événement que je dois vous rappeler?
+U> obtenir ma lessive
+S> Dans 15 minutes je vous rappelle votre obtenir ma lessive événement.
+
+--- set agenda 3
+U> régler l'agenda 15 minutes
+S> Nommer l'événement que je dois vous rappeler?
+U> obtenir ma lessive
+S> Dans 15 minutes je vous rappelle votre obtenir ma lessive événement.
+
+--- set agenda 4
+U> régler un rappel 15 minutes
+S> Nommer l'événement que je dois vous rappeler?
+U> obtenir ma lessive
+S> Dans 15 minutes je vous rappelle votre obtenir ma lessive événement.
+
+--- set agenda 5
+U> agenda
+S> Dans combien de minutes dois-je vous le rappeler?
+U> 15
+S> Nommer l'événement que je dois vous rappeler?
+U> obtenir ma lessive
+S> Dans 15 minutes je vous rappelle votre obtenir ma lessive événement.
+
+--- set agenda 6
+U> rappel
+S> Dans combien de minutes dois-je vous le rappeler?
+U> 15
+S> Nommer l'événement que je dois vous rappeler?
+U> obtenir ma lessive
+S> Dans 15 minutes je vous rappelle votre obtenir ma lessive événement.
+
+--- set agenda 7
+U> créer un rappel
+S> Dans combien de minutes dois-je vous le rappeler?
+U> 15
+S> Nommer l'événement que je dois vous rappeler?
+U> obtenir ma lessive
+S> Dans 15 minutes je vous rappelle votre obtenir ma lessive événement.
+
+--- set agenda 8
+U> créer une agenda
+S> Dans combien de minutes dois-je vous le rappeler?
+U> 15
+S> Nommer l'événement que je dois vous rappeler?
+U> obtenir ma lessive
+S> Dans 15 minutes je vous rappelle votre obtenir ma lessive événement.
+
+--- set agenda 10
+U> rappelez-moi
+S> Dans combien de minutes dois-je vous le rappeler?
+U> 15
+S> Nommer l'événement que je dois vous rappeler?
+U> obtenir ma lessive
+S> Dans 15 minutes je vous rappelle votre obtenir ma lessive événement.
+
+
+--- set agenda 11
+U> rappelle-moi
+S> Dans combien de minutes dois-je vous le rappeler?
+U> 15
+S> Nommer l'événement que je dois vous rappeler?
+U> obtenir ma lessive
+S> Dans 15 minutes je vous rappelle votre obtenir ma lessive événement.
+
+--- set agenda 14
+U> nouveau rendez-vous
+S> Dans combien de minutes dois-je vous le rappeler?
+U> 15
+S> Nommer l'événement que je dois vous rappeler?
+U> obtenir ma lessive
+S> Dans 15 minutes je vous rappelle votre obtenir ma lessive événement.
+
+
+
+
+
+
+# batterywarnerapp
+--- battery status 1
+U> batterie
+S> L'état de votre batterie est 50 pourcent.
+
+--- battery status 2
+U> l'état de ma batterie 
+S> L'état de votre batterie est 50 pourcent.
+
+--- battery status 3
+U> quel est l'état de ma batterie
+S> L'état de votre batterie est 50 pourcent.
+
+--- battery status 4
+U> me montrer ma batterie
+S> L'état de votre batterie est 50 pourcent.
+
+--- battery status 5
+U> me montrer l'état de ma batterie
+S> L'état de votre batterie est 50 pourcent.
+
+--- battery status 6
+U> combien me reste-t-il de batterie
+S> L'état de votre batterie est 50 pourcent.
+
+
+
+
+
+
+
+
+# bodypostureapp
+--- how to sit 2
+U> comment être assis correctement
+S> Regardez cette image. Elle vous montre comment assis correctement.
+
+--- how to sit 3
+U> suis-je bien assis
+S> Regardez cette image. Elle vous montre comment assis correctement.
+
+--- how to sit 4
+U> suis-je assis correctement
+S> Regardez cette image. Elle vous montre comment assis correctement.
+
+--- how to lie 1
+U> suis-je allongé correctement
+S> Regardez cette image. Elle vous montre comment allongé correctement.
+
+--- how to posture 1
+U> posture
+S> Etes vous assis, debout ou allongé?
+U> assis
+S> Regardez cette image. Elle vous montre comment assis correctement.
+
+
+--- how to posture 2
+U> comment se tenir correctement
+S> Etes vous assis, debout ou allongé?
+U> assis
+S> Regardez cette image. Elle vous montre comment assis correctement.
+
+--- how to posture 3
+U> comment bien se tenir
+S> Etes vous assis, debout ou allongé?
+U> assis
+S> Regardez cette image. Elle vous montre comment assis correctement.
+
+--- how to posture 4
+U> j'ai mal au dos
+S> Etes vous assis, debout ou allongé?
+U> assis
+S> Regardez cette image. Elle vous montre comment assis correctement.
+
+--- how to posture 5
+U> j'ai mal
+S> Etes vous assis, debout ou allongé?
+U> assis
+S> Regardez cette image. Elle vous montre comment assis correctement.
+
+--- how to posture 6
+U> comment me tenir correctement
+S> Etes vous assis, debout ou allongé?
+U> assis
+S> Regardez cette image. Elle vous montre comment assis correctement.
+
+
+
+
+
+
+--- calendar 1
+U> montrer le calendrier pour janvier 2017
+S> Voici votre calendrier de 2017 janvier.
+
+--- calendar 2
+U> montrer le calendrier 2018
+S> De quel mois parlons nous?
+
+--- calendar 3
+U> montrer le calendrier pour le mois de février
+S> De quelle année parlons-nous?
+
+--- calendar 4
+U> montrer le calendrier pour février
+S> De quelle année parlons-nous?
+
+--- calendar 5
+U> calendrier
+S> De quelle année parlons-nous?
+U> 2016
+S> De quel mois parlons nous?
+U> mars
+S> Voici votre calendrier de 2016 mars.
+
+--- calendar 6
+U> voir mon calendrier
+S> De quelle année parlons-nous?
+U> 2016
+S> De quel mois parlons nous?
+U> mars
+S> Voici votre calendrier de 2016 mars.
+
+--- insert 1
+U> créer un événement le 7 février 2016
+S> Quel est le nom de l'événement?
+U> shopping
+S> J'insère votre événement shopping le février 7 2016.
+
+--- insert 2
+U> créer un événement
+S> De quelle année parlons-nous?
+U> 2016
+S> De quel mois parlons nous?
+U> mars
+S> De quel jour du mois parlons-nous?
+U> 7
+S> Quel est le nom de l'événement?
+U> shopping
+S> J'insère votre événement shopping le mars 7 2016.
+
+--- insert 3
+U> insérer un événement
+S> De quelle année parlons-nous?
+U> 2016
+S> De quel mois parlons nous?
+U> mars
+S> De quel jour du mois parlons-nous?
+U> 7
+S> Quel est le nom de l'événement?
+U> shopping
+S> J'insère votre événement shopping le mars 7 2016.
+
+--- show 1
+U> montrer mes événements
+S> De quelle année parlons-nous?
+U> 2016
+S> De quel mois parlons nous?
+U> mars
+S> De quel jour du mois parlons-nous?
+U> 14
+S> J'ai listé vos événements du mars 14 2016.
+
+--- show 2
+U> voir mes événements
+S> De quelle année parlons-nous?
+U> 2016
+S> De quel mois parlons nous?
+U> mars
+S> De quel jour du mois parlons-nous?
+U> 14
+S> J'ai listé vos événements du mars 14 2016.
+
+--- show 3
+U> montrer mes événements le 7 février 2016
+S> J'ai listé vos événements du février 7 2016.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# navigationapp
+--- navigation
+U> navigation
+S> Choisissez votre mode: Marche, vélo, voiture ou transit?
+U> marche
+S> Où dois-je vous emmener?
+U> Berlin
+S> Je viens de vous dessiner l'itinéraire vers Berlin en mode marche. Si rien qui dessinée, Google ne comprenait pas l'endroit.
+
+--- navigation 2
+U> navigation avec la mode marche
+S> Où dois-je vous emmener?
+U> Berlin
+S> Je viens de vous dessiner l'itinéraire vers Berlin en mode marche. Si rien qui dessinée, Google ne comprenait pas l'endroit.
+
+--- where am i 1
+U> où suis-je
+S> Vous êtes probablement près de Berlin.
+
+--- where am i 2
+U> dites moi où je suis
+S> Vous êtes probablement près de Berlin.
+
+--- where am i 3
+U> quelle est ma localisation
+S> Vous êtes probablement près de Berlin.
+
+--- where am i 4
+U> où je suis
+S> Vous êtes probablement près de Berlin.
+
+--- where am i 5
+U> je suis où
+S> Vous êtes probablement près de Berlin.
+
+
+
+
+
+
+
+
+
+
+
+
+
+# personalassistant
+--- change color 1
+U> changer la couleur du microphone en vert
+S> Votre microphone est maintenant vert coleur.
+
+--- change color 2
+U> changer la couleur du microphone vert
+S> Votre microphone est maintenant vert coleur.
+
+--- change color 3
+U> changer la couleur du microphone
+S> Sélectionner la nouvelle couleur du microphone?
+U> vert
+S> Votre microphone est maintenant vert coleur.
+
+--- change color 4
+U> changer la couleur du micro
+S> Sélectionner la nouvelle couleur du microphone?
+U> vert
+S> Votre microphone est maintenant vert coleur.
+
+--- change color 5
+U> changer le microphone en vert
+S> Votre microphone est maintenant vert coleur.
+
+--- change color 6
+U> changer le microphone vert
+S> Votre microphone est maintenant vert coleur.
+
+--- change color 7
+U> changer le microphone
+S> Sélectionner la nouvelle couleur du microphone?
+U> vert
+S> Votre microphone est maintenant vert coleur.
+
+--- change color 8
+U> régler la couleur du microphone en vert
+S> Votre microphone est maintenant vert coleur.
+
+--- change color 9
+U> régler la couleur du microphone vert
+S> Votre microphone est maintenant vert coleur.
+
+--- change color 10
+U> régler la couleur du microphone
+S> Sélectionner la nouvelle couleur du microphone?
+U> vert
+S> Votre microphone est maintenant vert coleur.
+
+--- change color 11
+U> régler la couleur du micro
+S> Sélectionner la nouvelle couleur du microphone?
+U> vert
+S> Votre microphone est maintenant vert coleur.
+
+--- change color 12
+U> modifier le microphone en vert
+S> Votre microphone est maintenant vert coleur.
+
+--- change color 13
+U> modifier le microphone vert
+S> Votre microphone est maintenant vert coleur.
+
+--- change color 14
+U> modifier le microphone
+S> Sélectionner la nouvelle couleur du microphone?
+U> vert
+S> Votre microphone est maintenant vert coleur.
+
+--- change color 15
+U> modifier le microphone
+S> Sélectionner la nouvelle couleur du microphone?
+U> vert
+S> Votre microphone est maintenant vert coleur.
+
+--- change color 16
+U> couleur du microphone
+S> Sélectionner la nouvelle couleur du microphone?
+U> vert
+S> Votre microphone est maintenant vert coleur.
+
+
+
+
+# eventratingapp
+--- rate event 3
+U> noter mes événements
+S> Quelle note souhaitez-vous donner à l’événement?
+U> 4
+S> Votre événement a été noté avec 4 étoiles.
+
+
+--- rate event 4
+U> noter un événement
+S> Quelle note souhaitez-vous donner à l’événement?
+U> 4
+S> Votre événement a été noté avec 4 étoiles.
+
+--- rate event 5
+U> insérer la note
+S> Quelle note souhaitez-vous donner à l’événement?
+U> 4
+S> Votre événement a été noté avec 4 étoiles.
+
+--- rate event 6
+U> soumettre note
+S> Quelle note souhaitez-vous donner à l’événement?
+U> 4
+S> Votre événement a été noté avec 4 étoiles.
+
+--- rate event 7
+U> noter mes événements avec 4 étoiles
+S> Votre événement a été noté avec 4 étoiles.
+
+--- rate event 8
+U> noter l'événement avec 4 étoiles
+S> Votre événement a été noté avec 4 étoiles.
+
+
+
+
+
+
+
+
+# eventrecommendationapp
+--- show recommendations
+U> actualiser mes suggestions d'événements
+S> Voici les propositions pour les 10 prochains événements.
+
+--- show recommendations 3
+U> actualiser mes suggestions d'événements
+S> Voici les propositions pour les 10 prochains événements.
+
+--- show recommendations 31
+U> me montrer des propositions 
+S> Voici les propositions pour les 10 prochains événements.
+
+--- show recommendations 5
+U> j'aimerais participer à un événement
+S> Voici les propositions pour les 10 prochains événements.
+
+--- show recommendations 6
+U> participer à un événement
+S> Voici les propositions pour les 10 prochains événements.
+
+--- show recommendations 7
+U> je veux rejoindre l'événement
+S> Voici les propositions pour les 10 prochains événements.
+
+--- show recommendations 8
+U> j'aimerais participer à un événement
+S> Voici les propositions pour les 10 prochains événements.
+
+--- show recommendations 9
+U> participer à un événement
+S> Voici les propositions pour les 10 prochains événements.
+
+--- show recommendations 15
+U> me montrer les détails de l'événement
+S> Quel est le numéro de l'événement? Choisissez un numéro entre 1 et 10 inclus?
+U> 3
+S> Voici les détails de la suggestion numéro 3.
+
+--- show recommendations 16
+U> montrer les détails de l'événement 3
+S> Voici les détails de la suggestion numéro 3.
+
+--- show recommendations 17
+U> aller
+S> Quel est le numéro de l'événement? Choisissez un numéro entre 1 et 10 inclus?
+U> 3
+S> Vous êtes maintenant inscrit à l'événement numéro 3.
+
+--- show recommendations 18
+U> participer à la suggestion numéro 3
+S> Vous êtes maintenant inscrit à l'événement numéro 3.
+
+--- show recommendations 19
+U> ne pas rejoindre
+S> Quel est le numéro de l'événement? Choisissez un numéro entre 1 et 10 inclus?
+U> 3
+S> Vous avez annulé votre inscription à l'événement numéro 3.
+
+--- show recommendations 20
+U> ne pas aller à l'événement numéro 3
+S> Vous avez annulé votre inscription à l'événement numéro 3.
+
+
+
+
+# health monitor
+--- request de parameter température
+U> donnez-moi un paramètre vital
+S> Quels paramètres?
+U> température
+S> Votre température est de 100.
+
+--- request de parameter rythmecardiaque
+U> donnez-moi un paramètre vital
+S> Quels paramètres?
+U> rythmecardiaque
+S> Votre rythmecardiaque est de 100.
+
+--- request de parameter pouls
+U> donnez-moi un paramètre vital
+S> Quels paramètres?
+U> pouls
+S> Votre pouls est de 100.
+
+--- request de parameter respiration
+U> donnez-moi un paramètre vital
+S> Quels paramètres?
+U> respiration
+S> Votre respiration est de 100.
+
+--- request de parameter fréquencerespiratoire
+U> donnez-moi un paramètre vital
+S> Quels paramètres?
+U> fréquencerespiratoire
+S> Votre fréquencerespiratoire est de 100.
+
+
+--- request de parameter pas
+U> donnez-moi un paramètre vital
+S> Quels paramètres?
+U> pas
+S> Votre pas est de 100.
+
+--- request de parameter podomètre
+U> donnez-moi un paramètre vital
+S> Quels paramètres?
+U> podomètre
+S> Votre podomètre est de 100.
+
+
+
+--- request de température one-shot
+U> connaître ma température
+S> Votre température est de 100.
+
+--- request de rythmecardiaque one-shot
+U> connaître ma rythmecardiaque
+S> Votre rythmecardiaque est de 100.
+
+--- request de pouls one-shot
+U> connaître ma pouls
+S> Votre pouls est de 100.
+
+--- request de respiration one-shot
+U> connaître ma respiration
+S> Votre respiration est de 100.
+
+--- request de fréquencerespiratoire one-shot
+U> connaître ma fréquencerespiratoire
+S> Votre fréquencerespiratoire est de 100.
+
+--- request de pas one-shot
+U> connaître ma pas
+S> Votre pas est de 100.
+
+--- request de podomètre one-shot
+U> connaître ma podomètre
+S> Votre podomètre est de 100.
+
+
+--- request de température one-shot 2
+U> peux-tu me donner mon température
+S> Votre température est de 100.
+
+--- request de rythmecardiaque one-shot 2
+U> peux-tu me donner mon rythmecardiaque
+S> Votre rythmecardiaque est de 100.
+
+--- request de pouls one-shot 2
+U> peux-tu me donner mon pouls
+S> Votre pouls est de 100.
+
+--- request de respiration one-shot 2
+U> peux-tu me donner mon respiration
+S> Votre respiration est de 100.
+
+--- request de fréquencerespiratoire one-shot 2
+U> peux-tu me donner mon fréquencerespiratoire
+S> Votre fréquencerespiratoire est de 100.
+
+--- request de pas one-shot 2
+U> peux-tu me donner mon pas
+S> Votre pas est de 100.
+
+--- request de podomètre one-shot 2
+U> peux-tu me donner mon podomètre
+S> Votre podomètre est de 100.
+
+
+--- request de température one-shot 3
+U> connaître mon température
+S> Votre température est de 100.
+
+--- request de rythmecardiaque one-shot 3
+U> connaître mon rythmecardiaque
+S> Votre rythmecardiaque est de 100.
+
+--- request de pouls one-shot 3
+U> connaître mon pouls
+S> Votre pouls est de 100.
+
+--- request de respiration one-shot 3
+U> connaître mon respiration
+S> Votre respiration est de 100.
+
+--- request de fréquencerespiratoire one-shot 3
+U> connaître mon fréquencerespiratoire
+S> Votre fréquencerespiratoire est de 100.
+
+--- request de pas one-shot 3
+U> connaître mon pas
+S> Votre pas est de 100.
+
+--- request de podomètre one-shot 3
+U> connaître mon podomètre
+S> Votre podomètre est de 100.
+
+
+--- request de température one-shot 4
+U> peux-tu me donner ma température
+S> Votre température est de 100.
+
+--- request de rythmecardiaque one-shot 4
+U> peux-tu me donner ma rythmecardiaque
+S> Votre rythmecardiaque est de 100.
+
+--- request de pouls one-shot 4
+U> peux-tu me donner ma pouls
+S> Votre pouls est de 100.
+
+--- request de respiration one-shot 4
+U> peux-tu me donner ma respiration
+S> Votre respiration est de 100.
+
+--- request de fréquencerespiratoire one-shot 4
+U> peux-tu me donner ma fréquencerespiratoire
+S> Votre fréquencerespiratoire est de 100.
+
+--- request de pas one-shot 4
+U> peux-tu me donner ma pas
+S> Votre pas est de 100.
+
+--- request de podomètre one-shot 4
+U> peux-tu me donner ma podomètre
+S> Votre podomètre est de 100.
+
+
+--- request de température one-shot 5
+U> donne-moi mon température
+S> Votre température est de 100.
+
+--- request de rythmecardiaque one-shot 5
+U> donne-moi mon rythmecardiaque
+S> Votre rythmecardiaque est de 100.
+
+--- request de pouls one-shot 5
+U> donne-moi mon pouls
+S> Votre pouls est de 100.
+
+--- request de respiration one-shot 5
+U> donne-moi mon respiration
+S> Votre respiration est de 100.
+
+--- request de fréquencerespiratoire one-shot 5
+U> donne-moi mon fréquencerespiratoire
+S> Votre fréquencerespiratoire est de 100.
+
+--- request de pas one-shot 5
+U> donne-moi mon pas
+S> Votre pas est de 100.
+
+--- request de podomètre one-shot 5
+U> donne-moi mon podomètre
+S> Votre podomètre est de 100.
+
+
+--- request de température one-shot 6
+U> quel est mon température
+S> Votre température est de 100.
+
+--- request de rythmecardiaque one-shot 6
+U> quel est mon rythmecardiaque
+S> Votre rythmecardiaque est de 100.
+
+--- request de pouls one-shot 6
+U> quel est mon pouls
+S> Votre pouls est de 100.
+
+--- request de respiration one-shot 6
+U> quel est mon respiration
+S> Votre respiration est de 100.
+
+--- request de fréquencerespiratoire one-shot 6
+U> quel est mon fréquencerespiratoire
+S> Votre fréquencerespiratoire est de 100.
+
+--- request de pas one-shot 6
+U> quel est mon pas
+S> Votre pas est de 100.
+
+--- request de podomètre one-shot 6
+U> quel est mon podomètre
+S> Votre podomètre est de 100.
+
+--- request de température one-shot 7
+U> savoir le nombre de température
+S> Votre température est de 100.
+
+--- request de rythmecardiaque one-shot 7
+U> savoir le nombre de rythmecardiaque
+S> Votre rythmecardiaque est de 100.
+
+--- request de pouls one-shot 7
+U> savoir le nombre de pouls
+S> Votre pouls est de 100.
+
+--- request de respiration one-shot 7
+U> savoir le nombre de respiration
+S> Votre respiration est de 100.
+
+--- request de fréquencerespiratoire one-shot 7
+U> savoir le nombre de fréquencerespiratoire
+S> Votre fréquencerespiratoire est de 100.
+
+--- request de pas one-shot 7
+U> savoir le nombre de pas
+S> Votre pas est de 100.
+
+--- request de podomètre one-shot 7
+U> savoir le nombre de podomètre
+S> Votre podomètre est de 100.
+
+
+--- request de température one-shot 8
+U> m'indiquer ma température
+S> Votre température est de 100.
+
+--- request de rythmecardiaque one-shot 8
+U> m'indiquer ma rythmecardiaque
+S> Votre rythmecardiaque est de 100.
+
+--- request de pouls one-shot 8
+U> m'indiquer ma pouls
+S> Votre pouls est de 100.
+
+--- request de respiration one-shot 8
+U> m'indiquer ma respiration
+S> Votre respiration est de 100.
+
+--- request de fréquencerespiratoire one-shot 8
+U> m'indiquer ma fréquencerespiratoire
+S> Votre fréquencerespiratoire est de 100.
+
+--- request de pas one-shot 8
+U> m'indiquer ma pas
+S> Votre pas est de 100.
+
+--- request de podomètre one-shot 8
+U> m'indiquer ma podomètre
+S> Votre podomètre est de 100.
+
+
+
+--- request de température one-shot 9
+U> ma température
+S> Votre température est de 100.
+
+--- request de rythmecardiaque one-shot 9
+U> ma rythmecardiaque
+S> Votre rythmecardiaque est de 100.
+
+--- request de pouls one-shot 9
+U> ma pouls
+S> Votre pouls est de 100.
+
+--- request de respiration one-shot 9
+U> ma respiration
+S> Votre respiration est de 100.
+
+--- request de fréquencerespiratoire one-shot 9
+U> ma fréquencerespiratoire
+S> Votre fréquencerespiratoire est de 100.
+
+--- request de pas one-shot 9
+U> ma pas
+S> Votre pas est de 100.
+
+--- request de podomètre one-shot 9
+U> ma podomètre
+S> Votre podomètre est de 100.
+
+
+--- request de température one-shot 10
+U> calcule ma température
+S> Votre température est de 100.
+
+--- request de rythmecardiaque one-shot 10
+U> calcule ma rythmecardiaque
+S> Votre rythmecardiaque est de 100.
+
+--- request de pouls one-shot 10
+U> calcule ma pouls
+S> Votre pouls est de 100.
+
+--- request de respiration one-shot 10
+U> calcule ma respiration
+S> Votre respiration est de 100.
+
+--- request de fréquencerespiratoire one-shot 10
+U> calcule ma fréquencerespiratoire
+S> Votre fréquencerespiratoire est de 100.
+
+--- request de pas one-shot 10
+U> calcule ma pas
+S> Votre pas est de 100.
+
+--- request de podomètre one-shot 10
+U> calcule ma podomètre
+S> Votre podomètre est de 100.
+
+
+--- request de température one-shot 11
+U> montre ma température
+S> Votre température est de 100.
+
+--- request de rythmecardiaque one-shot 11
+U> montre ma rythmecardiaque
+S> Votre rythmecardiaque est de 100.
+
+--- request de pouls one-shot 11
+U> montre ma pouls
+S> Votre pouls est de 100.
+
+--- request de respiration one-shot 11
+U> montre ma respiration
+S> Votre respiration est de 100.
+
+--- request de fréquencerespiratoire one-shot 11
+U> montre ma fréquencerespiratoire
+S> Votre fréquencerespiratoire est de 100.
+
+--- request de pas one-shot 11
+U> montre ma pas
+S> Votre pas est de 100.
+
+--- request de podomètre one-shot 11
+U> montre ma podomètre
+S> Votre podomètre est de 100.
+
+
+--- request de température one-shot 12
+U> montre-moi ma température
+S> Votre température est de 100.
+
+--- request de rythmecardiaque one-shot 12
+U> montre-moi ma rythmecardiaque
+S> Votre rythmecardiaque est de 100.
+
+--- request de pouls one-shot 12
+U> montre-moi ma pouls
+S> Votre pouls est de 100.
+
+--- request de respiration one-shot 12
+U> montre-moi ma respiration
+S> Votre respiration est de 100.
+
+--- request de fréquencerespiratoire one-shot 12
+U> montre-moi ma fréquencerespiratoire
+S> Votre fréquencerespiratoire est de 100.
+
+--- request de pas one-shot 12
+U> montre-moi ma pas
+S> Votre pas est de 100.
+
+--- request de podomètre one-shot 12
+U> montre-moi ma podomètre
+S> Votre podomètre est de 100.
+
+
+
+
+# alarm clock
+--- bonjour - joyeux
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> joyeux
+S> Vous vous sentez joyeux, c'est fantastique.
+
+--- bonjour - gai
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> gai
+S> Vous vous sentez gai, je suis heureux de l'entendre. Voulez-vous que je vous suggère un événement?.
+
+--- bonjour - comblé
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> comblé
+S> Vous vous sentez comblé, ça va bien.
+
+--- bonjour - efficace
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> efficace
+S> Vous vous sentez efficace, voulez-vous que je vous suggère un événement?.
+
+--- bonjour - fier
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> fier
+S> Vous vous sentez fier, ravi de l'entendre. Passez une belle journée! Voulez-vous que je vous suggère un événement?.
+
+--- bonjour - ravi
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> ravi
+S> Vous vous sentez ravi, ça va.
+
+--- bonjour - calme
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> calme
+S> Vous vous sentez calme, je peux vous aider.
+
+--- bonjour - indifférent
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> indifférent
+S> Vous vous sentez indifférent, voulez-vous que je vous suggère un jeu?.
+
+--- bonjour - détendu
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> détendu
+S> Vous vous sentez détendu, voulez-vous écouter de la musique?.
+
+--- bonjour - normal
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> normal
+S> Vous vous sentez normal, je peux vous aider.
+
+--- bonjour - bien
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> bien
+S> Vous vous sentez bien, voulez-vous que je vous suggère un jeu?.
+
+--- bonjour - fragile
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> fragile
+S> Vous vous sentez fragile, je peux vous aider.
+
+--- bonjour - surpris
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> surpris
+S> Vous vous sentez surpris, voulez-vous que je vous suggère un jeu?.
+
+--- bonjour - sérieux
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> sérieux
+S> Vous vous sentez sérieux, voulez-vous écouter de la musique?.
+
+--- bonjour - pensif
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> pensif
+S> Vous vous sentez pensif, je peux vous aider.
+
+--- bonjour - préoccupé
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> préoccupé
+S> Vous vous sentez préoccupé, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- bonjour - inquiet
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> inquiet
+S> Vous vous sentez inquiet, voulez-vous que je passe un appel?.
+
+--- bonjour - nerveux
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> nerveux
+S> Vous vous sentez nerveux, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- bonjour - troublé
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> troublé
+S> Vous vous sentez troublé, voulez-vous que je passe un appel?.
+
+--- bonjour - anxieux
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> anxieux
+S> Vous vous sentez anxieux, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- bonjour - effrayé
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> effrayé
+S> Vous vous sentez effrayé, voulez-vous que je passe un appel?.
+
+--- bonjour - apeuré
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> apeuré
+S> Vous vous sentez apeuré, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- bonjour - tendu
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> tendu
+S> Vous vous sentez tendu, voulez-vous que je passe un appel?.
+
+--- bonjour - ennuyé
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> ennuyé
+S> Vous vous sentez ennuyé, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- bonjour - triste
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> triste
+S> Vous vous sentez triste, voulez-vous que je passe un appel?.
+
+--- bonjour - mal
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> mal
+S> Vous vous sentez mal, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- bonjour - déçu
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> déçu
+S> Vous vous sentez déçu, voulez-vous que je passe un appel?.
+
+--- bonjour - fatigué
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> fatigué
+S> Vous vous sentez fatigué, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- bonjour - mélancolique
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> mélancolique
+S> Vous vous sentez mélancolique, voulez-vous que je passe un appel?.
+
+--- bonjour - mécontent
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> mécontent
+S> Vous vous sentez mécontent, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- bonjour - colère
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> colère
+S> Vous vous sentez colère, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- bonjour - irrité
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> irrité
+S> Vous vous sentez irrité, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- bonjour - contrarié
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> contrarié
+S> Vous vous sentez contrarié, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- bonjour - dégoëfté
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> dégoëfté
+S> Vous vous sentez dégoëfté, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- bonjour - fâché
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> fâché
+S> Vous vous sentez fâché, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- bonjour - froid
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> froid
+S> Vous vous sentez froid, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- bonjour - malade
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> malade
+S> Vous vous sentez malade, ca sé presente mal. Voulez-vous que j e passe un appel?.
+
+--- bonjour - déprimé
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> déprimé
+S> Vous vous sentez déprimé, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- bonjour - maussade
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> maussade
+S> Vous vous sentez maussade, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- bonjour - frustré
+U> bonjour
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> frustré
+S> Vous vous sentez frustré, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+
+--- bonjour alfred - joyeux
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> joyeux
+S> Vous vous sentez joyeux, c'est fantastique.
+
+--- bonjour alfred - gai
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> gai
+S> Vous vous sentez gai, je suis heureux de l'entendre. Voulez-vous que je vous suggère un événement?.
+
+--- bonjour alfred - comblé
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> comblé
+S> Vous vous sentez comblé, ça va bien.
+
+--- bonjour alfred - efficace
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> efficace
+S> Vous vous sentez efficace, voulez-vous que je vous suggère un événement?.
+
+--- bonjour alfred - fier
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> fier
+S> Vous vous sentez fier, ravi de l'entendre. Passez une belle journée! Voulez-vous que je vous suggère un événement?.
+
+--- bonjour alfred - ravi
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> ravi
+S> Vous vous sentez ravi, ça va.
+
+--- bonjour alfred - calme
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> calme
+S> Vous vous sentez calme, je peux vous aider.
+
+--- bonjour alfred - indifférent
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> indifférent
+S> Vous vous sentez indifférent, voulez-vous que je vous suggère un jeu?.
+
+--- bonjour alfred - détendu
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> détendu
+S> Vous vous sentez détendu, voulez-vous écouter de la musique?.
+
+--- bonjour alfred - normal
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> normal
+S> Vous vous sentez normal, je peux vous aider.
+
+--- bonjour alfred - bien
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> bien
+S> Vous vous sentez bien, voulez-vous que je vous suggère un jeu?.
+
+--- bonjour alfred - fragile
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> fragile
+S> Vous vous sentez fragile, je peux vous aider.
+
+--- bonjour alfred - surpris
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> surpris
+S> Vous vous sentez surpris, voulez-vous que je vous suggère un jeu?.
+
+--- bonjour alfred - sérieux
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> sérieux
+S> Vous vous sentez sérieux, voulez-vous écouter de la musique?.
+
+--- bonjour alfred - pensif
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> pensif
+S> Vous vous sentez pensif, je peux vous aider.
+
+--- bonjour alfred - préoccupé
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> préoccupé
+S> Vous vous sentez préoccupé, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- bonjour alfred - inquiet
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> inquiet
+S> Vous vous sentez inquiet, voulez-vous que je passe un appel?.
+
+--- bonjour alfred - nerveux
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> nerveux
+S> Vous vous sentez nerveux, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- bonjour alfred - troublé
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> troublé
+S> Vous vous sentez troublé, voulez-vous que je passe un appel?.
+
+--- bonjour alfred - anxieux
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> anxieux
+S> Vous vous sentez anxieux, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- bonjour alfred - effrayé
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> effrayé
+S> Vous vous sentez effrayé, voulez-vous que je passe un appel?.
+
+--- bonjour alfred - apeuré
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> apeuré
+S> Vous vous sentez apeuré, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- bonjour alfred - tendu
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> tendu
+S> Vous vous sentez tendu, voulez-vous que je passe un appel?.
+
+--- bonjour alfred - ennuyé
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> ennuyé
+S> Vous vous sentez ennuyé, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- bonjour alfred - triste
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> triste
+S> Vous vous sentez triste, voulez-vous que je passe un appel?.
+
+--- bonjour alfred - mal
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> mal
+S> Vous vous sentez mal, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- bonjour alfred - déçu
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> déçu
+S> Vous vous sentez déçu, voulez-vous que je passe un appel?.
+
+--- bonjour alfred - fatigué
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> fatigué
+S> Vous vous sentez fatigué, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- bonjour alfred - mélancolique
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> mélancolique
+S> Vous vous sentez mélancolique, voulez-vous que je passe un appel?.
+
+--- bonjour alfred - mécontent
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> mécontent
+S> Vous vous sentez mécontent, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- bonjour alfred - colère
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> colère
+S> Vous vous sentez colère, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- bonjour alfred - irrité
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> irrité
+S> Vous vous sentez irrité, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- bonjour alfred - contrarié
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> contrarié
+S> Vous vous sentez contrarié, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- bonjour alfred - dégoëfté
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> dégoëfté
+S> Vous vous sentez dégoëfté, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- bonjour alfred - fâché
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> fâché
+S> Vous vous sentez fâché, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- bonjour alfred - froid
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> froid
+S> Vous vous sentez froid, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- bonjour alfred - malade
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> malade
+S> Vous vous sentez malade, ca sé presente mal. Voulez-vous que j e passe un appel?.
+
+--- bonjour alfred - déprimé
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> déprimé
+S> Vous vous sentez déprimé, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- bonjour alfred - maussade
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> maussade
+S> Vous vous sentez maussade, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- bonjour alfred - frustré
+U> bonjour alfred
+S> Bonjour, comment vous sentez-vous aujourd’hui?
+U> frustré
+S> Vous vous sentez frustré, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+
+--- je suis - joyeux
+U> je suis joyeux
+S> Vous vous sentez joyeux, c'est fantastique.
+
+--- je suis - gai
+U> je suis gai
+S> Vous vous sentez gai, je suis heureux de l'entendre. Voulez-vous que je vous suggère un événement?.
+
+--- je suis - comblé
+U> je suis comblé
+S> Vous vous sentez comblé, ça va bien.
+
+--- je suis - efficace
+U> je suis efficace
+S> Vous vous sentez efficace, voulez-vous que je vous suggère un événement?.
+
+--- je suis - fier
+U> je suis fier
+S> Vous vous sentez fier, ravi de l'entendre. Passez une belle journée! Voulez-vous que je vous suggère un événement?.
+
+--- je suis - ravi
+U> je suis ravi
+S> Vous vous sentez ravi, ça va.
+
+--- je suis - calme
+U> je suis calme
+S> Vous vous sentez calme, je peux vous aider.
+
+--- je suis - indifférent
+U> je suis indifférent
+S> Vous vous sentez indifférent, voulez-vous que je vous suggère un jeu?.
+
+--- je suis - détendu
+U> je suis détendu
+S> Vous vous sentez détendu, voulez-vous écouter de la musique?.
+
+--- je suis - normal
+U> je suis normal
+S> Vous vous sentez normal, je peux vous aider.
+
+--- je suis - bien
+U> je suis bien
+S> Vous vous sentez bien, voulez-vous que je vous suggère un jeu?.
+
+--- je suis - fragile
+U> je suis fragile
+S> Vous vous sentez fragile, je peux vous aider.
+
+--- je suis - surpris
+U> je suis surpris
+S> Vous vous sentez surpris, voulez-vous que je vous suggère un jeu?.
+
+--- je suis - sérieux
+U> je suis sérieux
+S> Vous vous sentez sérieux, voulez-vous écouter de la musique?.
+
+--- je suis - pensif
+U> je suis pensif
+S> Vous vous sentez pensif, je peux vous aider.
+
+--- je suis - préoccupé
+U> je suis préoccupé
+S> Vous vous sentez préoccupé, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- je suis - inquiet
+U> je suis inquiet
+S> Vous vous sentez inquiet, voulez-vous que je passe un appel?.
+
+--- je suis - nerveux
+U> je suis nerveux
+S> Vous vous sentez nerveux, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- je suis - troublé
+U> je suis troublé
+S> Vous vous sentez troublé, voulez-vous que je passe un appel?.
+
+--- je suis - anxieux
+U> je suis anxieux
+S> Vous vous sentez anxieux, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- je suis - effrayé
+U> je suis effrayé
+S> Vous vous sentez effrayé, voulez-vous que je passe un appel?.
+
+--- je suis - apeuré
+U> je suis apeuré
+S> Vous vous sentez apeuré, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- je suis - tendu
+U> je suis tendu
+S> Vous vous sentez tendu, voulez-vous que je passe un appel?.
+
+--- je suis - ennuyé
+U> je suis ennuyé
+S> Vous vous sentez ennuyé, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- je suis - triste
+U> je suis triste
+S> Vous vous sentez triste, voulez-vous que je passe un appel?.
+
+--- je suis - mal
+U> je suis mal
+S> Vous vous sentez mal, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- je suis - déçu
+U> je suis déçu
+S> Vous vous sentez déçu, voulez-vous que je passe un appel?.
+
+--- je suis - fatigué
+U> je suis fatigué
+S> Vous vous sentez fatigué, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- je suis - mélancolique
+U> je suis mélancolique
+S> Vous vous sentez mélancolique, voulez-vous que je passe un appel?.
+
+--- je suis - mécontent
+U> je suis mécontent
+S> Vous vous sentez mécontent, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- je suis - colère
+U> je suis colère
+S> Vous vous sentez colère, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- je suis - irrité
+U> je suis irrité
+S> Vous vous sentez irrité, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- je suis - contrarié
+U> je suis contrarié
+S> Vous vous sentez contrarié, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- je suis - dégoëfté
+U> je suis dégoëfté
+S> Vous vous sentez dégoëfté, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- je suis - fâché
+U> je suis fâché
+S> Vous vous sentez fâché, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- je suis - froid
+U> je suis froid
+S> Vous vous sentez froid, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- je suis - malade
+U> je suis malade
+S> Vous vous sentez malade, ca sé presente mal. Voulez-vous que j e passe un appel?.
+
+--- je suis - déprimé
+U> je suis déprimé
+S> Vous vous sentez déprimé, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- je suis - maussade
+U> je suis maussade
+S> Vous vous sentez maussade, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- je suis - frustré
+U> je suis frustré
+S> Vous vous sentez frustré, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+
+--- aujourd'hui j'ai - joyeux
+U> aujourd'hui j'ai joyeux
+S> Vous vous sentez joyeux, c'est fantastique.
+
+--- aujourd'hui j'ai - gai
+U> aujourd'hui j'ai gai
+S> Vous vous sentez gai, je suis heureux de l'entendre. Voulez-vous que je vous suggère un événement?.
+
+--- aujourd'hui j'ai - comblé
+U> aujourd'hui j'ai comblé
+S> Vous vous sentez comblé, ça va bien.
+
+--- aujourd'hui j'ai - efficace
+U> aujourd'hui j'ai efficace
+S> Vous vous sentez efficace, voulez-vous que je vous suggère un événement?.
+
+--- aujourd'hui j'ai - fier
+U> aujourd'hui j'ai fier
+S> Vous vous sentez fier, ravi de l'entendre. Passez une belle journée! Voulez-vous que je vous suggère un événement?.
+
+--- aujourd'hui j'ai - ravi
+U> aujourd'hui j'ai ravi
+S> Vous vous sentez ravi, ça va.
+
+--- aujourd'hui j'ai - calme
+U> aujourd'hui j'ai calme
+S> Vous vous sentez calme, je peux vous aider.
+
+--- aujourd'hui j'ai - indifférent
+U> aujourd'hui j'ai indifférent
+S> Vous vous sentez indifférent, voulez-vous que je vous suggère un jeu?.
+
+--- aujourd'hui j'ai - détendu
+U> aujourd'hui j'ai détendu
+S> Vous vous sentez détendu, voulez-vous écouter de la musique?.
+
+--- aujourd'hui j'ai - normal
+U> aujourd'hui j'ai normal
+S> Vous vous sentez normal, je peux vous aider.
+
+--- aujourd'hui j'ai - bien
+U> aujourd'hui j'ai bien
+S> Vous vous sentez bien, voulez-vous que je vous suggère un jeu?.
+
+--- aujourd'hui j'ai - fragile
+U> aujourd'hui j'ai fragile
+S> Vous vous sentez fragile, je peux vous aider.
+
+--- aujourd'hui j'ai - surpris
+U> aujourd'hui j'ai surpris
+S> Vous vous sentez surpris, voulez-vous que je vous suggère un jeu?.
+
+--- aujourd'hui j'ai - sérieux
+U> aujourd'hui j'ai sérieux
+S> Vous vous sentez sérieux, voulez-vous écouter de la musique?.
+
+--- aujourd'hui j'ai - pensif
+U> aujourd'hui j'ai pensif
+S> Vous vous sentez pensif, je peux vous aider.
+
+--- aujourd'hui j'ai - préoccupé
+U> aujourd'hui j'ai préoccupé
+S> Vous vous sentez préoccupé, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- aujourd'hui j'ai - inquiet
+U> aujourd'hui j'ai inquiet
+S> Vous vous sentez inquiet, voulez-vous que je passe un appel?.
+
+--- aujourd'hui j'ai - nerveux
+U> aujourd'hui j'ai nerveux
+S> Vous vous sentez nerveux, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- aujourd'hui j'ai - troublé
+U> aujourd'hui j'ai troublé
+S> Vous vous sentez troublé, voulez-vous que je passe un appel?.
+
+--- aujourd'hui j'ai - anxieux
+U> aujourd'hui j'ai anxieux
+S> Vous vous sentez anxieux, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- aujourd'hui j'ai - effrayé
+U> aujourd'hui j'ai effrayé
+S> Vous vous sentez effrayé, voulez-vous que je passe un appel?.
+
+--- aujourd'hui j'ai - apeuré
+U> aujourd'hui j'ai apeuré
+S> Vous vous sentez apeuré, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- aujourd'hui j'ai - tendu
+U> aujourd'hui j'ai tendu
+S> Vous vous sentez tendu, voulez-vous que je passe un appel?.
+
+--- aujourd'hui j'ai - ennuyé
+U> aujourd'hui j'ai ennuyé
+S> Vous vous sentez ennuyé, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- aujourd'hui j'ai - triste
+U> aujourd'hui j'ai triste
+S> Vous vous sentez triste, voulez-vous que je passe un appel?.
+
+--- aujourd'hui j'ai - mal
+U> aujourd'hui j'ai mal
+S> Vous vous sentez mal, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- aujourd'hui j'ai - déçu
+U> aujourd'hui j'ai déçu
+S> Vous vous sentez déçu, voulez-vous que je passe un appel?.
+
+--- aujourd'hui j'ai - fatigué
+U> aujourd'hui j'ai fatigué
+S> Vous vous sentez fatigué, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- aujourd'hui j'ai - mélancolique
+U> aujourd'hui j'ai mélancolique
+S> Vous vous sentez mélancolique, voulez-vous que je passe un appel?.
+
+--- aujourd'hui j'ai - mécontent
+U> aujourd'hui j'ai mécontent
+S> Vous vous sentez mécontent, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- aujourd'hui j'ai - colère
+U> aujourd'hui j'ai colère
+S> Vous vous sentez colère, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- aujourd'hui j'ai - irrité
+U> aujourd'hui j'ai irrité
+S> Vous vous sentez irrité, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- aujourd'hui j'ai - contrarié
+U> aujourd'hui j'ai contrarié
+S> Vous vous sentez contrarié, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- aujourd'hui j'ai - dégoëfté
+U> aujourd'hui j'ai dégoëfté
+S> Vous vous sentez dégoëfté, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- aujourd'hui j'ai - fâché
+U> aujourd'hui j'ai fâché
+S> Vous vous sentez fâché, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- aujourd'hui j'ai - froid
+U> aujourd'hui j'ai froid
+S> Vous vous sentez froid, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- aujourd'hui j'ai - malade
+U> aujourd'hui j'ai malade
+S> Vous vous sentez malade, ca sé presente mal. Voulez-vous que j e passe un appel?.
+
+--- aujourd'hui j'ai - déprimé
+U> aujourd'hui j'ai déprimé
+S> Vous vous sentez déprimé, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- aujourd'hui j'ai - maussade
+U> aujourd'hui j'ai maussade
+S> Vous vous sentez maussade, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- aujourd'hui j'ai - frustré
+U> aujourd'hui j'ai frustré
+S> Vous vous sentez frustré, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+
+--- aujourd'hui je me sens - joyeux
+U> aujourd'hui je me sens joyeux
+S> Vous vous sentez joyeux, c'est fantastique.
+
+--- aujourd'hui je me sens - gai
+U> aujourd'hui je me sens gai
+S> Vous vous sentez gai, je suis heureux de l'entendre. Voulez-vous que je vous suggère un événement?.
+
+--- aujourd'hui je me sens - comblé
+U> aujourd'hui je me sens comblé
+S> Vous vous sentez comblé, ça va bien.
+
+--- aujourd'hui je me sens - efficace
+U> aujourd'hui je me sens efficace
+S> Vous vous sentez efficace, voulez-vous que je vous suggère un événement?.
+
+--- aujourd'hui je me sens - fier
+U> aujourd'hui je me sens fier
+S> Vous vous sentez fier, ravi de l'entendre. Passez une belle journée! Voulez-vous que je vous suggère un événement?.
+
+--- aujourd'hui je me sens - ravi
+U> aujourd'hui je me sens ravi
+S> Vous vous sentez ravi, ça va.
+
+--- aujourd'hui je me sens - calme
+U> aujourd'hui je me sens calme
+S> Vous vous sentez calme, je peux vous aider.
+
+--- aujourd'hui je me sens - indifférent
+U> aujourd'hui je me sens indifférent
+S> Vous vous sentez indifférent, voulez-vous que je vous suggère un jeu?.
+
+--- aujourd'hui je me sens - détendu
+U> aujourd'hui je me sens détendu
+S> Vous vous sentez détendu, voulez-vous écouter de la musique?.
+
+--- aujourd'hui je me sens - normal
+U> aujourd'hui je me sens normal
+S> Vous vous sentez normal, je peux vous aider.
+
+--- aujourd'hui je me sens - bien
+U> aujourd'hui je me sens bien
+S> Vous vous sentez bien, voulez-vous que je vous suggère un jeu?.
+
+--- aujourd'hui je me sens - fragile
+U> aujourd'hui je me sens fragile
+S> Vous vous sentez fragile, je peux vous aider.
+
+--- aujourd'hui je me sens - surpris
+U> aujourd'hui je me sens surpris
+S> Vous vous sentez surpris, voulez-vous que je vous suggère un jeu?.
+
+--- aujourd'hui je me sens - sérieux
+U> aujourd'hui je me sens sérieux
+S> Vous vous sentez sérieux, voulez-vous écouter de la musique?.
+
+--- aujourd'hui je me sens - pensif
+U> aujourd'hui je me sens pensif
+S> Vous vous sentez pensif, je peux vous aider.
+
+--- aujourd'hui je me sens - préoccupé
+U> aujourd'hui je me sens préoccupé
+S> Vous vous sentez préoccupé, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- aujourd'hui je me sens - inquiet
+U> aujourd'hui je me sens inquiet
+S> Vous vous sentez inquiet, voulez-vous que je passe un appel?.
+
+--- aujourd'hui je me sens - nerveux
+U> aujourd'hui je me sens nerveux
+S> Vous vous sentez nerveux, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- aujourd'hui je me sens - troublé
+U> aujourd'hui je me sens troublé
+S> Vous vous sentez troublé, voulez-vous que je passe un appel?.
+
+--- aujourd'hui je me sens - anxieux
+U> aujourd'hui je me sens anxieux
+S> Vous vous sentez anxieux, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- aujourd'hui je me sens - effrayé
+U> aujourd'hui je me sens effrayé
+S> Vous vous sentez effrayé, voulez-vous que je passe un appel?.
+
+--- aujourd'hui je me sens - apeuré
+U> aujourd'hui je me sens apeuré
+S> Vous vous sentez apeuré, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- aujourd'hui je me sens - tendu
+U> aujourd'hui je me sens tendu
+S> Vous vous sentez tendu, voulez-vous que je passe un appel?.
+
+--- aujourd'hui je me sens - ennuyé
+U> aujourd'hui je me sens ennuyé
+S> Vous vous sentez ennuyé, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- aujourd'hui je me sens - triste
+U> aujourd'hui je me sens triste
+S> Vous vous sentez triste, voulez-vous que je passe un appel?.
+
+--- aujourd'hui je me sens - mal
+U> aujourd'hui je me sens mal
+S> Vous vous sentez mal, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- aujourd'hui je me sens - déçu
+U> aujourd'hui je me sens déçu
+S> Vous vous sentez déçu, voulez-vous que je passe un appel?.
+
+--- aujourd'hui je me sens - fatigué
+U> aujourd'hui je me sens fatigué
+S> Vous vous sentez fatigué, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- aujourd'hui je me sens - mélancolique
+U> aujourd'hui je me sens mélancolique
+S> Vous vous sentez mélancolique, voulez-vous que je passe un appel?.
+
+--- aujourd'hui je me sens - mécontent
+U> aujourd'hui je me sens mécontent
+S> Vous vous sentez mécontent, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- aujourd'hui je me sens - colère
+U> aujourd'hui je me sens colère
+S> Vous vous sentez colère, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- aujourd'hui je me sens - irrité
+U> aujourd'hui je me sens irrité
+S> Vous vous sentez irrité, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- aujourd'hui je me sens - contrarié
+U> aujourd'hui je me sens contrarié
+S> Vous vous sentez contrarié, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- aujourd'hui je me sens - dégoëfté
+U> aujourd'hui je me sens dégoëfté
+S> Vous vous sentez dégoëfté, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- aujourd'hui je me sens - fâché
+U> aujourd'hui je me sens fâché
+S> Vous vous sentez fâché, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- aujourd'hui je me sens - froid
+U> aujourd'hui je me sens froid
+S> Vous vous sentez froid, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- aujourd'hui je me sens - malade
+U> aujourd'hui je me sens malade
+S> Vous vous sentez malade, ca sé presente mal. Voulez-vous que j e passe un appel?.
+
+--- aujourd'hui je me sens - déprimé
+U> aujourd'hui je me sens déprimé
+S> Vous vous sentez déprimé, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- aujourd'hui je me sens - maussade
+U> aujourd'hui je me sens maussade
+S> Vous vous sentez maussade, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- aujourd'hui je me sens - frustré
+U> aujourd'hui je me sens frustré
+S> Vous vous sentez frustré, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- aujourd'hui je suis - joyeux
+U> aujourd'hui je suis joyeux
+S> Vous vous sentez joyeux, c'est fantastique.
+
+--- aujourd'hui je suis - gai
+U> aujourd'hui je suis gai
+S> Vous vous sentez gai, je suis heureux de l'entendre. Voulez-vous que je vous suggère un événement?.
+
+--- aujourd'hui je suis - comblé
+U> aujourd'hui je suis comblé
+S> Vous vous sentez comblé, ça va bien.
+
+--- aujourd'hui je suis - efficace
+U> aujourd'hui je suis efficace
+S> Vous vous sentez efficace, voulez-vous que je vous suggère un événement?.
+
+--- aujourd'hui je suis - fier
+U> aujourd'hui je suis fier
+S> Vous vous sentez fier, ravi de l'entendre. Passez une belle journée! Voulez-vous que je vous suggère un événement?.
+
+--- aujourd'hui je suis - ravi
+U> aujourd'hui je suis ravi
+S> Vous vous sentez ravi, ça va.
+
+--- aujourd'hui je suis - calme
+U> aujourd'hui je suis calme
+S> Vous vous sentez calme, je peux vous aider.
+
+--- aujourd'hui je suis - indifférent
+U> aujourd'hui je suis indifférent
+S> Vous vous sentez indifférent, voulez-vous que je vous suggère un jeu?.
+
+--- aujourd'hui je suis - détendu
+U> aujourd'hui je suis détendu
+S> Vous vous sentez détendu, voulez-vous écouter de la musique?.
+
+--- aujourd'hui je suis - normal
+U> aujourd'hui je suis normal
+S> Vous vous sentez normal, je peux vous aider.
+
+--- aujourd'hui je suis - bien
+U> aujourd'hui je suis bien
+S> Vous vous sentez bien, voulez-vous que je vous suggère un jeu?.
+
+--- aujourd'hui je suis - fragile
+U> aujourd'hui je suis fragile
+S> Vous vous sentez fragile, je peux vous aider.
+
+--- aujourd'hui je suis - surpris
+U> aujourd'hui je suis surpris
+S> Vous vous sentez surpris, voulez-vous que je vous suggère un jeu?.
+
+--- aujourd'hui je suis - sérieux
+U> aujourd'hui je suis sérieux
+S> Vous vous sentez sérieux, voulez-vous écouter de la musique?.
+
+--- aujourd'hui je suis - pensif
+U> aujourd'hui je suis pensif
+S> Vous vous sentez pensif, je peux vous aider.
+
+--- aujourd'hui je suis - préoccupé
+U> aujourd'hui je suis préoccupé
+S> Vous vous sentez préoccupé, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- aujourd'hui je suis - inquiet
+U> aujourd'hui je suis inquiet
+S> Vous vous sentez inquiet, voulez-vous que je passe un appel?.
+
+--- aujourd'hui je suis - nerveux
+U> aujourd'hui je suis nerveux
+S> Vous vous sentez nerveux, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- aujourd'hui je suis - troublé
+U> aujourd'hui je suis troublé
+S> Vous vous sentez troublé, voulez-vous que je passe un appel?.
+
+--- aujourd'hui je suis - anxieux
+U> aujourd'hui je suis anxieux
+S> Vous vous sentez anxieux, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- aujourd'hui je suis - effrayé
+U> aujourd'hui je suis effrayé
+S> Vous vous sentez effrayé, voulez-vous que je passe un appel?.
+
+--- aujourd'hui je suis - apeuré
+U> aujourd'hui je suis apeuré
+S> Vous vous sentez apeuré, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- aujourd'hui je suis - tendu
+U> aujourd'hui je suis tendu
+S> Vous vous sentez tendu, voulez-vous que je passe un appel?.
+
+--- aujourd'hui je suis - ennuyé
+U> aujourd'hui je suis ennuyé
+S> Vous vous sentez ennuyé, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- aujourd'hui je suis - triste
+U> aujourd'hui je suis triste
+S> Vous vous sentez triste, voulez-vous que je passe un appel?.
+
+--- aujourd'hui je suis - mal
+U> aujourd'hui je suis mal
+S> Vous vous sentez mal, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- aujourd'hui je suis - déçu
+U> aujourd'hui je suis déçu
+S> Vous vous sentez déçu, voulez-vous que je passe un appel?.
+
+--- aujourd'hui je suis - fatigué
+U> aujourd'hui je suis fatigué
+S> Vous vous sentez fatigué, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- aujourd'hui je suis - mélancolique
+U> aujourd'hui je suis mélancolique
+S> Vous vous sentez mélancolique, voulez-vous que je passe un appel?.
+
+--- aujourd'hui je suis - mécontent
+U> aujourd'hui je suis mécontent
+S> Vous vous sentez mécontent, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- aujourd'hui je suis - colère
+U> aujourd'hui je suis colère
+S> Vous vous sentez colère, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- aujourd'hui je suis - irrité
+U> aujourd'hui je suis irrité
+S> Vous vous sentez irrité, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- aujourd'hui je suis - contrarié
+U> aujourd'hui je suis contrarié
+S> Vous vous sentez contrarié, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- aujourd'hui je suis - dégoëfté
+U> aujourd'hui je suis dégoëfté
+S> Vous vous sentez dégoëfté, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- aujourd'hui je suis - fâché
+U> aujourd'hui je suis fâché
+S> Vous vous sentez fâché, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- aujourd'hui je suis - froid
+U> aujourd'hui je suis froid
+S> Vous vous sentez froid, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- aujourd'hui je suis - malade
+U> aujourd'hui je suis malade
+S> Vous vous sentez malade, ca sé presente mal. Voulez-vous que j e passe un appel?.
+
+--- aujourd'hui je suis - déprimé
+U> aujourd'hui je suis déprimé
+S> Vous vous sentez déprimé, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- aujourd'hui je suis - maussade
+U> aujourd'hui je suis maussade
+S> Vous vous sentez maussade, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- aujourd'hui je suis - frustré
+U> aujourd'hui je suis frustré
+S> Vous vous sentez frustré, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+
+--- je me sens - joyeux
+U> je me sens joyeux
+S> Vous vous sentez joyeux, c'est fantastique.
+
+--- je me sens - gai
+U> je me sens gai
+S> Vous vous sentez gai, je suis heureux de l'entendre. Voulez-vous que je vous suggère un événement?.
+
+--- je me sens - comblé
+U> je me sens comblé
+S> Vous vous sentez comblé, ça va bien.
+
+--- je me sens - efficace
+U> je me sens efficace
+S> Vous vous sentez efficace, voulez-vous que je vous suggère un événement?.
+
+--- je me sens - fier
+U> je me sens fier
+S> Vous vous sentez fier, ravi de l'entendre. Passez une belle journée! Voulez-vous que je vous suggère un événement?.
+
+--- je me sens - ravi
+U> je me sens ravi
+S> Vous vous sentez ravi, ça va.
+
+--- je me sens - calme
+U> je me sens calme
+S> Vous vous sentez calme, je peux vous aider.
+
+--- je me sens - indifférent
+U> je me sens indifférent
+S> Vous vous sentez indifférent, voulez-vous que je vous suggère un jeu?.
+
+--- je me sens - détendu
+U> je me sens détendu
+S> Vous vous sentez détendu, voulez-vous écouter de la musique?.
+
+--- je me sens - normal
+U> je me sens normal
+S> Vous vous sentez normal, je peux vous aider.
+
+--- je me sens - bien
+U> je me sens bien
+S> Vous vous sentez bien, voulez-vous que je vous suggère un jeu?.
+
+--- je me sens - fragile
+U> je me sens fragile
+S> Vous vous sentez fragile, je peux vous aider.
+
+--- je me sens - surpris
+U> je me sens surpris
+S> Vous vous sentez surpris, voulez-vous que je vous suggère un jeu?.
+
+--- je me sens - sérieux
+U> je me sens sérieux
+S> Vous vous sentez sérieux, voulez-vous écouter de la musique?.
+
+--- je me sens - pensif
+U> je me sens pensif
+S> Vous vous sentez pensif, je peux vous aider.
+
+--- je me sens - préoccupé
+U> je me sens préoccupé
+S> Vous vous sentez préoccupé, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- je me sens - inquiet
+U> je me sens inquiet
+S> Vous vous sentez inquiet, voulez-vous que je passe un appel?.
+
+--- je me sens - nerveux
+U> je me sens nerveux
+S> Vous vous sentez nerveux, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- je me sens - troublé
+U> je me sens troublé
+S> Vous vous sentez troublé, voulez-vous que je passe un appel?.
+
+--- je me sens - anxieux
+U> je me sens anxieux
+S> Vous vous sentez anxieux, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- je me sens - effrayé
+U> je me sens effrayé
+S> Vous vous sentez effrayé, voulez-vous que je passe un appel?.
+
+--- je me sens - apeuré
+U> je me sens apeuré
+S> Vous vous sentez apeuré, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- je me sens - tendu
+U> je me sens tendu
+S> Vous vous sentez tendu, voulez-vous que je passe un appel?.
+
+--- je me sens - ennuyé
+U> je me sens ennuyé
+S> Vous vous sentez ennuyé, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- je me sens - triste
+U> je me sens triste
+S> Vous vous sentez triste, voulez-vous que je passe un appel?.
+
+--- je me sens - mal
+U> je me sens mal
+S> Vous vous sentez mal, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- je me sens - déçu
+U> je me sens déçu
+S> Vous vous sentez déçu, voulez-vous que je passe un appel?.
+
+--- je me sens - fatigué
+U> je me sens fatigué
+S> Vous vous sentez fatigué, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- je me sens - mélancolique
+U> je me sens mélancolique
+S> Vous vous sentez mélancolique, voulez-vous que je passe un appel?.
+
+--- je me sens - mécontent
+U> je me sens mécontent
+S> Vous vous sentez mécontent, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- je me sens - colère
+U> je me sens colère
+S> Vous vous sentez colère, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- je me sens - irrité
+U> je me sens irrité
+S> Vous vous sentez irrité, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- je me sens - contrarié
+U> je me sens contrarié
+S> Vous vous sentez contrarié, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- je me sens - dégoëfté
+U> je me sens dégoëfté
+S> Vous vous sentez dégoëfté, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- je me sens - fâché
+U> je me sens fâché
+S> Vous vous sentez fâché, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- je me sens - froid
+U> je me sens froid
+S> Vous vous sentez froid, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- je me sens - malade
+U> je me sens malade
+S> Vous vous sentez malade, ca sé presente mal. Voulez-vous que j e passe un appel?.
+
+--- je me sens - déprimé
+U> je me sens déprimé
+S> Vous vous sentez déprimé, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- je me sens - maussade
+U> je me sens maussade
+S> Vous vous sentez maussade, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- je me sens - frustré
+U> je me sens frustré
+S> Vous vous sentez frustré, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- tout va - joyeux
+U> tout va joyeux
+S> Vous vous sentez joyeux, c'est fantastique.
+
+--- tout va - gai
+U> tout va gai
+S> Vous vous sentez gai, je suis heureux de l'entendre. Voulez-vous que je vous suggère un événement?.
+
+--- tout va - comblé
+U> tout va comblé
+S> Vous vous sentez comblé, ça va bien.
+
+--- tout va - efficace
+U> tout va efficace
+S> Vous vous sentez efficace, voulez-vous que je vous suggère un événement?.
+
+--- tout va - fier
+U> tout va fier
+S> Vous vous sentez fier, ravi de l'entendre. Passez une belle journée! Voulez-vous que je vous suggère un événement?.
+
+--- tout va - ravi
+U> tout va ravi
+S> Vous vous sentez ravi, ça va.
+
+--- tout va - calme
+U> tout va calme
+S> Vous vous sentez calme, je peux vous aider.
+
+--- tout va - indifférent
+U> tout va indifférent
+S> Vous vous sentez indifférent, voulez-vous que je vous suggère un jeu?.
+
+--- tout va - détendu
+U> tout va détendu
+S> Vous vous sentez détendu, voulez-vous écouter de la musique?.
+
+--- tout va - normal
+U> tout va normal
+S> Vous vous sentez normal, je peux vous aider.
+
+--- tout va - bien
+U> tout va bien
+S> Vous vous sentez bien, voulez-vous que je vous suggère un jeu?.
+
+--- tout va - fragile
+U> tout va fragile
+S> Vous vous sentez fragile, je peux vous aider.
+
+--- tout va - surpris
+U> tout va surpris
+S> Vous vous sentez surpris, voulez-vous que je vous suggère un jeu?.
+
+--- tout va - sérieux
+U> tout va sérieux
+S> Vous vous sentez sérieux, voulez-vous écouter de la musique?.
+
+--- tout va - pensif
+U> tout va pensif
+S> Vous vous sentez pensif, je peux vous aider.
+
+--- tout va - préoccupé
+U> tout va préoccupé
+S> Vous vous sentez préoccupé, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- tout va - inquiet
+U> tout va inquiet
+S> Vous vous sentez inquiet, voulez-vous que je passe un appel?.
+
+--- tout va - nerveux
+U> tout va nerveux
+S> Vous vous sentez nerveux, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- tout va - troublé
+U> tout va troublé
+S> Vous vous sentez troublé, voulez-vous que je passe un appel?.
+
+--- tout va - anxieux
+U> tout va anxieux
+S> Vous vous sentez anxieux, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- tout va - effrayé
+U> tout va effrayé
+S> Vous vous sentez effrayé, voulez-vous que je passe un appel?.
+
+--- tout va - apeuré
+U> tout va apeuré
+S> Vous vous sentez apeuré, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- tout va - tendu
+U> tout va tendu
+S> Vous vous sentez tendu, voulez-vous que je passe un appel?.
+
+--- tout va - ennuyé
+U> tout va ennuyé
+S> Vous vous sentez ennuyé, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- tout va - triste
+U> tout va triste
+S> Vous vous sentez triste, voulez-vous que je passe un appel?.
+
+--- tout va - mal
+U> tout va mal
+S> Vous vous sentez mal, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- tout va - déçu
+U> tout va déçu
+S> Vous vous sentez déçu, voulez-vous que je passe un appel?.
+
+--- tout va - fatigué
+U> tout va fatigué
+S> Vous vous sentez fatigué, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- tout va - mélancolique
+U> tout va mélancolique
+S> Vous vous sentez mélancolique, voulez-vous que je passe un appel?.
+
+--- tout va - mécontent
+U> tout va mécontent
+S> Vous vous sentez mécontent, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- tout va - colère
+U> tout va colère
+S> Vous vous sentez colère, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- tout va - irrité
+U> tout va irrité
+S> Vous vous sentez irrité, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- tout va - contrarié
+U> tout va contrarié
+S> Vous vous sentez contrarié, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- tout va - dégoëfté
+U> tout va dégoëfté
+S> Vous vous sentez dégoëfté, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- tout va - fâché
+U> tout va fâché
+S> Vous vous sentez fâché, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- tout va - froid
+U> tout va froid
+S> Vous vous sentez froid, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- tout va - malade
+U> tout va malade
+S> Vous vous sentez malade, ca sé presente mal. Voulez-vous que j e passe un appel?.
+
+--- tout va - déprimé
+U> tout va déprimé
+S> Vous vous sentez déprimé, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- tout va - maussade
+U> tout va maussade
+S> Vous vous sentez maussade, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- tout va - frustré
+U> tout va frustré
+S> Vous vous sentez frustré, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+
+--- je m' - joyeux
+U> je m' joyeux
+S> Vous vous sentez joyeux, c'est fantastique.
+
+--- je m' - gai
+U> je m' gai
+S> Vous vous sentez gai, je suis heureux de l'entendre. Voulez-vous que je vous suggère un événement?.
+
+--- je m' - comblé
+U> je m' comblé
+S> Vous vous sentez comblé, ça va bien.
+
+--- je m' - efficace
+U> je m' efficace
+S> Vous vous sentez efficace, voulez-vous que je vous suggère un événement?.
+
+--- je m' - fier
+U> je m' fier
+S> Vous vous sentez fier, ravi de l'entendre. Passez une belle journée! Voulez-vous que je vous suggère un événement?.
+
+--- je m' - ravi
+U> je m' ravi
+S> Vous vous sentez ravi, ça va.
+
+--- je m' - calme
+U> je m' calme
+S> Vous vous sentez calme, je peux vous aider.
+
+--- je m' - indifférent
+U> je m' indifférent
+S> Vous vous sentez indifférent, voulez-vous que je vous suggère un jeu?.
+
+--- je m' - détendu
+U> je m' détendu
+S> Vous vous sentez détendu, voulez-vous écouter de la musique?.
+
+--- je m' - normal
+U> je m' normal
+S> Vous vous sentez normal, je peux vous aider.
+
+--- je m' - bien
+U> je m' bien
+S> Vous vous sentez bien, voulez-vous que je vous suggère un jeu?.
+
+--- je m' - fragile
+U> je m' fragile
+S> Vous vous sentez fragile, je peux vous aider.
+
+--- je m' - surpris
+U> je m' surpris
+S> Vous vous sentez surpris, voulez-vous que je vous suggère un jeu?.
+
+--- je m' - sérieux
+U> je m' sérieux
+S> Vous vous sentez sérieux, voulez-vous écouter de la musique?.
+
+--- je m' - pensif
+U> je m' pensif
+S> Vous vous sentez pensif, je peux vous aider.
+
+--- je m' - préoccupé
+U> je m' préoccupé
+S> Vous vous sentez préoccupé, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- je m' - inquiet
+U> je m' inquiet
+S> Vous vous sentez inquiet, voulez-vous que je passe un appel?.
+
+--- je m' - nerveux
+U> je m' nerveux
+S> Vous vous sentez nerveux, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- je m' - troublé
+U> je m' troublé
+S> Vous vous sentez troublé, voulez-vous que je passe un appel?.
+
+--- je m' - anxieux
+U> je m' anxieux
+S> Vous vous sentez anxieux, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- je m' - effrayé
+U> je m' effrayé
+S> Vous vous sentez effrayé, voulez-vous que je passe un appel?.
+
+--- je m' - apeuré
+U> je m' apeuré
+S> Vous vous sentez apeuré, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- je m' - tendu
+U> je m' tendu
+S> Vous vous sentez tendu, voulez-vous que je passe un appel?.
+
+--- je m' - ennuyé
+U> je m' ennuyé
+S> Vous vous sentez ennuyé, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- je m' - triste
+U> je m' triste
+S> Vous vous sentez triste, voulez-vous que je passe un appel?.
+
+--- je m' - mal
+U> je m' mal
+S> Vous vous sentez mal, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- je m' - déçu
+U> je m' déçu
+S> Vous vous sentez déçu, voulez-vous que je passe un appel?.
+
+--- je m' - fatigué
+U> je m' fatigué
+S> Vous vous sentez fatigué, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- je m' - mélancolique
+U> je m' mélancolique
+S> Vous vous sentez mélancolique, voulez-vous que je passe un appel?.
+
+--- je m' - mécontent
+U> je m' mécontent
+S> Vous vous sentez mécontent, voulez-vous que je vous suggère un événement qui vous aiderait à vous sentir mieux?.
+
+--- je m' - colère
+U> je m' colère
+S> Vous vous sentez colère, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- je m' - irrité
+U> je m' irrité
+S> Vous vous sentez irrité, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- je m' - contrarié
+U> je m' contrarié
+S> Vous vous sentez contrarié, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- je m' - dégoëfté
+U> je m' dégoëfté
+S> Vous vous sentez dégoëfté, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- je m' - fâché
+U> je m' fâché
+S> Vous vous sentez fâché, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- je m' - froid
+U> je m' froid
+S> Vous vous sentez froid, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- je m' - malade
+U> je m' malade
+S> Vous vous sentez malade, ca sé presente mal. Voulez-vous que j e passe un appel?.
+
+--- je m' - déprimé
+U> je m' déprimé
+S> Vous vous sentez déprimé, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+--- je m' - maussade
+U> je m' maussade
+S> Vous vous sentez maussade, ca sé presente mal. Voulez-vous que je passe un appel?.
+
+--- je m' - frustré
+U> je m' frustré
+S> Vous vous sentez frustré, avez-vous besoin d'aide? Voulez-vous que je passe un appel?.
+
+
+
+
+
+
+
+
+# socialgroupsapp
+
+--- create_a_group
+U> créer un groupe
+S> Quel nom voulez-vous donner au groupe?
+U> rhumatisme
+S> Quelle est la description du groupe?
+U> a propos de rhumatismale
+S> Le groupe rhumatisme avec la description a propos de rhumatismale a été créé.
+
+--- I_want_to_create_a_group
+U> je veux créer un groupe
+S> Quel nom voulez-vous donner au groupe?
+U> rhumatisme
+S> Quelle est la description du groupe?
+U> a propos de rhumatismale
+S> Le groupe rhumatisme avec la description a propos de rhumatismale a été créé.
+
+--- group
+U> groupe
+S> Quel nom voulez-vous donner au groupe?
+U> rhumatisme
+S> Quelle est la description du groupe?
+U> a propos de rhumatismale
+S> Le groupe rhumatisme avec la description a propos de rhumatismale a été créé.
+
+--- new_group
+U> nouveau groupe
+S> Quel nom voulez-vous donner au groupe?
+U> rhumatisme
+S> Quelle est la description du groupe?
+U> discussion sur les rhumatismes
+S> Le groupe rhumatisme avec la description discussion sur les rhumatismes a été créé.
+
+--- group_of_discussion 
+U> groupe de discussion
+S> Quel nom voulez-vous donner à la discussion?
+U> rhumatisme
+S> Quelle est la description de la discussion?
+U> discussion sur les rhumatismes
+S> La discussion rhumatisme avec la description discussion sur les rhumatismes a été créé.
+
+--- create a group of discussion
+U> créer un groupe de discussion
+S> Quel nom voulez-vous donner à la discussion?
+U> rhumatisme
+S> Quelle est la description de la discussion?
+U> discussion sur les rhumatismes
+S> La discussion rhumatisme avec la description discussion sur les rhumatismes a été créé.
+
+--- create a discussion
+U> discussion
+S> Quel nom voulez-vous donner à la discussion?
+U> rhumatisme
+S> Quelle est la description de la discussion?
+U> discussion sur les rhumatismes
+S> La discussion rhumatisme avec la description discussion sur les rhumatismes a été créé.
+
+--- I want to create a discussion
+U> je veux créer une discussion
+S> Quel nom voulez-vous donner à la discussion?
+U> rhumatisme
+S> Quelle est la description de la discussion?
+U> discussion sur les rhumatismes
+S> La discussion rhumatisme avec la description discussion sur les rhumatismes a été créé.
+
+
+# meetingapp
+--- rendez-vous
+U> rendez-vous
+S> De quelle année parlons-nous?
+U> 2016
+S> De quel mois parlons nous?
+U> mai
+S> De quel jour du mois parlons-nous?
+U> 20
+S> Quel est l'objet du rendez-vous?
+U> celebrer
+S> Où aura lieu le rendez-vous?
+U> whisky bar
+S> L’invitation au rendez-vous a été envoyée pour le mai 20 2016 l'objet est celebrer et le lieu est whisky bar.
+
+--- rendez-vous year one-shot
+U> rendez-vous le 2016
+S> De quel mois parlons nous?
+U> mai
+S> De quel jour du mois parlons-nous?
+U> 20
+S> Quel est l'objet du rendez-vous?
+U> celebrer
+S> Où aura lieu le rendez-vous?
+U> whisky bar
+S> L’invitation au rendez-vous a été envoyée pour le mai 20 2016 l'objet est celebrer et le lieu est whisky bar.
+
+--- rendez-vous year and month one-shot
+U> rendez-vous le 2016 mai
+S> De quel jour du mois parlons-nous?
+U> 20
+S> Quel est l'objet du rendez-vous?
+U> celebrer
+S> Où aura lieu le rendez-vous?
+U> whisky bar
+S> L’invitation au rendez-vous a été envoyée pour le mai 20 2016 l'objet est celebrer et le lieu est whisky bar.
+
+--- rendez-vous one-shot
+U> rendez-vous le 2016 mai 20
+S> Quel est l'objet du rendez-vous?
+U> celebrer
+S> Où aura lieu le rendez-vous?
+U> whisky bar
+S> L’invitation au rendez-vous a été envoyée pour le mai 20 2016 l'objet est celebrer et le lieu est whisky bar.
+
+--- créer une rendez-vous
+U> créer une rendez-vous
+S> De quelle année parlons-nous?
+U> 2016
+S> De quel mois parlons nous?
+U> mai
+S> De quel jour du mois parlons-nous?
+U> 20
+S> Quel est l'objet du rendez-vous?
+U> celebrer
+S> Où aura lieu le rendez-vous?
+U> whisky bar
+S> L’invitation au rendez-vous a été envoyée pour le mai 20 2016 l'objet est celebrer et le lieu est whisky bar.
+
+--- réunion
+U> réunion
+S> De quelle année parlons-nous?
+U> 2016
+S> De quel mois parlons nous?
+U> mai
+S> De quel jour du mois parlons-nous?
+U> 20
+S> Quel est l'objet de la réunion?
+U> celebrer
+S> Où aura lieu la réunion?
+U> whisky bar
+S> L’invitation à la réunion a été envoyée pour le mai 20 2016 l'objet est celebrer et le lieu est whisky bar.
+
+--- créer une réunion
+U> créer une réunion
+S> De quelle année parlons-nous?
+U> 2016
+S> De quel mois parlons nous?
+U> mai
+S> De quel jour du mois parlons-nous?
+U> 20
+S> Quel est l'objet de la réunion?
+U> celebrer
+S> Où aura lieu la réunion?
+U> whisky bar
+S> L’invitation à la réunion a été envoyée pour le mai 20 2016 l'objet est celebrer et le lieu est whisky bar.
+
+--- organiser une réunion
+U> organiser une réunion
+S> De quelle année parlons-nous?
+U> 2016
+S> De quel mois parlons nous?
+U> mai
+S> De quel jour du mois parlons-nous?
+U> 20
+S> Quel est l'objet de la réunion?
+U> celebrer
+S> Où aura lieu la réunion?
+U> whisky bar
+S> L’invitation à la réunion a été envoyée pour le mai 20 2016 l'objet est celebrer et le lieu est whisky bar.
+
+--- créer une rencontre
+U> créer une rencontre
+S> De quelle année parlons-nous?
+U> 2016
+S> De quel mois parlons nous?
+U> mai
+S> De quel jour du mois parlons-nous?
+U> 20
+S> Quel est l'objet de la rencontre?
+U> celebrer
+S> Où aura lieu la rencontre?
+U> whisky bar
+S> L’invitation à la rencontre a été envoyée pour le mai 20 2016 l'objet est celebrer et le lieu est whisky bar.
+
+--- créer une invitation
+U> créer une invitation
+S> De quelle année parlons-nous?
+U> 2016
+S> De quel mois parlons nous?
+U> mai
+S> De quel jour du mois parlons-nous?
+U> 20
+S> Quel est l'objet de l'invitation?
+U> celebrer
+S> Quel est le lieu de l'invitation?
+U> whisky bar
+S> L’invitation a été envoyée pour le mai 20 2016 l'objet est celebrer et le lieu est whisky bar.
+
+
+# news
+--- aller aux actualites sport
+S> Que voulez-vous faire?
+U> aller aux actualites
+S> Quels sont les types d'actualites qui vous interessent?
+U> sport
+S> Montrant des nouvelles sport.
+
+# tutorial
+--- sonner maria soixante-dix
+S> Que voulez-vous faire?
+U> commencer
+S> Bonjour. Je suis votre assistant ALFRED. Je suis une plateforme regroupant toutes vos applications ALFRED. Je suis ici pour vous aider. Tout d'abord, dans vos applications, vous verrez fréquemment sur l'ecran un bouton representant un micro. Touchez le et dites Continuer.
+U> continuer
+S> Parfait! Ce qui suit est important. Les applications fonctionnent avec un systeme de conversation. Vous pouvez me repondre et me soumettre vos requetes. De cette maniere, votre intéraction avec les applications est facilitee. Touchez le bouton représentant le micro et dîtes je comprends pour continuer.
+U> comprendre
+S> Prenons un exemple afin d'illustrer cela. Regardez en bas a gauche de votre ecran. Vous voyez deux phrases en bleu qui sont en fait des requetes: jouer un son et montrer une image. Touchez le bouton representant le micro et lisez une des deux requetes afin que je comprenne ce que vous voulez.
+U> jouer un son
+S> Voila un son. J'espere que cela vous a aide. Maintenant, faisons connaissance. Quel est votre nom?.
+U> maria
+S> maria. Mon nom est Alfred. Quel âge avez-vous?.
+U> soixante-dix
+S> soixante-dix. Vous etes plus vieux que moi vu que je viens juste d'etre cree! J'espère que nous pourrons mieux nous connaitre par la suite. Passez une bonne journee.
+
+--- image maria soixante
+S> Que voulez-vous faire?
+U> commencer
+S> Bonjour. Je suis votre assistant ALFRED. Je suis une plateforme regroupant toutes vos applications ALFRED. Je suis ici pour vous aider. Tout d'abord, dans vos applications, vous verrez fréquemment sur l'ecran un bouton representant un micro. Touchez le et dites Continuer.
+U> continuer
+S> Parfait! Ce qui suit est important. Les applications fonctionnent avec un systeme de conversation. Vous pouvez me repondre et me soumettre vos requetes. De cette maniere, votre intéraction avec les applications est facilitee. Touchez le bouton représentant le micro et dîtes je comprends pour continuer.
+U> comprendre
+S> Prenons un exemple afin d'illustrer cela. Regardez en bas a gauche de votre ecran. Vous voyez deux phrases en bleu qui sont en fait des requetes: jouer un son et montrer une image. Touchez le bouton representant le micro et lisez une des deux requetes afin que je comprenne ce que vous voulez.
+U> montrer une image
+S> Voici une image. J'espere que cela a ete utile. Maintenant, faisons connaissance. Quel est votre nom?.
+U> maria
+S> maria. Mon nom est Alfred. Quel âge avez-vous?.
+U> soixante
+S> soixante. Vous etes plus vieux que moi vu que je viens juste d'etre cree! J'espère que nous pourrons mieux nous connaitre par la suite. Passez une bonne journee.
+
+# chat
+--- call
+S> Que voulez-vous faire?
+U> appel 
+S> Quel est le prénom?
+U> John
+S> Quel est le nom de famille?
+U> Johnson
+S> Appel en cours John Johnson.
+ 
+--- call first name
+S> Que voulez-vous faire?
+U> appel john
+S> Quel est le nom de famille?
+U> Johnson
+S> Appel en cours John Johnson.
+
+--- call last name
+S> Que voulez-vous faire?
+U> appel johnson
+S> Appel en cours John Johnson.
+
+--- call one-shot
+S> Que voulez-vous faire?
+U> appel john johnson
+S> Appel en cours John Johnson.
+
+--- video call
+S> Que voulez-vous faire?
+U> appel video 
+S> Quel est le prénom?
+U> John
+S> Quel est le nom de famille?
+U> Johnson
+S> Appel video en cours John Johnson.
+ 
+--- video call first name
+S> Que voulez-vous faire?
+U> appel video john
+S> Quel est le nom de famille?
+U> Johnson
+S> Appel video en cours John Johnson.
+
+--- video call last name
+S> Que voulez-vous faire?
+U> appel video johnson
+S> Appel video en cours John Johnson.
+
+--- video call one-shot
+S> Que voulez-vous faire?
+U> appel video john johnson
+S> Appel video en cours John Johnson.
+
+--- message
+S> Que voulez-vous faire?
+U> envoyer un message
+S> Quel est le prénom?
+U> John
+S> Quel est le nom de famille?
+U> Johnson
+S> Quel est le contenu de votre message?
+U> à quelle heure dois-je avoir le café prêt
+S> J'ai envoye votre message a John Johnson. Le message était à quelle heure dois-je avoir le café prêt.
+ 
+--- message first name
+S> Que voulez-vous faire?
+U> envoyer un message john
+S> Quel est le nom de famille?
+U> Johnson
+S> Quel est le contenu de votre message?
+U> à quelle heure dois-je avoir le café prêt
+S> J'ai envoye votre message a John Johnson. Le message était à quelle heure dois-je avoir le café prêt.
+
+--- message last name
+S> Que voulez-vous faire?
+U> envoyer un message johnson
+S> Quel est le contenu de votre message?
+U> à quelle heure dois-je avoir le café prêt
+S> J'ai envoye votre message a John Johnson. Le message était à quelle heure dois-je avoir le café prêt.
+
+--- message one-shot
+S> Que voulez-vous faire?
+U> envoyer un message johnson
+S> Quel est le contenu de votre message?
+U> à quelle heure dois-je avoir le café prêt
+S> J'ai envoye votre message a John Johnson. Le message était à quelle heure dois-je avoir le café prêt.
+
+# questionnaire
+--- obtenir l'information culture
+S> Que voulez-vous faire?
+U> obtenir l'information
+S> Quel type d'information souhaitez-vous obtenir?
+U> culture
+S> Voici la culture information.
+
+--- obtenir l'information sport
+S> Que voulez-vous faire?
+U> obtenir l'information
+S> Quel type d'information souhaitez-vous obtenir?
+U> sport
+S> Voici la sport information.
+
+--- obtenir l'information monde
+S> Que voulez-vous faire?
+U> obtenir l'information
+S> Quel type d'information souhaitez-vous obtenir?
+U> monde
+S> Voici la monde information.
+
+--- obtenir l'information cinéma
+S> Que voulez-vous faire?
+U> obtenir l'information
+S> Quel type d'information souhaitez-vous obtenir?
+U> cinéma
+S> Voici la cinéma information.
+
+--- obtenir l'information curiosités
+S> Que voulez-vous faire?
+U> obtenir l'information
+S> Quel type d'information souhaitez-vous obtenir?
+U> curiosités
+S> Voici la curiosités information.
+
+--- obtenir l'information expositions
+S> Que voulez-vous faire?
+U> obtenir l'information
+S> Quel type d'information souhaitez-vous obtenir?
+U> expositions
+S> Voici la expositions information.
+
+# help
+--- contacter mon aidant
+S> Que voulez-vous faire?
+U> contacter mon aidant
+S> Appel en cours aidant.
+
+--- aidant
+S> Que voulez-vous faire?
+U> aidant
+S> Appel en cours aidant.
+
+--- besoin d'aide
+S> Que voulez-vous faire?
+U> besoin d'aide
+S> Appel a l'aide en cours.
+
+--- aide
+S> Que voulez-vous faire?
+U> aide
+S> Appel a l'aide en cours.
+
+
+# market
+--- market 11
+S> Que voulez-vous faire?
+U> recherche
+S> Que voulez-vous chercher?
+U> outils
+S> Afficher outils.
+
+--- market 12
+S> Que voulez-vous faire?
+U> cherche
+S> Que voulez-vous chercher?
+U> outils
+S> Afficher outils.
+
+--- market 13
+S> Que voulez-vous faire?
+U> trouver
+S> Que voulez-vous chercher?
+U> outils
+S> Afficher outils.
+
+--- market 21
+S> Que voulez-vous faire?
+U> recherche outils
+S> Afficher outils.
+
+--- market 22
+S> Que voulez-vous faire?
+U> cherche outils
+S> Afficher outils.
+
+--- market 23
+S> Que voulez-vous faire?
+U> trouver outils
+S> Afficher outils.

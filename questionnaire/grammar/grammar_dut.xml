@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+	<action name="get_info">
+    		<noun-phrase>
+      			<noun ref="info"/>
+    		</noun-phrase>
+  	</action>
+
+	<request action="get_info">
+		<utterance>
+			<one-of>
+				<item>haal informatie op</item>
+				<item>haal informatie op <individual sort="info_type"/></item>
+				<item>haal informatie</item>
+				<item>haal informatie <individual sort="info_type"/></item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<question speaker="system" predicate="selected_info_type" type="wh_question">
+		<utterance>
+			wat voor soort informatie wilt u hebben
+		</utterance>
+	</question>
+
+	<report action="GetInfo" status="ended">
+		<utterance>
+			hier is de <individual predicate="selected_info_type"/> informatie
+		</utterance>	
+	</report>
+
+  	<lexicon>
+    		<noun id="info">
+      			<singular>informatie</singular>
+    		</noun>
+  	</lexicon>
+</grammar>

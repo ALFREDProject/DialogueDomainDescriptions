@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar>
+	<action name="rate_event">
+		<verb-phrase>
+			<verb ref="rating"/>
+		</verb-phrase>
+	</action>
+
+	<request action="rate_event">
+		<utterance>
+			<one-of>
+			    <item>let me rate my event</item>
+				<item>rate event</item>
+				<item>rate</item>
+				<item>submit rating</item>
+				<item>let me rate my event with <individual sort="stars_size"/> stars</item>
+				<item>rate event with <individual sort="stars_size"/> stars</item>
+			</one-of>
+		</utterance>
+	</request>
+	
+	<question speaker="system" predicate="selected_stars_size" type="wh_question">
+		<utterance>
+			how many stars you want to give to the event
+		</utterance>
+	</question>
+
+	<report action="RateEventAction" status="ended">
+		<utterance>
+			your event was rated with <individual predicate="selected_stars_size"/> stars
+		</utterance>
+	</report>
+
+	<validity name="AmountOfStarsValidity">
+        <utterance>select up to 5 stars</utterance>
+    </validity>
+	
+	<lexicon>
+		<verb id="rating">
+			<infinitive>rate</infinitive>
+		</verb>
+	</lexicon>
+</grammar>

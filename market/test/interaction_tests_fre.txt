@@ -1,0 +1,35 @@
+--- 11
+S> Que voulez-vous faire?
+U> recherche
+S> Que voulez-vous chercher?
+U> outils
+S> Afficher outils.
+
+--- 12
+S> Que voulez-vous faire?
+U> cherche
+S> Que voulez-vous chercher?
+U> outils
+S> Afficher outils.
+
+--- 13
+S> Que voulez-vous faire?
+U> trouver
+S> Que voulez-vous chercher?
+U> outils
+S> Afficher outils.
+
+--- 21
+S> Que voulez-vous faire?
+U> recherche outils
+S> Afficher outils.
+
+--- 22
+S> Que voulez-vous faire?
+U> cherche outils
+S> Afficher outils.
+
+--- 23
+S> Que voulez-vous faire?
+U> trouver outils
+S> Afficher outils.

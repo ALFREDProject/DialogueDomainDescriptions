@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ontology name="EventRatingAppOntology">
+	<action name="rate_event"/>
+  	<sort name="stars_size" dynamic="true"/>
+  	<predicate name="selected_stars_size" sort="stars_size"/>
+</ontology>

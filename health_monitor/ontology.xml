@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ontology name="HealthMonitorOntology">
+  <sort name="vital_parameter" dynamic="true"/>
+  <sort name="value" dynamic="true"/>
+  <predicate name="value_of_vital_parameter" sort="value"/>
+  <predicate name="selected_vital_parameter" sort="vital_parameter"/>
+</ontology>

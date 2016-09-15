@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+	<action name="get_news">
+    		<noun-phrase>
+      			<noun ref="news"/>
+    		</noun-phrase>
+  	</action>
+
+	<request action="get_news">
+		<utterance>
+			<one-of>
+				<item>aller aux actualites</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<question speaker="system" predicate="selected_news_search_string" type="wh_question">
+		<utterance>
+			quels sont les types d'actualites qui vous interessent
+		</utterance>
+	</question>
+
+  	<report action="GetNews" status="ended">
+		<utterance>
+			montrant des nouvelles <individual predicate="selected_news_search_string"/>
+		</utterance>
+	</report>
+
+  	<lexicon>
+    		<noun id="news">
+      			<singular>actualites</singular>
+    		</noun>
+  	</lexicon>
+
+</grammar>

@@ -1,0 +1,30 @@
+--- sonner maria soixante-dix
+S> Que voulez-vous faire?
+U> commencer
+S> Bonjour. Je suis votre assistant ALFRED. Je suis une plateforme regroupant toutes vos applications ALFRED. Je suis ici pour vous aider. Tout d'abord, dans vos applications, vous verrez fréquemment sur l'ecran un bouton representant un micro. Touchez le et dites Continuer.
+U> continuer
+S> Parfait! Ce qui suit est important. Les applications fonctionnent avec un systeme de conversation. Vous pouvez me repondre et me soumettre vos requetes. De cette maniere, votre intéraction avec les applications est facilitee. Touchez le bouton représentant le micro et dîtes je comprends pour continuer.
+U> comprendre
+S> Prenons un exemple afin d'illustrer cela. Regardez en bas a gauche de votre ecran. Vous voyez deux phrases en bleu qui sont en fait des requetes: jouer un son et montrer une image. Touchez le bouton representant le micro et lisez une des deux requetes afin que je comprenne ce que vous voulez.
+U> jouer un son
+S> Voila un son. J'espere que cela vous a aide. Maintenant, faisons connaissance. Quel est votre nom?.
+U> maria
+S> maria. Mon nom est Alfred. Quel âge avez-vous?.
+U> soixante-dix
+S> soixante-dix. Vous etes plus vieux que moi vu que je viens juste d'etre cree! J'espère que nous pourrons mieux nous connaitre par la suite. Passez une bonne journee.
+
+--- image maria soixante
+S> Que voulez-vous faire?
+U> commencer
+S> Bonjour. Je suis votre assistant ALFRED. Je suis une plateforme regroupant toutes vos applications ALFRED. Je suis ici pour vous aider. Tout d'abord, dans vos applications, vous verrez fréquemment sur l'ecran un bouton representant un micro. Touchez le et dites Continuer.
+U> continuer
+S> Parfait! Ce qui suit est important. Les applications fonctionnent avec un systeme de conversation. Vous pouvez me repondre et me soumettre vos requetes. De cette maniere, votre intéraction avec les applications est facilitee. Touchez le bouton représentant le micro et dîtes je comprends pour continuer.
+U> comprendre
+S> Prenons un exemple afin d'illustrer cela. Regardez en bas a gauche de votre ecran. Vous voyez deux phrases en bleu qui sont en fait des requetes: jouer un son et montrer une image. Touchez le bouton representant le micro et lisez une des deux requetes afin que je comprenne ce que vous voulez.
+U> montrer une image
+S> Voici une image. J'espere que cela a ete utile. Maintenant, faisons connaissance. Quel est votre nom?.
+U> maria
+S> maria. Mon nom est Alfred. Quel âge avez-vous?.
+U> soixante
+S> soixante. Vous etes plus vieux que moi vu que je viens juste d'etre cree! J'espère que nous pourrons mieux nous connaitre par la suite. Passez une bonne journee.
+

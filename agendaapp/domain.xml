@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<domain name="AgendaAppDomain" is_super_domain="true"> 
+	<goal type="perform" action="top" reraise_on_resume="false">
+		<plan>     
+			<forget_all/>
+			<findout type="goal"/>
+		</plan>
+	</goal>
+
+	<goal type="perform" action="set_agenda_action">  
+		<plan>
+			<findout type="wh_question" predicate="selected_alert_time"/>
+			<dev_perform action="RecogAgenda" device="AgendaAppDevice" postconfirm="false"/>
+			<findout type="wh_question" predicate="selected_agenda_mode"/>
+			<dev_perform action="SetAgendaAction" device="AgendaAppDevice" postconfirm="true"/>
+    		</plan>
+    		<postcond>
+      			<device_activity_terminated action="SetAgendaAction"/>
+    		</postcond>
+	</goal>
+
+	<parameters question_type="goal" verbalize="false"/>
+</domain>

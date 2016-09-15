@@ -1,0 +1,14 @@
+*.gfo
+*.js
+*.pyc
+*.pgf
+build
+logs
+*_words.txt
+*_words_eng.txt
+*_words_dut.txt
+*_words_fre.txt
+*_eng.py
+*_dut.py
+*_fre.py
+ddds.json

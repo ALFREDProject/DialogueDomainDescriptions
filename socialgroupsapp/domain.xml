@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<domain name="SocialGroupsAppDomain" is_super_domain="true">
+	<goal type="perform" action="top" reraise_on_resume="false">		<plan>
+			<forget_all/>
+			<findout type="goal"/>
+		</plan>
+	</goal>
+
+	<goal type="perform" action="create_social_group">
+		<plan>
+			<dev_perform action="OnInitializedPlan" device="SocialGroupsAppDevice" postconfirm="false"/>
+			<findout type="wh_question" predicate="selected_groupname"/>
+			<dev_perform action="OnRecognizedName" device="SocialGroupsAppDevice" postconfirm="false"/>
+			<findout type="wh_question" predicate="selected_groupdescription"/>
+			<dev_perform action="OnRecognizedDescription" device="SocialGroupsAppDevice" postconfirm="false"/>
+			<dev_perform action="CreateSocialGroupAction" device="SocialGroupsAppDevice" postconfirm="true"/>
+		</plan>
+		<postcond>
+			<device_activity_terminated action="CreateSocialGroupAction"/>
+		</postcond>
+	</goal>
+
+	<goal type="perform" action="create_discussion">
+		<plan>
+			<dev_perform action="OnInitializedPlanDisc" device="SocialGroupsAppDevice" postconfirm="false"/>
+			<findout type="wh_question" predicate="selected_discussionname"/>
+			<dev_perform action="OnRecognizedNameDisc" device="SocialGroupsAppDevice" postconfirm="false"/>
+			<findout type="wh_question" predicate="selected_discussiondescription"/>
+			<dev_perform action="OnRecognizedDescriptionDisc" device="SocialGroupsAppDevice" postconfirm="false"/>
+			<dev_perform action="CreateDiscussionAction" device="SocialGroupsAppDevice" postconfirm="true"/>
+		</plan>
+		<postcond>
+			<device_activity_terminated action="CreateDiscussionAction"/>
+		</postcond>
+	</goal>
+
+	<parameters question_type="goal" verbalize="false"/>
+</domain>

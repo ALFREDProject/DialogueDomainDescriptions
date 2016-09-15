@@ -1,0 +1,63 @@
+--- create_a_group
+U> het creëren van een groep
+S> Welke naam wil je hebben voor de groep?
+U> reumatiek
+S> Wat is de beschrijving van de groep?
+U> over reumatische
+S> Groep reumatiek met omscchrijving over reumatische is gecreëerd.
+
+--- I_want_to_create_a_group
+U> ik wil een groep aanmaken
+S> Welke naam wil je hebben voor de groep?
+U> reumatiek
+S> Wat is de beschrijving van de groep?
+U> over reumatische
+S> Groep reumatiek met omscchrijving over reumatische is gecreëerd.
+
+--- group
+U> groep
+S> Welke naam wil je hebben voor de groep?
+U> reumatiek
+S> Wat is de beschrijving van de groep?
+U> over reumatische
+S> Groep reumatiek met omscchrijving over reumatische is gecreëerd.
+
+--- new group
+U> nieuwe groep
+S> Welke naam wil je hebben voor de groep?
+U> reumatiek
+S> Wat is de beschrijving van de groep?
+U> over reumatische
+S> Groep reumatiek met omscchrijving over reumatische is gecreëerd.
+
+--- group_of_discussion 
+U> praatgroep
+S> Welke naam wil je voor de discussie hebben?
+U> reumatiek
+S> Wat is de beschrijving van de discussie?
+U> over reumatische
+S> Discussie reumatiek met beschrijving over reumatische is gecreëerd.
+
+--- create a group of discussion
+U> een praatgroep opzetten
+S> Welke naam wil je voor de discussie hebben?
+U> reumatiek
+S> Wat is de beschrijving van de discussie?
+U> over reumatische
+S> Discussie reumatiek met beschrijving over reumatische is gecreëerd.
+
+--- create a discussion
+U> discussie
+S> Welke naam wil je voor de discussie hebben?
+U> reumatiek
+S> Wat is de beschrijving van de discussie?
+U> over reumatische
+S> Discussie reumatiek met beschrijving over reumatische is gecreëerd.
+
+--- I want to create a discussion
+U> ik wil een discussie beginnen
+S> Welke naam wil je voor de discussie hebben?
+U> reumatiek
+S> Wat is de beschrijving van de discussie?
+U> over reumatische
+S> Discussie reumatiek met beschrijving over reumatische is gecreëerd.

@@ -1,0 +1,3039 @@
+# agendaapp
+--- set agenda 1
+U> stel agenda in
+S> In hoeveel minuten moet ik u eraan herinneren?
+U> 15
+S> Waar moet ik u aan herinneren?
+U> krijg mijn wasgoed
+S> Over 15 minuten zal ik u herinneren aan krijg mijn wasgoed agenda.
+
+--- set agenda 2
+U> stel een herinnering in
+S> In hoeveel minuten moet ik u eraan herinneren?
+U> 15
+S> Waar moet ik u aan herinneren?
+U> krijg mijn wasgoed
+S> Over 15 minuten zal ik u herinneren aan krijg mijn wasgoed agenda.
+
+--- set agenda 3
+U> agenda
+S> In hoeveel minuten moet ik u eraan herinneren?
+U> 15
+S> Waar moet ik u aan herinneren?
+U> krijg mijn wasgoed
+S> Over 15 minuten zal ik u herinneren aan krijg mijn wasgoed agenda.
+
+--- set agenda 4
+U> herinnering
+S> In hoeveel minuten moet ik u eraan herinneren?
+U> 15
+S> Waar moet ik u aan herinneren?
+U> krijg mijn wasgoed
+S> Over 15 minuten zal ik u herinneren aan krijg mijn wasgoed agenda.
+
+--- set agenda 5
+U> stel agenda in 15 minuten
+S> Waar moet ik u aan herinneren?
+U> krijg mijn wasgoed
+S> Over 15 minuten zal ik u herinneren aan krijg mijn wasgoed agenda.
+
+--- set agenda 6
+U> stel een herinnering in 15 minuten
+S> Waar moet ik u aan herinneren?
+U> krijg mijn wasgoed
+S> Over 15 minuten zal ik u herinneren aan krijg mijn wasgoed agenda.
+
+
+
+
+
+
+
+
+
+
+# batterywarnerapp
+--- battery status 1
+U> hoeveel batterij is er nog
+S> Uw batterij status is 50 procent.
+
+--- battery status 2
+U> laat mijn batterij status zien
+S> Uw batterij status is 50 procent.
+
+--- battery status 3
+U> laat mijn batterij zien
+S> Uw batterij status is 50 procent.
+
+--- battery status 4
+U> wat is mijn batterijstatus
+S> Uw batterij status is 50 procent.
+
+--- battery status 5
+U> batterij
+S> Uw batterij status is 50 procent.
+
+--- battery status 6
+U> batterij status
+S> Uw batterij status is 50 procent.
+
+
+
+
+
+
+
+
+# bodypostureapp
+--- how to sit one-shot
+U> hoe zit ik correct
+S> Kijk naar deze foto. Het laat zien hoe u correct zit.
+
+--- how to stand one-shot
+U> hoe sta ik correct
+S> Kijk naar deze foto. Het laat zien hoe u correct sta.
+
+--- how to lie one-shot
+U> hoe lig ik correct
+S> Kijk naar deze foto. Het laat zien hoe u correct lig.
+
+--- how to posture
+U> hoe neem ik een goede houding aan
+S> Zit u, staat u of ligt u?
+U> zit
+S> Kijk naar deze foto. Het laat zien hoe u correct zit.
+
+
+
+
+# calendarapp
+
+--- calendar
+U> calendar
+S> Over welk jaar hebben we het?
+U> 2016
+S> Over welke maand hebben we het?
+U> maart
+S> Hier is uw kalender van 2016 maart.
+
+--- show one-shot
+U> toon de kalender in januari 2017
+S> Hier is uw kalender van 2017 januari.
+
+--- show year-first
+U> toon de kalender in 2017
+S> Over welke maand hebben we het?
+
+--- show month-first
+U> toon de kalender in januari
+S> Over welk jaar hebben we het?
+
+--- insert event
+U> voeg gebeurtenis toe in februari 7 2016
+S> Hoe heet de gebeurtenis?
+U> shopping
+S> Ik voeg uw shopping evenement in februari 7 2016.
+
+--- insert
+U> voeg gebeurtenis toe
+S> Over welk jaar hebben we het?
+U> 2016
+S> Over welke maand hebben we het?
+U> maart
+S> Over welke dag van de maand hebben we het?
+U> 7
+S> Hoe heet de gebeurtenis?
+U> shopping
+S> Ik voeg uw shopping evenement in maart 7 2016.
+
+--- show
+U> laat gebeurtenis zien
+S> Over welk jaar hebben we het?
+U> 2016
+S> Over welke maand hebben we het?
+U> maart
+S> Over welke dag van de maand hebben we het?
+U> 14
+S> Ik voeg uw gebeurtenis toe in maart 14 2016 geplaatst.
+
+
+
+
+
+
+
+
+
+
+
+
+
+# navigationapp
+--- navigation
+U> navigeren
+S> Kies uw mode: Lopen, fiets, auto of doorvoer?
+U> lopen
+S> Waar moet ik u naartoe navigeren?
+U> Berlin
+S> Ik laat de weg zien naar Berlin met mode lopen. Als er niets die getrokken, heeft Google niet de plaats te begrijpen.
+
+--- navigation 2
+U> navigeren met mode lopen
+S> Waar moet ik u naartoe navigeren?
+U> Berlin
+S> Ik laat de weg zien naar Berlin met mode lopen. Als er niets die getrokken, heeft Google niet de plaats te begrijpen.
+
+--- where am i 1
+U> waar ben ik
+S> U bent in de buurt van Berlin.
+
+--- where am i 2
+U> vertel mij waar ik ben
+S> U bent in de buurt van Berlin.
+
+--- where am i 3
+U> wat is mijn locatie
+S> U bent in de buurt van Berlin.
+
+
+
+
+
+
+
+
+
+
+
+# personalassistant
+--- change color one-shot
+U> stel microfoon kleur in naar groen
+S> Uw microfoon is nu groen kleur.
+
+--- change color 
+U> verander microfoon kleur
+S> Noem een nieuwe microfoon kleur?
+U> groen
+S> Uw microfoon is nu groen kleur.
+
+
+
+
+
+
+
+# eventratingapp
+
+--- rate event 3
+U> waardeer dit evenement
+S> Hoeveel sterren wilt u aan het evenement geven?
+U> 4
+S> Uw evenement heeft 4 sterren.
+
+
+--- rate event 4
+#U> evenement waarderen
+#S> Hoeveel evenementen wilht u zien? U kunt maximaal 10 evenementen selecteren.
+#U> 4
+#S> Uw evenement heeft 4 sterren.
+
+--- rate event 5
+U> waardering
+S> Hoeveel sterren wilt u aan het evenement geven?
+U> 4
+S> Uw evenement heeft 4 sterren.
+
+--- rate event 6
+U> waardering opsturen
+S> Hoeveel sterren wilt u aan het evenement geven?
+U> 4
+S> Uw evenement heeft 4 sterren.
+
+--- rate event 7
+U> ik geef mijn evenement 4 sterren
+S> Uw evenement heeft 4 sterren.
+
+--- rate event 8
+U> evenement 4 sterren geven
+S> Uw evenement heeft 4 sterren.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# eventrecommendationapp
+--- show recommendations 2
+U> ververs aanbevelingen
+S> Hier zijn de aanbevelingen voor de komende 10 evenementen.
+
+--- show recommendations 5
+U> ik wil aan een evenement meedoen
+S> Hier zijn de aanbevelingen voor de komende 10 evenementen.
+
+--- show recommendations 6
+U> aan een evenement meedoen
+S> Hier zijn de aanbevelingen voor de komende 10 evenementen.
+
+--- show recommendations 7
+U> ik wil deelnemen aan evenemen
+S> Hier zijn de aanbevelingen voor de komende 10 evenementen.
+
+--- show recommendations 8
+U> ik wil deelnemen aan evenement
+S> Hier zijn de aanbevelingen voor de komende 10 evenementen.
+
+
+--- show recommendations 10
+U> deelnemen aan een evenement
+S> Hier zijn de aanbevelingen voor de komende 10 evenementen.
+
+--- show recommendations 11
+U> ik wil deelnemen aan een evenement
+S> Hier zijn de aanbevelingen voor de komende 10 evenementen.
+
+--- show recommendations 15
+U> laat de informatie van de aanbeveling zien
+S> Welk evenement nummer? Selecteer een nummer onder 10?
+U> 3
+S> Hier is de informatie van evenement nummer 3.
+
+--- show recommendations 17
+U> gaan
+S> Welk evenement nummer? Selecteer een nummer onder 10?
+U> 3
+S> Bent u niet deelneemt aan het evenement 3.
+
+--- show recommendations 18
+U> deelnemen aan evenement nummer   3
+S> Bent u niet deelneemt aan het evenement 3.
+
+--- show recommendations 19
+U> ga naar aanbeveling
+S> Welk evenement nummer? Selecteer een nummer onder 10?
+U> 3
+S> U uw deelname zijn afgenomen in het geval 3.
+
+--- show recommendations 20
+U> niet deelnemen aan evenement 3
+S> U uw deelname zijn afgenomen in het geval 3.
+
+
+--- battery status - robust parsing problem
+# try enabling/disabling --interpret-robustly
+U> laat mijn batterij status zien 0.85 | laat mijn batterij status 10 0.7
+S> Uw batterij status is 50 procent.
+
+
+
+
+
+
+# health_monitor
+--- request hartslag
+U> vertel me een belangrijke parameter
+S> Welke parameter?
+U> hartslag
+S> Uw hartslag is 100.
+
+--- request lichaamstemperatuur
+U> vertel me een belangrijke parameter
+S> Welke parameter?
+U> lichaamstemperatuur
+S> Uw lichaamstemperatuur is 100.
+
+--- request polsslag
+U> vertel me een belangrijke parameter
+S> Welke parameter?
+U> polsslag
+S> Uw polsslag is 100.
+
+--- request ademhaling
+U> vertel me een belangrijke parameter
+S> Welke parameter?
+U> ademhaling
+S> Uw ademhaling is 100.
+
+--- request ademfrequentie
+U> vertel me een belangrijke parameter
+S> Welke parameter?
+U> ademfrequentie
+S> Uw ademfrequentie is 100.
+
+--- request aantalstappen
+U> vertel me een belangrijke parameter
+S> Welke parameter?
+U> aantalstappen
+S> Uw aantalstappen is 100.
+
+--- request hartslag one-shot
+U> ik wil mijn hartslag weten
+S> Uw hartslag is 100.
+
+--- request lichaamstemperatuur one-shot
+U> ik wil mijn lichaamstemperatuur weten
+S> Uw lichaamstemperatuur is 100.
+
+--- request polsslag one-shot
+U> ik wil mijn polsslag weten
+S> Uw polsslag is 100.
+
+--- request ademhaling one-shot
+U> ik wil mijn ademhaling weten
+S> Uw ademhaling is 100.
+
+--- request ademfrequentie one-shot
+U> ik wil mijn ademfrequentie weten
+S> Uw ademfrequentie is 100.
+
+--- request aantalstappen one-shot
+U> ik wil mijn aantalstappen weten
+S> Uw aantalstappen is 100.
+
+--- request hartslag one-shot 2
+U> wat is mijn hartslag
+S> Uw hartslag is 100.
+
+--- request lichaamstemperatuur one-shot 2
+U> wat is mijn lichaamstemperatuur
+S> Uw lichaamstemperatuur is 100.
+
+--- request polsslag one-shot 2
+U> wat is mijn polsslag
+S> Uw polsslag is 100.
+
+--- request ademhaling one-shot 2
+U> wat is mijn ademhaling
+S> Uw ademhaling is 100.
+
+--- request ademfrequentie one-shot 2
+U> wat is mijn ademfrequentie
+S> Uw ademfrequentie is 100.
+
+--- request aantalstappen one-shot 2
+U> wat is mijn aantalstappen
+S> Uw aantalstappen is 100.
+
+
+--- request hartslag one-shot 3
+U> welke hartslag heb ik
+S> Uw hartslag is 100.
+
+--- request lichaamstemperatuur one-shot 3
+U> welke lichaamstemperatuur heb ik
+S> Uw lichaamstemperatuur is 100.
+
+--- request polsslag one-shot 3
+U> welke polsslag heb ik
+S> Uw polsslag is 100.
+
+--- request ademhaling one-shot 3
+U> welke ademhaling heb ik
+S> Uw ademhaling is 100.
+
+--- request ademfrequentie one-shot 3
+U> welke ademfrequentie heb ik
+S> Uw ademfrequentie is 100.
+
+--- request aantalstappen one-shot 3
+U> welke aantalstappen heb ik
+S> Uw aantalstappen is 100.
+
+--- request unsupported parameter
+U> ik wil mijn gewicht weten
+S> Ik heb u ik wil mijn gewicht weten gehoord te zeggen. Ik begrijp het niet. Dus, Wat wilt u doen?
+
+
+# alarm clock
+--- good morning - enthusiastic
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> enthousiast
+S> U voelt zich enthousiast, dat is geweldig.
+
+--- good morning - blij
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> blij
+S> U voelt zich blij, dat is fantastisch.
+
+--- good morning - vrolijk
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> vrolijk
+S> U voelt zich vrolijk, dat is oke.
+
+--- good morning - fijn
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> fijn
+S> U voelt zich fijn, dat is goed.
+
+--- good morning - goed
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> goed
+S> U voelt zich goed, wilt u dat ik een activiteit voorstel?.
+
+--- good morning - trots
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> trots
+S> U voelt zich trots, goed om te horen. Nog een fijne dag toegewenst!.
+
+--- good morning - tevreden
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> tevreden
+S> U voelt zich tevreden, dat is oke.
+
+--- good morning - comfortabel
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> comfortabel
+S> U voelt zich comfortabel, dat is goed.
+
+--- good morning - kalm
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> kalm
+S> U voelt zich kalm, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- good morning - onverschillig
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> onverschillig
+S> U voelt zich onverschillig, wilt u een suggestie voor een spelletje?.
+
+--- good morning - rustig
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> rustig
+S> U voelt zich rustig, wilt u naar muziek luisteren.
+
+--- good morning - normaal
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> normaal
+S> U voelt zich normaal, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- good morning - oke
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> oke
+S> U voelt zich oke, wilt u een suggestie voor een spelletje?.
+
+--- good morning - onzeker
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> onzeker
+S> U voelt zich onzeker, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- good morning - ernstig
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> ernstig
+S> U voelt zich ernstig, wilt u een suggestie voor een spelletje?.
+
+--- good morning - bedachtzaam
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> bedachtzaam
+S> U voelt zich bedachtzaam, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- good morning - zorgen
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> zorgen
+S> U voelt zich zorgen, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- good morning - nerveus
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> nerveus
+S> U voelt zich nerveus, wilt u dat ik iemand bel?.
+
+--- good morning - verward
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> verward
+S> U voelt zich verward, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- good morning - verontrust
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> verontrust
+S> U voelt zich verontrust, wilt u dat ik iemand bel?.
+
+--- good morning - angstig
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> angstig
+S> U voelt zich angstig, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- good morning - bang
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> bang
+S> U voelt zich bang, wilt u dat ik iemand bel?.
+
+--- good morning - gespannen
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> gespannen
+S> U voelt zich gespannen, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- good morning - slecht
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> slecht
+S> U voelt zich slecht, wilt u dat ik iemand bel?.
+
+--- good morning - verveeld
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> verveeld
+S> U voelt zich verveeld, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- good morning - verdrietig
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> verdrietig
+S> U voelt zich verdrietig, wilt u dat ik iemand bel?.
+
+--- good morning - teleurgesteld
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> teleurgesteld
+S> U voelt zich teleurgesteld, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- good morning - moe
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> moe
+S> U voelt zich moe, wilt u dat ik iemand bel?.
+
+--- good morning - melancholisch
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> melancholisch
+S> U voelt zich melancholisch, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- good morning - misnoegd
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> misnoegd
+S> U voelt zich misnoegd, wilt u dat ik iemand bel?.
+
+--- good morning - kwaad
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> kwaad
+S> U voelt zich kwaad, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- good morning - geirriteerd
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> geirriteerd
+S> U voelt zich geirriteerd, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- good morning - geergerd
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> geergerd
+S> U voelt zich geergerd, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- good morning - afkerig
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> afkerig
+S> U voelt zich afkerig, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- good morning - ontdaan
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> ontdaan
+S> U voelt zich ontdaan, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- good morning - pijnlijk
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> pijnlijk
+S> U voelt zich pijnlijk, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- good morning - koud
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> koud
+S> U voelt zich koud, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- good morning - misselijk
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> misselijk
+S> U voelt zich misselijk, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+
+--- good morning - droevig
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> droevig
+S> U voelt zich droevig, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- good morning - depressief
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> depressief
+S> U voelt zich depressief, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- good morning - somber
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> somber
+S> U voelt zich somber, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- good morning - gefrustreerd
+U> hoe gaat het
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> gefrustreerd
+S> U voelt zich gefrustreerd, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- hallo - enthusiastic
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> enthousiast
+S> U voelt zich enthousiast, dat is geweldig.
+
+--- hallo - blij
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> blij
+S> U voelt zich blij, dat is fantastisch.
+
+--- hallo - vrolijk
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> vrolijk
+S> U voelt zich vrolijk, dat is oke.
+
+--- hallo - fijn
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> fijn
+S> U voelt zich fijn, dat is goed.
+
+--- hallo - goed
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> goed
+S> U voelt zich goed, wilt u dat ik een activiteit voorstel?.
+
+--- hallo - trots
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> trots
+S> U voelt zich trots, goed om te horen. Nog een fijne dag toegewenst!.
+
+--- hallo - tevreden
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> tevreden
+S> U voelt zich tevreden, dat is oke.
+
+--- hallo - comfortabel
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> comfortabel
+S> U voelt zich comfortabel, dat is goed.
+
+--- hallo - kalm
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> kalm
+S> U voelt zich kalm, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- hallo - onverschillig
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> onverschillig
+S> U voelt zich onverschillig, wilt u een suggestie voor een spelletje?.
+
+--- hallo - rustig
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> rustig
+S> U voelt zich rustig, wilt u naar muziek luisteren.
+
+--- hallo - normaal
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> normaal
+S> U voelt zich normaal, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- hallo - oke
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> oke
+S> U voelt zich oke, wilt u een suggestie voor een spelletje?.
+
+--- hallo - onzeker
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> onzeker
+S> U voelt zich onzeker, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- hallo - ernstig
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> ernstig
+S> U voelt zich ernstig, wilt u een suggestie voor een spelletje?.
+
+--- hallo - bedachtzaam
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> bedachtzaam
+S> U voelt zich bedachtzaam, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- hallo - zorgen
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> zorgen
+S> U voelt zich zorgen, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- hallo - nerveus
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> nerveus
+S> U voelt zich nerveus, wilt u dat ik iemand bel?.
+
+--- hallo - verward
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> verward
+S> U voelt zich verward, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- hallo - verontrust
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> verontrust
+S> U voelt zich verontrust, wilt u dat ik iemand bel?.
+
+--- hallo - angstig
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> angstig
+S> U voelt zich angstig, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- hallo - bang
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> bang
+S> U voelt zich bang, wilt u dat ik iemand bel?.
+
+--- hallo - gespannen
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> gespannen
+S> U voelt zich gespannen, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- hallo - slecht
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> slecht
+S> U voelt zich slecht, wilt u dat ik iemand bel?.
+
+--- hallo - verveeld
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> verveeld
+S> U voelt zich verveeld, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- hallo - verdrietig
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> verdrietig
+S> U voelt zich verdrietig, wilt u dat ik iemand bel?.
+
+--- hallo - teleurgesteld
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> teleurgesteld
+S> U voelt zich teleurgesteld, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- hallo - moe
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> moe
+S> U voelt zich moe, wilt u dat ik iemand bel?.
+
+--- hallo - melancholisch
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> melancholisch
+S> U voelt zich melancholisch, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- hallo - misnoegd
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> misnoegd
+S> U voelt zich misnoegd, wilt u dat ik iemand bel?.
+
+--- hallo - kwaad
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> kwaad
+S> U voelt zich kwaad, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- hallo - geirriteerd
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> geirriteerd
+S> U voelt zich geirriteerd, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- hallo - geergerd
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> geergerd
+S> U voelt zich geergerd, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- hallo - afkerig
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> afkerig
+S> U voelt zich afkerig, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- hallo - ontdaan
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> ontdaan
+S> U voelt zich ontdaan, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- hallo - pijnlijk
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> pijnlijk
+S> U voelt zich pijnlijk, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- hallo - koud
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> koud
+S> U voelt zich koud, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- hallo - misselijk
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> misselijk
+S> U voelt zich misselijk, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+
+--- hallo - droevig
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> droevig
+S> U voelt zich droevig, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- hallo - depressief
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> depressief
+S> U voelt zich depressief, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- hallo - somber
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> somber
+S> U voelt zich somber, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- hallo - gefrustreerd
+U> hallo
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> gefrustreerd
+S> U voelt zich gefrustreerd, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- hallo alfred - enthusiastic
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> enthousiast
+S> U voelt zich enthousiast, dat is geweldig.
+
+--- hallo alfred - blij
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> blij
+S> U voelt zich blij, dat is fantastisch.
+
+--- hallo alfred - vrolijk
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> vrolijk
+S> U voelt zich vrolijk, dat is oke.
+
+--- hallo alfred - fijn
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> fijn
+S> U voelt zich fijn, dat is goed.
+
+--- hallo alfred - goed
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> goed
+S> U voelt zich goed, wilt u dat ik een activiteit voorstel?.
+
+--- hallo alfred - trots
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> trots
+S> U voelt zich trots, goed om te horen. Nog een fijne dag toegewenst!.
+
+--- hallo alfred - tevreden
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> tevreden
+S> U voelt zich tevreden, dat is oke.
+
+--- hallo alfred - comfortabel
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> comfortabel
+S> U voelt zich comfortabel, dat is goed.
+
+--- hallo alfred - kalm
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> kalm
+S> U voelt zich kalm, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- hallo alfred - onverschillig
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> onverschillig
+S> U voelt zich onverschillig, wilt u een suggestie voor een spelletje?.
+
+--- hallo alfred - rustig
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> rustig
+S> U voelt zich rustig, wilt u naar muziek luisteren.
+
+--- hallo alfred - normaal
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> normaal
+S> U voelt zich normaal, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- hallo alfred - oke
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> oke
+S> U voelt zich oke, wilt u een suggestie voor een spelletje?.
+
+--- hallo alfred - onzeker
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> onzeker
+S> U voelt zich onzeker, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- hallo alfred - ernstig
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> ernstig
+S> U voelt zich ernstig, wilt u een suggestie voor een spelletje?.
+
+--- hallo alfred - bedachtzaam
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> bedachtzaam
+S> U voelt zich bedachtzaam, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- hallo alfred - zorgen
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> zorgen
+S> U voelt zich zorgen, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- hallo alfred - nerveus
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> nerveus
+S> U voelt zich nerveus, wilt u dat ik iemand bel?.
+
+--- hallo alfred - verward
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> verward
+S> U voelt zich verward, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- hallo alfred - verontrust
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> verontrust
+S> U voelt zich verontrust, wilt u dat ik iemand bel?.
+
+--- hallo alfred - angstig
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> angstig
+S> U voelt zich angstig, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- hallo alfred - bang
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> bang
+S> U voelt zich bang, wilt u dat ik iemand bel?.
+
+--- hallo alfred - gespannen
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> gespannen
+S> U voelt zich gespannen, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- hallo alfred - slecht
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> slecht
+S> U voelt zich slecht, wilt u dat ik iemand bel?.
+
+--- hallo alfred - verveeld
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> verveeld
+S> U voelt zich verveeld, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- hallo alfred - verdrietig
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> verdrietig
+S> U voelt zich verdrietig, wilt u dat ik iemand bel?.
+
+--- hallo alfred - teleurgesteld
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> teleurgesteld
+S> U voelt zich teleurgesteld, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- hallo alfred - moe
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> moe
+S> U voelt zich moe, wilt u dat ik iemand bel?.
+
+--- hallo alfred - melancholisch
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> melancholisch
+S> U voelt zich melancholisch, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- hallo alfred - misnoegd
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> misnoegd
+S> U voelt zich misnoegd, wilt u dat ik iemand bel?.
+
+--- hallo alfred - kwaad
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> kwaad
+S> U voelt zich kwaad, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- hallo alfred - geirriteerd
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> geirriteerd
+S> U voelt zich geirriteerd, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- hallo alfred - geergerd
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> geergerd
+S> U voelt zich geergerd, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- hallo alfred - afkerig
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> afkerig
+S> U voelt zich afkerig, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- hallo alfred - ontdaan
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> ontdaan
+S> U voelt zich ontdaan, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- hallo alfred - pijnlijk
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> pijnlijk
+S> U voelt zich pijnlijk, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- hallo alfred - koud
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> koud
+S> U voelt zich koud, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- hallo alfred - misselijk
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> misselijk
+S> U voelt zich misselijk, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+
+--- hallo alfred - droevig
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> droevig
+S> U voelt zich droevig, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- hallo alfred - depressief
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> depressief
+S> U voelt zich depressief, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- hallo alfred - somber
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> somber
+S> U voelt zich somber, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- hallo alfred - gefrustreerd
+U> hallo alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> gefrustreerd
+S> U voelt zich gefrustreerd, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- goedemorgen - enthusiastic
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> enthousiast
+S> U voelt zich enthousiast, dat is geweldig.
+
+--- goedemorgen - blij
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> blij
+S> U voelt zich blij, dat is fantastisch.
+
+--- goedemorgen - vrolijk
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> vrolijk
+S> U voelt zich vrolijk, dat is oke.
+
+--- goedemorgen - fijn
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> fijn
+S> U voelt zich fijn, dat is goed.
+
+--- goedemorgen - goed
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> goed
+S> U voelt zich goed, wilt u dat ik een activiteit voorstel?.
+
+--- goedemorgen - trots
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> trots
+S> U voelt zich trots, goed om te horen. Nog een fijne dag toegewenst!.
+
+--- goedemorgen - tevreden
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> tevreden
+S> U voelt zich tevreden, dat is oke.
+
+--- goedemorgen - comfortabel
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> comfortabel
+S> U voelt zich comfortabel, dat is goed.
+
+--- goedemorgen - kalm
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> kalm
+S> U voelt zich kalm, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- goedemorgen - onverschillig
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> onverschillig
+S> U voelt zich onverschillig, wilt u een suggestie voor een spelletje?.
+
+--- goedemorgen - rustig
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> rustig
+S> U voelt zich rustig, wilt u naar muziek luisteren.
+
+--- goedemorgen - normaal
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> normaal
+S> U voelt zich normaal, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- goedemorgen - oke
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> oke
+S> U voelt zich oke, wilt u een suggestie voor een spelletje?.
+
+--- goedemorgen - onzeker
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> onzeker
+S> U voelt zich onzeker, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- goedemorgen - ernstig
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> ernstig
+S> U voelt zich ernstig, wilt u een suggestie voor een spelletje?.
+
+--- goedemorgen - bedachtzaam
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> bedachtzaam
+S> U voelt zich bedachtzaam, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- goedemorgen - zorgen
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> zorgen
+S> U voelt zich zorgen, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- goedemorgen - nerveus
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> nerveus
+S> U voelt zich nerveus, wilt u dat ik iemand bel?.
+
+--- goedemorgen - verward
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> verward
+S> U voelt zich verward, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- goedemorgen - verontrust
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> verontrust
+S> U voelt zich verontrust, wilt u dat ik iemand bel?.
+
+--- goedemorgen - angstig
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> angstig
+S> U voelt zich angstig, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- goedemorgen - bang
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> bang
+S> U voelt zich bang, wilt u dat ik iemand bel?.
+
+--- goedemorgen - gespannen
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> gespannen
+S> U voelt zich gespannen, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- goedemorgen - slecht
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> slecht
+S> U voelt zich slecht, wilt u dat ik iemand bel?.
+
+--- goedemorgen - verveeld
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> verveeld
+S> U voelt zich verveeld, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- goedemorgen - verdrietig
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> verdrietig
+S> U voelt zich verdrietig, wilt u dat ik iemand bel?.
+
+--- goedemorgen - teleurgesteld
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> teleurgesteld
+S> U voelt zich teleurgesteld, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- goedemorgen - moe
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> moe
+S> U voelt zich moe, wilt u dat ik iemand bel?.
+
+--- goedemorgen - melancholisch
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> melancholisch
+S> U voelt zich melancholisch, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- goedemorgen - misnoegd
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> misnoegd
+S> U voelt zich misnoegd, wilt u dat ik iemand bel?.
+
+--- goedemorgen - kwaad
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> kwaad
+S> U voelt zich kwaad, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- goedemorgen - geirriteerd
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> geirriteerd
+S> U voelt zich geirriteerd, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- goedemorgen - geergerd
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> geergerd
+S> U voelt zich geergerd, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- goedemorgen - afkerig
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> afkerig
+S> U voelt zich afkerig, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- goedemorgen - ontdaan
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> ontdaan
+S> U voelt zich ontdaan, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- goedemorgen - pijnlijk
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> pijnlijk
+S> U voelt zich pijnlijk, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- goedemorgen - koud
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> koud
+S> U voelt zich koud, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- goedemorgen - misselijk
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> misselijk
+S> U voelt zich misselijk, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+
+--- goedemorgen - droevig
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> droevig
+S> U voelt zich droevig, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- goedemorgen - depressief
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> depressief
+S> U voelt zich depressief, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- goedemorgen - somber
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> somber
+S> U voelt zich somber, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- goedemorgen - gefrustreerd
+U> goedemorgen
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> gefrustreerd
+S> U voelt zich gefrustreerd, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- goedemorgen alfred - enthusiastic
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> enthousiast
+S> U voelt zich enthousiast, dat is geweldig.
+
+--- goedemorgen alfred - blij
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> blij
+S> U voelt zich blij, dat is fantastisch.
+
+--- goedemorgen alfred - vrolijk
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> vrolijk
+S> U voelt zich vrolijk, dat is oke.
+
+--- goedemorgen alfred - fijn
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> fijn
+S> U voelt zich fijn, dat is goed.
+
+--- goedemorgen alfred - goed
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> goed
+S> U voelt zich goed, wilt u dat ik een activiteit voorstel?.
+
+--- goedemorgen alfred - trots
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> trots
+S> U voelt zich trots, goed om te horen. Nog een fijne dag toegewenst!.
+
+--- goedemorgen alfred - tevreden
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> tevreden
+S> U voelt zich tevreden, dat is oke.
+
+--- goedemorgen alfred - comfortabel
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> comfortabel
+S> U voelt zich comfortabel, dat is goed.
+
+--- goedemorgen alfred - kalm
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> kalm
+S> U voelt zich kalm, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- goedemorgen alfred - onverschillig
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> onverschillig
+S> U voelt zich onverschillig, wilt u een suggestie voor een spelletje?.
+
+--- goedemorgen alfred - rustig
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> rustig
+S> U voelt zich rustig, wilt u naar muziek luisteren.
+
+--- goedemorgen alfred - normaal
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> normaal
+S> U voelt zich normaal, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- goedemorgen alfred - oke
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> oke
+S> U voelt zich oke, wilt u een suggestie voor een spelletje?.
+
+--- goedemorgen alfred - onzeker
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> onzeker
+S> U voelt zich onzeker, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- goedemorgen alfred - ernstig
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> ernstig
+S> U voelt zich ernstig, wilt u een suggestie voor een spelletje?.
+
+--- goedemorgen alfred - bedachtzaam
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> bedachtzaam
+S> U voelt zich bedachtzaam, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- goedemorgen alfred - zorgen
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> zorgen
+S> U voelt zich zorgen, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- goedemorgen alfred - nerveus
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> nerveus
+S> U voelt zich nerveus, wilt u dat ik iemand bel?.
+
+--- goedemorgen alfred - verward
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> verward
+S> U voelt zich verward, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- goedemorgen alfred - verontrust
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> verontrust
+S> U voelt zich verontrust, wilt u dat ik iemand bel?.
+
+--- goedemorgen alfred - angstig
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> angstig
+S> U voelt zich angstig, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- goedemorgen alfred - bang
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> bang
+S> U voelt zich bang, wilt u dat ik iemand bel?.
+
+--- goedemorgen alfred - gespannen
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> gespannen
+S> U voelt zich gespannen, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- goedemorgen alfred - slecht
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> slecht
+S> U voelt zich slecht, wilt u dat ik iemand bel?.
+
+--- goedemorgen alfred - verveeld
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> verveeld
+S> U voelt zich verveeld, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- goedemorgen alfred - verdrietig
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> verdrietig
+S> U voelt zich verdrietig, wilt u dat ik iemand bel?.
+
+--- goedemorgen alfred - teleurgesteld
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> teleurgesteld
+S> U voelt zich teleurgesteld, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- goedemorgen alfred - moe
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> moe
+S> U voelt zich moe, wilt u dat ik iemand bel?.
+
+--- goedemorgen alfred - melancholisch
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> melancholisch
+S> U voelt zich melancholisch, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- goedemorgen alfred - misnoegd
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> misnoegd
+S> U voelt zich misnoegd, wilt u dat ik iemand bel?.
+
+--- goedemorgen alfred - kwaad
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> kwaad
+S> U voelt zich kwaad, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- goedemorgen alfred - geirriteerd
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> geirriteerd
+S> U voelt zich geirriteerd, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- goedemorgen alfred - geergerd
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> geergerd
+S> U voelt zich geergerd, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- goedemorgen alfred - afkerig
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> afkerig
+S> U voelt zich afkerig, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- goedemorgen alfred - ontdaan
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> ontdaan
+S> U voelt zich ontdaan, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- goedemorgen alfred - pijnlijk
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> pijnlijk
+S> U voelt zich pijnlijk, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- goedemorgen alfred - koud
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> koud
+S> U voelt zich koud, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- goedemorgen alfred - misselijk
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> misselijk
+S> U voelt zich misselijk, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+
+--- goedemorgen alfred - droevig
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> droevig
+S> U voelt zich droevig, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- goedemorgen alfred - depressief
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> depressief
+S> U voelt zich depressief, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- goedemorgen alfred - somber
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> somber
+S> U voelt zich somber, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- goedemorgen alfred - gefrustreerd
+U> goedemorgen alfred
+S> Goedemorgen, Hoe voelt u zich vandaag?
+U> gefrustreerd
+S> U voelt zich gefrustreerd, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+
+--- ik ben - enthusiastic
+U> ik ben enthousiast
+S> U voelt zich enthousiast, dat is geweldig.
+
+--- ik ben - blij
+U> ik ben blij
+S> U voelt zich blij, dat is fantastisch.
+
+--- ik ben - vrolijk
+U> ik ben vrolijk
+S> U voelt zich vrolijk, dat is oke.
+
+--- ik ben - fijn
+U> ik ben fijn
+S> U voelt zich fijn, dat is goed.
+
+--- ik ben - goed
+U> ik ben goed
+S> U voelt zich goed, wilt u dat ik een activiteit voorstel?.
+
+--- ik ben - trots
+U> ik ben trots
+S> U voelt zich trots, goed om te horen. Nog een fijne dag toegewenst!.
+
+--- ik ben - tevreden
+U> ik ben tevreden
+S> U voelt zich tevreden, dat is oke.
+
+--- ik ben - comfortabel
+U> ik ben comfortabel
+S> U voelt zich comfortabel, dat is goed.
+
+--- ik ben - kalm
+U> ik ben kalm
+S> U voelt zich kalm, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- ik ben - onverschillig
+U> ik ben onverschillig
+S> U voelt zich onverschillig, wilt u een suggestie voor een spelletje?.
+
+--- ik ben - rustig
+U> ik ben rustig
+S> U voelt zich rustig, wilt u naar muziek luisteren.
+
+--- ik ben - normaal
+U> ik ben normaal
+S> U voelt zich normaal, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- ik ben - oke
+U> ik ben oke
+S> U voelt zich oke, wilt u een suggestie voor een spelletje?.
+
+--- ik ben - onzeker
+U> ik ben onzeker
+S> U voelt zich onzeker, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- ik ben - ernstig
+U> ik ben ernstig
+S> U voelt zich ernstig, wilt u een suggestie voor een spelletje?.
+
+--- ik ben - bedachtzaam
+U> ik ben bedachtzaam
+S> U voelt zich bedachtzaam, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- ik ben - zorgen
+U> ik ben zorgen
+S> U voelt zich zorgen, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- ik ben - nerveus
+U> ik ben nerveus
+S> U voelt zich nerveus, wilt u dat ik iemand bel?.
+
+--- ik ben - verward
+U> ik ben verward
+S> U voelt zich verward, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- ik ben - verontrust
+U> ik ben verontrust
+S> U voelt zich verontrust, wilt u dat ik iemand bel?.
+
+--- ik ben - angstig
+U> ik ben angstig
+S> U voelt zich angstig, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- ik ben - bang
+U> ik ben bang
+S> U voelt zich bang, wilt u dat ik iemand bel?.
+
+--- ik ben - gespannen
+U> ik ben gespannen
+S> U voelt zich gespannen, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- ik ben - slecht
+U> ik ben slecht
+S> U voelt zich slecht, wilt u dat ik iemand bel?.
+
+--- ik ben - verveeld
+U> ik ben verveeld
+S> U voelt zich verveeld, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- ik ben - verdrietig
+U> ik ben verdrietig
+S> U voelt zich verdrietig, wilt u dat ik iemand bel?.
+
+--- ik ben - teleurgesteld
+U> ik ben teleurgesteld
+S> U voelt zich teleurgesteld, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- ik ben - moe
+U> ik ben moe
+S> U voelt zich moe, wilt u dat ik iemand bel?.
+
+--- ik ben - melancholisch
+U> ik ben melancholisch
+S> U voelt zich melancholisch, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- ik ben - misnoegd
+U> ik ben misnoegd
+S> U voelt zich misnoegd, wilt u dat ik iemand bel?.
+
+--- ik ben - kwaad
+U> ik ben kwaad
+S> U voelt zich kwaad, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- ik ben - geirriteerd
+U> ik ben geirriteerd
+S> U voelt zich geirriteerd, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- ik ben - geergerd
+U> ik ben geergerd
+S> U voelt zich geergerd, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- ik ben - afkerig
+U> ik ben afkerig
+S> U voelt zich afkerig, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- ik ben - ontdaan
+U> ik ben ontdaan
+S> U voelt zich ontdaan, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- ik ben - pijnlijk
+U> ik ben pijnlijk
+S> U voelt zich pijnlijk, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- ik ben - koud
+U> ik ben koud
+S> U voelt zich koud, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- ik ben - misselijk
+U> ik ben misselijk
+S> U voelt zich misselijk, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- ik ben - droevig
+U> ik ben droevig
+S> U voelt zich droevig, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- ik ben - depressief
+U> ik ben depressief
+S> U voelt zich depressief, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- ik ben - somber
+U> ik ben somber
+S> U voelt zich somber, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- ik ben - gefrustreerd
+U> ik ben gefrustreerd
+S> U voelt zich gefrustreerd, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+
+--- ik voel mij - enthusiastic
+U> ik voel mij enthousiast
+S> U voelt zich enthousiast, dat is geweldig.
+
+--- ik voel mij - blij
+U> ik voel mij blij
+S> U voelt zich blij, dat is fantastisch.
+
+--- ik voel mij - vrolijk
+U> ik voel mij vrolijk
+S> U voelt zich vrolijk, dat is oke.
+
+--- ik voel mij - fijn
+U> ik voel mij fijn
+S> U voelt zich fijn, dat is goed.
+
+--- ik voel mij - goed
+U> ik voel mij goed
+S> U voelt zich goed, wilt u dat ik een activiteit voorstel?.
+
+--- ik voel mij - trots
+U> ik voel mij trots
+S> U voelt zich trots, goed om te horen. Nog een fijne dag toegewenst!.
+
+--- ik voel mij - tevreden
+U> ik voel mij tevreden
+S> U voelt zich tevreden, dat is oke.
+
+--- ik voel mij - comfortabel
+U> ik voel mij comfortabel
+S> U voelt zich comfortabel, dat is goed.
+
+--- ik voel mij - kalm
+U> ik voel mij kalm
+S> U voelt zich kalm, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- ik voel mij - onverschillig
+U> ik voel mij onverschillig
+S> U voelt zich onverschillig, wilt u een suggestie voor een spelletje?.
+
+--- ik voel mij - rustig
+U> ik voel mij rustig
+S> U voelt zich rustig, wilt u naar muziek luisteren.
+
+--- ik voel mij - normaal
+U> ik voel mij normaal
+S> U voelt zich normaal, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- ik voel mij - oke
+U> ik voel mij oke
+S> U voelt zich oke, wilt u een suggestie voor een spelletje?.
+
+--- ik voel mij - onzeker
+U> ik voel mij onzeker
+S> U voelt zich onzeker, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- ik voel mij - ernstig
+U> ik voel mij ernstig
+S> U voelt zich ernstig, wilt u een suggestie voor een spelletje?.
+
+--- ik voel mij - bedachtzaam
+U> ik voel mij bedachtzaam
+S> U voelt zich bedachtzaam, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- ik voel mij - zorgen
+U> ik voel mij zorgen
+S> U voelt zich zorgen, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- ik voel mij - nerveus
+U> ik voel mij nerveus
+S> U voelt zich nerveus, wilt u dat ik iemand bel?.
+
+--- ik voel mij - verward
+U> ik voel mij verward
+S> U voelt zich verward, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- ik voel mij - verontrust
+U> ik voel mij verontrust
+S> U voelt zich verontrust, wilt u dat ik iemand bel?.
+
+--- ik voel mij - angstig
+U> ik voel mij angstig
+S> U voelt zich angstig, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- ik voel mij - bang
+U> ik voel mij bang
+S> U voelt zich bang, wilt u dat ik iemand bel?.
+
+--- ik voel mij - gespannen
+U> ik voel mij gespannen
+S> U voelt zich gespannen, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- ik voel mij - slecht
+U> ik voel mij slecht
+S> U voelt zich slecht, wilt u dat ik iemand bel?.
+
+--- ik voel mij - verveeld
+U> ik voel mij verveeld
+S> U voelt zich verveeld, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- ik voel mij - verdrietig
+U> ik voel mij verdrietig
+S> U voelt zich verdrietig, wilt u dat ik iemand bel?.
+
+--- ik voel mij - teleurgesteld
+U> ik voel mij teleurgesteld
+S> U voelt zich teleurgesteld, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- ik voel mij - moe
+U> ik voel mij moe
+S> U voelt zich moe, wilt u dat ik iemand bel?.
+
+--- ik voel mij - melancholisch
+U> ik voel mij melancholisch
+S> U voelt zich melancholisch, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- ik voel mij - misnoegd
+U> ik voel mij misnoegd
+S> U voelt zich misnoegd, wilt u dat ik iemand bel?.
+
+--- ik voel mij - kwaad
+U> ik voel mij kwaad
+S> U voelt zich kwaad, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- ik voel mij - geirriteerd
+U> ik voel mij geirriteerd
+S> U voelt zich geirriteerd, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- ik voel mij - geergerd
+U> ik voel mij geergerd
+S> U voelt zich geergerd, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- ik voel mij - afkerig
+U> ik voel mij afkerig
+S> U voelt zich afkerig, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- ik voel mij - ontdaan
+U> ik voel mij ontdaan
+S> U voelt zich ontdaan, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- ik voel mij - pijnlijk
+U> ik voel mij pijnlijk
+S> U voelt zich pijnlijk, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- ik voel mij - koud
+U> ik voel mij koud
+S> U voelt zich koud, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- ik voel mij - misselijk
+U> ik voel mij misselijk
+S> U voelt zich misselijk, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- ik voel mij - droevig
+U> ik voel mij droevig
+S> U voelt zich droevig, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- ik voel mij - depressief
+U> ik voel mij depressief
+S> U voelt zich depressief, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- ik voel mij - somber
+U> ik voel mij somber
+S> U voelt zich somber, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- ik voel mij - gefrustreerd
+U> ik voel mij gefrustreerd
+S> U voelt zich gefrustreerd, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- vandaag voel ik mij - enthusiastic
+U> vandaag voel ik mij enthousiast
+S> U voelt zich enthousiast, dat is geweldig.
+
+--- vandaag voel ik mij - blij
+U> vandaag voel ik mij blij
+S> U voelt zich blij, dat is fantastisch.
+
+--- vandaag voel ik mij - vrolijk
+U> vandaag voel ik mij vrolijk
+S> U voelt zich vrolijk, dat is oke.
+
+--- vandaag voel ik mij - fijn
+U> vandaag voel ik mij fijn
+S> U voelt zich fijn, dat is goed.
+
+--- vandaag voel ik mij - goed
+U> vandaag voel ik mij goed
+S> U voelt zich goed, wilt u dat ik een activiteit voorstel?.
+
+--- vandaag voel ik mij - trots
+U> vandaag voel ik mij trots
+S> U voelt zich trots, goed om te horen. Nog een fijne dag toegewenst!.
+
+--- vandaag voel ik mij - tevreden
+U> vandaag voel ik mij tevreden
+S> U voelt zich tevreden, dat is oke.
+
+--- vandaag voel ik mij - comfortabel
+U> vandaag voel ik mij comfortabel
+S> U voelt zich comfortabel, dat is goed.
+
+--- vandaag voel ik mij - kalm
+U> vandaag voel ik mij kalm
+S> U voelt zich kalm, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- vandaag voel ik mij - onverschillig
+U> vandaag voel ik mij onverschillig
+S> U voelt zich onverschillig, wilt u een suggestie voor een spelletje?.
+
+--- vandaag voel ik mij - rustig
+U> vandaag voel ik mij rustig
+S> U voelt zich rustig, wilt u naar muziek luisteren.
+
+--- vandaag voel ik mij - normaal
+U> vandaag voel ik mij normaal
+S> U voelt zich normaal, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- vandaag voel ik mij - oke
+U> vandaag voel ik mij oke
+S> U voelt zich oke, wilt u een suggestie voor een spelletje?.
+
+--- vandaag voel ik mij - onzeker
+U> vandaag voel ik mij onzeker
+S> U voelt zich onzeker, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- vandaag voel ik mij - ernstig
+U> vandaag voel ik mij ernstig
+S> U voelt zich ernstig, wilt u een suggestie voor een spelletje?.
+
+--- vandaag voel ik mij - bedachtzaam
+U> vandaag voel ik mij bedachtzaam
+S> U voelt zich bedachtzaam, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- vandaag voel ik mij - zorgen
+U> vandaag voel ik mij zorgen
+S> U voelt zich zorgen, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- vandaag voel ik mij - nerveus
+U> vandaag voel ik mij nerveus
+S> U voelt zich nerveus, wilt u dat ik iemand bel?.
+
+--- vandaag voel ik mij - verward
+U> vandaag voel ik mij verward
+S> U voelt zich verward, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- vandaag voel ik mij - verontrust
+U> vandaag voel ik mij verontrust
+S> U voelt zich verontrust, wilt u dat ik iemand bel?.
+
+--- vandaag voel ik mij - angstig
+U> vandaag voel ik mij angstig
+S> U voelt zich angstig, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- vandaag voel ik mij - bang
+U> vandaag voel ik mij bang
+S> U voelt zich bang, wilt u dat ik iemand bel?.
+
+--- vandaag voel ik mij - gespannen
+U> vandaag voel ik mij gespannen
+S> U voelt zich gespannen, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- vandaag voel ik mij - slecht
+U> vandaag voel ik mij slecht
+S> U voelt zich slecht, wilt u dat ik iemand bel?.
+
+--- vandaag voel ik mij - verveeld
+U> vandaag voel ik mij verveeld
+S> U voelt zich verveeld, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- vandaag voel ik mij - verdrietig
+U> vandaag voel ik mij verdrietig
+S> U voelt zich verdrietig, wilt u dat ik iemand bel?.
+
+--- vandaag voel ik mij - teleurgesteld
+U> vandaag voel ik mij teleurgesteld
+S> U voelt zich teleurgesteld, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- vandaag voel ik mij - moe
+U> vandaag voel ik mij moe
+S> U voelt zich moe, wilt u dat ik iemand bel?.
+
+--- vandaag voel ik mij - melancholisch
+U> vandaag voel ik mij melancholisch
+S> U voelt zich melancholisch, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- vandaag voel ik mij - misnoegd
+U> vandaag voel ik mij misnoegd
+S> U voelt zich misnoegd, wilt u dat ik iemand bel?.
+
+--- vandaag voel ik mij - kwaad
+U> vandaag voel ik mij kwaad
+S> U voelt zich kwaad, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- vandaag voel ik mij - geirriteerd
+U> vandaag voel ik mij geirriteerd
+S> U voelt zich geirriteerd, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- vandaag voel ik mij - geergerd
+U> vandaag voel ik mij geergerd
+S> U voelt zich geergerd, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- vandaag voel ik mij - afkerig
+U> vandaag voel ik mij afkerig
+S> U voelt zich afkerig, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- vandaag voel ik mij - ontdaan
+U> vandaag voel ik mij ontdaan
+S> U voelt zich ontdaan, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- vandaag voel ik mij - pijnlijk
+U> vandaag voel ik mij pijnlijk
+S> U voelt zich pijnlijk, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- vandaag voel ik mij - koud
+U> vandaag voel ik mij koud
+S> U voelt zich koud, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- vandaag voel ik mij - misselijk
+U> vandaag voel ik mij misselijk
+S> U voelt zich misselijk, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- vandaag voel ik mij - droevig
+U> vandaag voel ik mij droevig
+S> U voelt zich droevig, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- vandaag voel ik mij - depressief
+U> vandaag voel ik mij depressief
+S> U voelt zich depressief, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- vandaag voel ik mij - somber
+U> vandaag voel ik mij somber
+S> U voelt zich somber, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- vandaag voel ik mij - gefrustreerd
+U> vandaag voel ik mij gefrustreerd
+S> U voelt zich gefrustreerd, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- ik maak mij - enthusiastic
+U> ik maak mij enthousiast
+S> U voelt zich enthousiast, dat is geweldig.
+
+--- ik maak mij - blij
+U> ik maak mij blij
+S> U voelt zich blij, dat is fantastisch.
+
+--- ik maak mij - vrolijk
+U> ik maak mij vrolijk
+S> U voelt zich vrolijk, dat is oke.
+
+--- ik maak mij - fijn
+U> ik maak mij fijn
+S> U voelt zich fijn, dat is goed.
+
+--- ik maak mij - goed
+U> ik maak mij goed
+S> U voelt zich goed, wilt u dat ik een activiteit voorstel?.
+
+--- ik maak mij - trots
+U> ik maak mij trots
+S> U voelt zich trots, goed om te horen. Nog een fijne dag toegewenst!.
+
+--- ik maak mij - tevreden
+U> ik maak mij tevreden
+S> U voelt zich tevreden, dat is oke.
+
+--- ik maak mij - comfortabel
+U> ik maak mij comfortabel
+S> U voelt zich comfortabel, dat is goed.
+
+--- ik maak mij - kalm
+U> ik maak mij kalm
+S> U voelt zich kalm, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- ik maak mij - onverschillig
+U> ik maak mij onverschillig
+S> U voelt zich onverschillig, wilt u een suggestie voor een spelletje?.
+
+--- ik maak mij - rustig
+U> ik maak mij rustig
+S> U voelt zich rustig, wilt u naar muziek luisteren.
+
+--- ik maak mij - normaal
+U> ik maak mij normaal
+S> U voelt zich normaal, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- ik maak mij - oke
+U> ik maak mij oke
+S> U voelt zich oke, wilt u een suggestie voor een spelletje?.
+
+--- ik maak mij - onzeker
+U> ik maak mij onzeker
+S> U voelt zich onzeker, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- ik maak mij - ernstig
+U> ik maak mij ernstig
+S> U voelt zich ernstig, wilt u een suggestie voor een spelletje?.
+
+--- ik maak mij - bedachtzaam
+U> ik maak mij bedachtzaam
+S> U voelt zich bedachtzaam, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- ik maak mij - zorgen
+U> ik maak mij zorgen
+S> U voelt zich zorgen, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- ik maak mij - nerveus
+U> ik maak mij nerveus
+S> U voelt zich nerveus, wilt u dat ik iemand bel?.
+
+--- ik maak mij - verward
+U> ik maak mij verward
+S> U voelt zich verward, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- ik maak mij - verontrust
+U> ik maak mij verontrust
+S> U voelt zich verontrust, wilt u dat ik iemand bel?.
+
+--- ik maak mij - angstig
+U> ik maak mij angstig
+S> U voelt zich angstig, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- ik maak mij - bang
+U> ik maak mij bang
+S> U voelt zich bang, wilt u dat ik iemand bel?.
+
+--- ik maak mij - gespannen
+U> ik maak mij gespannen
+S> U voelt zich gespannen, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- ik maak mij - slecht
+U> ik maak mij slecht
+S> U voelt zich slecht, wilt u dat ik iemand bel?.
+
+--- ik maak mij - verveeld
+U> ik maak mij verveeld
+S> U voelt zich verveeld, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- ik maak mij - verdrietig
+U> ik maak mij verdrietig
+S> U voelt zich verdrietig, wilt u dat ik iemand bel?.
+
+--- ik maak mij - teleurgesteld
+U> ik maak mij teleurgesteld
+S> U voelt zich teleurgesteld, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- ik maak mij - moe
+U> ik maak mij moe
+S> U voelt zich moe, wilt u dat ik iemand bel?.
+
+--- ik maak mij - melancholisch
+U> ik maak mij melancholisch
+S> U voelt zich melancholisch, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- ik maak mij - misnoegd
+U> ik maak mij misnoegd
+S> U voelt zich misnoegd, wilt u dat ik iemand bel?.
+
+--- ik maak mij - kwaad
+U> ik maak mij kwaad
+S> U voelt zich kwaad, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- ik maak mij - geirriteerd
+U> ik maak mij geirriteerd
+S> U voelt zich geirriteerd, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- ik maak mij - geergerd
+U> ik maak mij geergerd
+S> U voelt zich geergerd, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- ik maak mij - afkerig
+U> ik maak mij afkerig
+S> U voelt zich afkerig, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- ik maak mij - ontdaan
+U> ik maak mij ontdaan
+S> U voelt zich ontdaan, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- ik maak mij - pijnlijk
+U> ik maak mij pijnlijk
+S> U voelt zich pijnlijk, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- ik maak mij - koud
+U> ik maak mij koud
+S> U voelt zich koud, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- ik maak mij - misselijk
+U> ik maak mij misselijk
+S> U voelt zich misselijk, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- ik maak mij - droevig
+U> ik maak mij droevig
+S> U voelt zich droevig, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- ik maak mij - depressief
+U> ik maak mij depressief
+S> U voelt zich depressief, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- ik maak mij - somber
+U> ik maak mij somber
+S> U voelt zich somber, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- ik maak mij - gefrustreerd
+U> ik maak mij gefrustreerd
+S> U voelt zich gefrustreerd, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+
+--- vandaag heb ik - enthusiastic
+U> vandaag heb ik enthousiast
+S> U voelt zich enthousiast, dat is geweldig.
+
+--- vandaag heb ik - blij
+U> vandaag heb ik blij
+S> U voelt zich blij, dat is fantastisch.
+
+--- vandaag heb ik - vrolijk
+U> vandaag heb ik vrolijk
+S> U voelt zich vrolijk, dat is oke.
+
+--- vandaag heb ik - fijn
+U> vandaag heb ik fijn
+S> U voelt zich fijn, dat is goed.
+
+--- vandaag heb ik - goed
+U> vandaag heb ik goed
+S> U voelt zich goed, wilt u dat ik een activiteit voorstel?.
+
+--- vandaag heb ik - trots
+U> vandaag heb ik trots
+S> U voelt zich trots, goed om te horen. Nog een fijne dag toegewenst!.
+
+--- vandaag heb ik - tevreden
+U> vandaag heb ik tevreden
+S> U voelt zich tevreden, dat is oke.
+
+--- vandaag heb ik - comfortabel
+U> vandaag heb ik comfortabel
+S> U voelt zich comfortabel, dat is goed.
+
+--- vandaag heb ik - kalm
+U> vandaag heb ik kalm
+S> U voelt zich kalm, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- vandaag heb ik - onverschillig
+U> vandaag heb ik onverschillig
+S> U voelt zich onverschillig, wilt u een suggestie voor een spelletje?.
+
+--- vandaag heb ik - rustig
+U> vandaag heb ik rustig
+S> U voelt zich rustig, wilt u naar muziek luisteren.
+
+--- vandaag heb ik - normaal
+U> vandaag heb ik normaal
+S> U voelt zich normaal, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- vandaag heb ik - oke
+U> vandaag heb ik oke
+S> U voelt zich oke, wilt u een suggestie voor een spelletje?.
+
+--- vandaag heb ik - onzeker
+U> vandaag heb ik onzeker
+S> U voelt zich onzeker, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- vandaag heb ik - ernstig
+U> vandaag heb ik ernstig
+S> U voelt zich ernstig, wilt u een suggestie voor een spelletje?.
+
+--- vandaag heb ik - bedachtzaam
+U> vandaag heb ik bedachtzaam
+S> U voelt zich bedachtzaam, ik kan u helpen. Wilt u dat ik een activiteit voorstel?.
+
+--- vandaag heb ik - zorgen
+U> vandaag heb ik zorgen
+S> U voelt zich zorgen, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- vandaag heb ik - nerveus
+U> vandaag heb ik nerveus
+S> U voelt zich nerveus, wilt u dat ik iemand bel?.
+
+--- vandaag heb ik - verward
+U> vandaag heb ik verward
+S> U voelt zich verward, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- vandaag heb ik - verontrust
+U> vandaag heb ik verontrust
+S> U voelt zich verontrust, wilt u dat ik iemand bel?.
+
+--- vandaag heb ik - angstig
+U> vandaag heb ik angstig
+S> U voelt zich angstig, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- vandaag heb ik - bang
+U> vandaag heb ik bang
+S> U voelt zich bang, wilt u dat ik iemand bel?.
+
+--- vandaag heb ik - gespannen
+U> vandaag heb ik gespannen
+S> U voelt zich gespannen, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- vandaag heb ik - slecht
+U> vandaag heb ik slecht
+S> U voelt zich slecht, wilt u dat ik iemand bel?.
+
+--- vandaag heb ik - verveeld
+U> vandaag heb ik verveeld
+S> U voelt zich verveeld, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- vandaag heb ik - verdrietig
+U> vandaag heb ik verdrietig
+S> U voelt zich verdrietig, wilt u dat ik iemand bel?.
+
+--- vandaag heb ik - teleurgesteld
+U> vandaag heb ik teleurgesteld
+S> U voelt zich teleurgesteld, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- vandaag heb ik - moe
+U> vandaag heb ik moe
+S> U voelt zich moe, wilt u dat ik iemand bel?.
+
+--- vandaag heb ik - melancholisch
+U> vandaag heb ik melancholisch
+S> U voelt zich melancholisch, wilt u dat ik een activiteit voorstel waardoor u zich beter gaat voelen?.
+
+--- vandaag heb ik - misnoegd
+U> vandaag heb ik misnoegd
+S> U voelt zich misnoegd, wilt u dat ik iemand bel?.
+
+--- vandaag heb ik - kwaad
+U> vandaag heb ik kwaad
+S> U voelt zich kwaad, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- vandaag heb ik - geirriteerd
+U> vandaag heb ik geirriteerd
+S> U voelt zich geirriteerd, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- vandaag heb ik - geergerd
+U> vandaag heb ik geergerd
+S> U voelt zich geergerd, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- vandaag heb ik - afkerig
+U> vandaag heb ik afkerig
+S> U voelt zich afkerig, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- vandaag heb ik - ontdaan
+U> vandaag heb ik ontdaan
+S> U voelt zich ontdaan, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- vandaag heb ik - pijnlijk
+U> vandaag heb ik pijnlijk
+S> U voelt zich pijnlijk, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- vandaag heb ik - koud
+U> vandaag heb ik koud
+S> U voelt zich koud, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- vandaag heb ik - misselijk
+U> vandaag heb ik misselijk
+S> U voelt zich misselijk, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- vandaag heb ik - droevig
+U> vandaag heb ik droevig
+S> U voelt zich droevig, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- vandaag heb ik - depressief
+U> vandaag heb ik depressief
+S> U voelt zich depressief, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+--- vandaag heb ik - somber
+U> vandaag heb ik somber
+S> U voelt zich somber, dat klinkt niet goed. Wilt u dat ik iemand bel?.
+
+--- vandaag heb ik - gefrustreerd
+U> vandaag heb ik gefrustreerd
+S> U voelt zich gefrustreerd, heeft u hulp nodig? Wilt u dat ik iemand bel?.
+
+
+
+
+
+
+
+# socialgroupsapp
+
+--- create_a_group
+U> het creëren van een groep
+S> Welke naam wil je hebben voor de groep?
+U> reumatiek
+S> Wat is de beschrijving van de groep?
+U> over reumatische
+S> Groep reumatiek met omscchrijving over reumatische is gecreëerd.
+
+--- I_want_to_create_a_group
+U> ik wil een groep aanmaken
+S> Welke naam wil je hebben voor de groep?
+U> reumatiek
+S> Wat is de beschrijving van de groep?
+U> over reumatische
+S> Groep reumatiek met omscchrijving over reumatische is gecreëerd.
+
+--- group
+U> groep
+S> Welke naam wil je hebben voor de groep?
+U> reumatiek
+S> Wat is de beschrijving van de groep?
+U> over reumatische
+S> Groep reumatiek met omscchrijving over reumatische is gecreëerd.
+
+--- new group
+U> nieuwe groep
+S> Welke naam wil je hebben voor de groep?
+U> reumatiek
+S> Wat is de beschrijving van de groep?
+U> over reumatische
+S> Groep reumatiek met omscchrijving over reumatische is gecreëerd.
+
+--- group_of_discussion 
+U> praatgroep
+S> Welke naam wil je voor de discussie hebben?
+U> reumatiek
+S> Wat is de beschrijving van de discussie?
+U> over reumatische
+S> Discussie reumatiek met beschrijving over reumatische is gecreëerd.
+
+--- create a group of discussion
+U> een praatgroep opzetten
+S> Welke naam wil je voor de discussie hebben?
+U> reumatiek
+S> Wat is de beschrijving van de discussie?
+U> over reumatische
+S> Discussie reumatiek met beschrijving over reumatische is gecreëerd.
+
+--- create a discussion
+U> discussie
+S> Welke naam wil je voor de discussie hebben?
+U> reumatiek
+S> Wat is de beschrijving van de discussie?
+U> over reumatische
+S> Discussie reumatiek met beschrijving over reumatische is gecreëerd.
+
+--- I want to create a discussion
+U> ik wil een discussie beginnen
+S> Welke naam wil je voor de discussie hebben?
+U> reumatiek
+S> Wat is de beschrijving van de discussie?
+U> over reumatische
+S> Discussie reumatiek met beschrijving over reumatische is gecreëerd.
+
+# meetingapp
+--- setup_meeting
+U> bijeenkomst
+S> Over welk jaar hebben we het?
+U> 2016
+S> Over welke maand hebben we het?
+U> mei
+S> Over welke dag van de maand hebben we het?
+U> 20
+S> Wat is het onderwerp van de ontmoeting?
+U> vieren
+S> Welke locatie wil je voor deze ontmoeting?
+U> whisky bar
+S> De uitnodiging voor uw ontmoeting is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+--- setup_meeting year one-shot
+U> bijeenkomst op 2016
+S> Over welke maand hebben we het?
+U> mei
+S> Over welke dag van de maand hebben we het?
+U> 20
+S> Wat is het onderwerp van de ontmoeting?
+U> vieren
+S> Welke locatie wil je voor deze ontmoeting?
+U> whisky bar
+S> De uitnodiging voor uw ontmoeting is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+--- setup_meeting year and month one-shot
+U> bijeenkomst op 2016 mei
+S> Over welke dag van de maand hebben we het?
+U> 20
+S> Wat is het onderwerp van de ontmoeting?
+U> vieren
+S> Welke locatie wil je voor deze ontmoeting?
+U> whisky bar
+S> De uitnodiging voor uw ontmoeting is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+--- setup_meeting one-shot
+U> bijeenkomst op 2016 mei 20
+S> Wat is het onderwerp van de ontmoeting?
+U> vieren
+S> Welke locatie wil je voor deze ontmoeting?
+U> whisky bar
+S> De uitnodiging voor uw ontmoeting is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+
+--- create_meeting
+U> een ontmoeting maken
+S> Over welk jaar hebben we het?
+U> 2016
+S> Over welke maand hebben we het?
+U> mei
+S> Over welke dag van de maand hebben we het?
+U> 20
+S> Wat is het onderwerp van de ontmoeting?
+U> vieren
+S> Welke locatie wil je voor deze ontmoeting?
+U> whisky bar
+S> De uitnodiging voor uw ontmoeting is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+--- create_meeting year one-shot
+U> een ontmoeting maken op 2016
+S> Over welke maand hebben we het?
+U> mei
+S> Over welke dag van de maand hebben we het?
+U> 20
+S> Wat is het onderwerp van de ontmoeting?
+U> vieren
+S> Welke locatie wil je voor deze ontmoeting?
+U> whisky bar
+S> De uitnodiging voor uw ontmoeting is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+--- create_meeting year and month one-shot
+U> een ontmoeting maken op 2016 mei
+S> Over welke dag van de maand hebben we het?
+U> 20
+S> Wat is het onderwerp van de ontmoeting?
+U> vieren
+S> Welke locatie wil je voor deze ontmoeting?
+U> whisky bar
+S> De uitnodiging voor uw ontmoeting is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+--- create_meeting one-shot
+U> een ontmoeting maken op 2016 mei 20
+S> Wat is het onderwerp van de ontmoeting?
+U> vieren
+S> Welke locatie wil je voor deze ontmoeting?
+U> whisky bar
+S> De uitnodiging voor uw ontmoeting is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+--- appointment
+U> afspraak
+S> Over welk jaar hebben we het?
+U> 2016
+S> Over welke maand hebben we het?
+U> mei
+S> Over welke dag van de maand hebben we het?
+U> 20
+S> Wat is het onderwerp van de afspraak?
+U> vieren
+S> Waar vind de afspraak plaats?
+U> whisky bar
+S> De uitnodiging van uw afspraak is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+--- afspraak year one-shot
+U> afspraak op 2016
+S> Over welke maand hebben we het?
+U> mei
+S> Over welke dag van de maand hebben we het?
+U> 20
+S> Wat is het onderwerp van de afspraak?
+U> vieren
+S> Waar vind de afspraak plaats?
+U> whisky bar
+S> De uitnodiging van uw afspraak is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+--- afspraak year and month one-shot
+U> afspraak op 2016 mei
+S> Over welke dag van de maand hebben we het?
+U> 20
+S> Wat is het onderwerp van de afspraak?
+U> vieren
+S> Waar vind de afspraak plaats?
+U> whisky bar
+S> De uitnodiging van uw afspraak is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+--- afspraak one-shot
+U> afspraak op 2016 mei 20
+S> Wat is het onderwerp van de afspraak?
+U> vieren
+S> Waar vind de afspraak plaats?
+U> whisky bar
+S> De uitnodiging van uw afspraak is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+--- conferentie
+U> conferentie
+S> Over welk jaar hebben we het?
+U> 2016
+S> Over welke maand hebben we het?
+U> mei
+S> Over welke dag van de maand hebben we het?
+U> 20
+S> Wat is het onderwerp van de conferentie?
+U> vieren
+S> Op welke plek is de conferentie?
+U> whisky bar
+S> De uitnodiging van uw conferentie is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+--- uitnodiging
+U> uitnodiging
+S> Over welk jaar hebben we het?
+U> 2016
+S> Over welke maand hebben we het?
+U> mei
+S> Over welke dag van de maand hebben we het?
+U> 20
+S> Wat is het onderwerp van de uitnodiging?
+U> vieren
+S> Op welke plek is de uitnodiging?
+U> whisky bar
+S> De uitnodiging is verzonden mei 20 2016 onderwerp is vieren en de locatie is whisky bar.
+
+
+# news
+--- haal het nieuws op sport
+S> Wat wilt u doen?
+U> haal het nieuws op
+S> Wat voor nieuws wilt u hebben?
+U> sport
+S> Tonen sport.
+
+# tutorial
+--- sound maria zeventig
+S> Wat wilt u doen?
+U> start
+S> Hallo, ik ben de Alfred assistent. Ik ben geïntegreerd in alle Alfred applicaties. Ik ben hier om u te helpen. Ten eerste zult u in al onze applicaties vaak een knop in het scherm zien met een microfoon. Tik op de knop met de microfoon en zeg ga verder.
+U> ga verder
+S> Perfect! Dit is belangrijk, de applicaties hebben een gesprekssysteem. U kunt mij antwoorden en u kunt opdrachten aan mij geven. Op deze manier zal de interactie tussen u en de applicatie makkelijker verlopen. Tik op de knop met de microfoon en zeg ik begrijp het om verder te gaan.
+U> begrijpen
+S> Laten we een eenvoudig voorbeeld nemen. Kijk in de linkerbenedenhoek van het scherm. In de linkerbenedenhoek van het scherm ziet u twee blauw gekleurde opdrachten. Elke blauw gekleurde opdracht kan worden uitgevoerd, een geluid afspelen of een afbeelding laten zien. Tik op de knop met de microfoon en lees een blauw gekleurde opdracht voor zodat ik uw bevel kan horen.
+U> speel een geluid af
+S> Dit is het geluid. Ik hoop dat dit u heeft geholpen. Laten we elkaar beter leren kennen. Wat is jouw naam?.
+U> maria
+S> maria. Hoe oud ben je?.
+U> zeventig
+S> zeventig. U bent ouder dan ik, want ik besta pas net. Ik hoop dat we in de toekomst meer contact hebben met elkaar, een fijne dag toegewenst.
+
+--- image maria zestig
+S> Wat wilt u doen?
+U> start
+S> Hallo, ik ben de Alfred assistent. Ik ben geïntegreerd in alle Alfred applicaties. Ik ben hier om u te helpen. Ten eerste zult u in al onze applicaties vaak een knop in het scherm zien met een microfoon. Tik op de knop met de microfoon en zeg ga verder.
+U> ga verder
+S> Perfect! Dit is belangrijk, de applicaties hebben een gesprekssysteem. U kunt mij antwoorden en u kunt opdrachten aan mij geven. Op deze manier zal de interactie tussen u en de applicatie makkelijker verlopen. Tik op de knop met de microfoon en zeg ik begrijp het om verder te gaan.
+U> begrijpen
+S> Laten we een eenvoudig voorbeeld nemen. Kijk in de linkerbenedenhoek van het scherm. In de linkerbenedenhoek van het scherm ziet u twee blauw gekleurde opdrachten. Elke blauw gekleurde opdracht kan worden uitgevoerd, een geluid afspelen of een afbeelding laten zien. Tik op de knop met de microfoon en lees een blauw gekleurde opdracht voor zodat ik uw bevel kan horen.
+U> toon een afbeelding
+S> Dit is de afbeelding, een heldere ster. Ik hoop dat dit u heeft geholpen. Laten we elkaar beter leren kennen. Wat is jouw naam?.
+U> maria
+S> maria. Hoe oud ben je?.
+U> zestig
+S> zestig. U bent ouder dan ik, want ik besta pas net. Ik hoop dat we in de toekomst meer contact hebben met elkaar, een fijne dag toegewenst.
+
+# chat
+--- call 
+S> Wat wilt u doen?
+U> bel
+S> Wat is de eerste naam?
+U> John
+S> Wat is de achternaam?
+U> johnson
+S> Bel John Johnson.
+
+--- call first name
+S> Wat wilt u doen?
+U> bel john
+S> Wat is de achternaam?
+U> johnson
+S> Bel John Johnson.
+
+--- call last-name
+S> Wat wilt u doen?
+U> bel johnson
+S> Bel John Johnson.
+
+--- call one-shot
+S> Wat wilt u doen?
+U> bel john johnson
+S> Bel John Johnson.
+
+--- video call 
+S> Wat wilt u doen?
+U> videogesprek
+S> Wat is de eerste naam?
+U> John
+S> Wat is de achternaam?
+U> johnson
+S> Videobellen met John Johnson.
+
+--- video call first name
+S> Wat wilt u doen?
+U> videogesprek john
+S> Wat is de achternaam?
+U> johnson
+S> Videobellen met John Johnson.
+
+--- video call last-name
+S> Wat wilt u doen?
+U> videogesprek johnson
+S> Videobellen met John Johnson.
+
+--- video call one-shot
+S> Wat wilt u doen?
+U> videogesprek john johnson
+S> Videobellen met John Johnson.
+
+--- message 
+S> Wat wilt u doen?
+U> stuur een bericht
+S> Wat is de eerste naam?
+U> John
+S> Wat is de achternaam?
+U> johnson
+S> Welk bericht wilt u versturen?
+U> op welk moment moet ik de koffie klaar
+S> Ik stuurde het bericht naar John Johnson. De boodschap was op welk moment moet ik de koffie klaar.
+
+--- video call first name
+S> Wat wilt u doen?
+U> stuur een bericht john
+S> Wat is de achternaam?
+U> johnson
+S> Welk bericht wilt u versturen?
+U> op welk moment moet ik de koffie klaar
+S> Ik stuurde het bericht naar John Johnson. De boodschap was op welk moment moet ik de koffie klaar.
+
+--- video call last-name
+S> Wat wilt u doen?
+U> stuur een bericht johnson
+S> Welk bericht wilt u versturen?
+U> op welk moment moet ik de koffie klaar
+S> Ik stuurde het bericht naar John Johnson. De boodschap was op welk moment moet ik de koffie klaar.
+
+--- video call one-shot
+S> Wat wilt u doen?
+U> stuur een bericht john johnson
+S> Welk bericht wilt u versturen?
+U> op welk moment moet ik de koffie klaar
+S> Ik stuurde het bericht naar John Johnson. De boodschap was op welk moment moet ik de koffie klaar.
+
+# questionnaire
+--- haal informatie op cultuur
+S> Wat wilt u doen?
+U> haal informatie op
+S> Wat voor soort informatie wilt u hebben?
+U> cultuur
+S> Hier is de cultuur informatie.
+
+--- haal informatie op tentoonstellingen
+S> Wat wilt u doen?
+U> haal informatie op
+S> Wat voor soort informatie wilt u hebben?
+U> tentoonstellingen
+S> Hier is de tentoonstellingen informatie.
+
+--- haal informatie op werelds
+S> Wat wilt u doen?
+U> haal informatie op
+S> Wat voor soort informatie wilt u hebben?
+U> werelds
+S> Hier is de werelds informatie.
+
+--- haal informatie op bioscoop
+S> Wat wilt u doen?
+U> haal informatie op
+S> Wat voor soort informatie wilt u hebben?
+U> bioscoop
+S> Hier is de bioscoop informatie.
+
+--- haal informatie op curiosa
+S> Wat wilt u doen?
+U> haal informatie op
+S> Wat voor soort informatie wilt u hebben?
+U> curiosa
+S> Hier is de curiosa informatie.
+
+--- haal informatie op sport
+S> Wat wilt u doen?
+U> haal informatie op
+S> Wat voor soort informatie wilt u hebben?
+U> sport
+S> Hier is de sport informatie.
+
+# help
+--- contact opnemen met verzorger
+S> Wat wilt u doen?
+U> contact opnemen met verzorger
+S> Contact met verzorger wordt opgenomen.
+
+--- verzorger
+S> Wat wilt u doen?
+U> verzorger
+S> Contact met verzorger wordt opgenomen.
+
+--- hulp nodig
+S> Wat wilt u doen?
+U> hulp nodig
+S> Contact opnemen met de hulpdiensten.
+
+--- help
+S> Wat wilt u doen?
+U> help
+S> Contact opnemen met de hulpdiensten.
+
+
+# market
+--- market 11
+S> Wat wilt u doen?
+U> zoeken
+S> Wat wil je zoeken?
+U> gereedschap
+S> Resultaat gereedschap.
+
+--- market 12
+S> Wat wilt u doen?
+U> zoek
+S> Wat wil je zoeken?
+U> gereedschap
+S> Resultaat gereedschap.
+
+--- market 13
+S> Wat wilt u doen?
+U> vind
+S> Wat wil je zoeken?
+U> gereedschap
+S> Resultaat gereedschap.
+
+--- market 14
+S> Wat wilt u doen?
+U> vinden
+S> Wat wil je zoeken?
+U> gereedschap
+S> Resultaat gereedschap.
+
+--- market 21
+S> Wat wilt u doen?
+U> zoeken gereedschap
+S> Resultaat gereedschap.
+
+--- market 22
+S> Wat wilt u doen?
+U> zoek gereedschap
+S> Resultaat gereedschap.
+
+--- market 23
+S> Wat wilt u doen?
+U> vind gereedschap
+S> Resultaat gereedschap.
+
+--- market 24
+S> Wat wilt u doen?
+U> vinden gereedschap
+S> Resultaat gereedschap.

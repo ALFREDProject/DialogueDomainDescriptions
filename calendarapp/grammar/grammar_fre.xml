@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar>
+	<action name="show_calendar">
+		<noun-phrase>
+			<noun ref="calendar"/>
+		</noun-phrase>
+	</action>
+
+	<action name="insert_event">
+		<verb-phrase>
+			<verb ref="insert"/>
+		</verb-phrase>
+	</action>
+
+	<action name="show_event">
+		<verb-phrase>
+			<verb ref="show"/>
+		</verb-phrase>
+	</action>
+
+	<request action="show_calendar">
+		<utterance>
+			<one-of>
+				<item>montrer le calendrier pour <individual sort="month"/> <individual sort="year"/></item>
+				<item>montrer le calendrier <individual sort="year"/></item>
+				<item>montrer le calendrier pour <individual sort="month"/></item>
+				<item>montrer le calendrier pour le mois de <individual sort="month"/></item>
+				<item>montrer le calendrier</item>
+				<item>voir mon calendrier pour <individual sort="month"/> <individual sort="year"/></item>
+				<item>voir mon calendrier <individual sort="year"/></item>
+				<item>voir mon calendrier pour <individual sort="month"/></item>
+				<item>voir mon calendrier pour le mois de <individual sort="month"/></item>
+				<item>voir mon calendrier</item>
+				<item>calendrier</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<request action="insert_event">
+		<utterance>
+			<one-of>
+				<item>créer un événement le <individual sort="day"/> <individual sort="month"/> <individual sort="year"/></item>
+				<item>créer un événement le <individual sort="month"/> <individual sort="year"/></item>
+				<item>créer un événement le <individual sort="year"/></item>
+				<item>créer un événement le <individual sort="month"/></item>
+				<item>créer un événement</item>
+				<item>insérer un événement le <individual sort="day"/> <individual sort="month"/> <individual sort="year"/></item>
+				<item>insérer un événement le <individual sort="month"/> <individual sort="year"/></item>
+				<item>insérer un événement le <individual sort="year"/></item>
+				<item>insérer un événement le <individual sort="month"/></item>
+				<item>insérer un événement</item>	
+			</one-of>
+		</utterance>
+	</request>
+
+	<request action="show_event">
+		<utterance>
+			<one-of>
+				<item>montrer mes événements le <individual sort="day"/> <individual sort="month"/> <individual sort="year"/></item>
+				<item>montrer mes événements le <individual sort="month"/> <individual sort="year"/></item>
+				<item>montrer mes événements le <individual sort="year"/></item>
+				<item>montrer mes événements le <individual sort="month"/></item>
+				<item>montrer mes événements</item>
+				<item>montrer événements</item>
+				<item>voir mes événements le <individual sort="day"/> <individual sort="month"/> <individual sort="year"/></item>
+				<item>voir mes événements le <individual sort="month"/> <individual sort="year"/></item>
+				<item>voir mes événements le <individual sort="year"/></item>
+				<item>voir mes événements le <individual sort="month"/></item>
+				<item>voir mes événements</item>
+				<item>voir événements</item>
+			</one-of>
+		</utterance>
+	</request>
+
+		<question speaker="system" predicate="selected_year" type="wh_question">
+		<utterance>
+			de quelle année parlons-nous
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_month" type="wh_question">
+		<utterance>
+			de quel mois parlons nous
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_day" type="wh_question">
+		<utterance>
+			de quel jour du mois parlons-nous
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_event" type="wh_question">
+		<utterance>
+			quel est le nom de l'événement
+		</utterance>
+	</question>
+
+	<report action="ShowCalendarAction" status="ended">
+		<utterance>
+			voici votre calendrier de <individual predicate="selected_month"/> <individual predicate="selected_year"/>
+		</utterance>
+	</report>
+
+	<report action="InsertEventAction" status="ended">
+		<utterance>
+			J'insère votre événement <individual predicate="selected_event"/> le <individual predicate="selected_day"/> <individual predicate="selected_month"/> <individual predicate="selected_year"/>
+		</utterance>
+	</report>
+
+	<report action="ShowEventAction" status="ended">
+		<utterance>
+			J'ai listé vos événements du <individual predicate="selected_day"/> <individual predicate="selected_month"/> <individual predicate="selected_year"/>
+		</utterance>
+	</report>
+
+	<lexicon>
+		<verb id="show">
+			<infinitive>montrer</infinitive>
+		</verb>
+		<verb id="insert">
+			<infinitive>insérer</infinitive>
+		</verb>
+		<noun id="calendar">
+			<singular>calendrier</singular>
+		</noun>
+	</lexicon>
+</grammar>
+ 

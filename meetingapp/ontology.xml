@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ontology name="MeetingAppOntology">
+	<action name="create_appointment"/>
+	<action name="create_meeting"/>
+	<action name="create_conference"/>
+	<action name="create_invitation"/>
+	<sort name="month" dynamic="true"/>
+	<sort name="year" dynamic="true"/>
+	<sort name="day" dynamic="true"/>
+	<sort name="subject" dynamic="true"/>
+	<sort name="location" dynamic="true"/>
+	<predicate name="selected_month" sort="month"/>
+	<predicate name="selected_year" sort="year"/>
+	<predicate name="selected_day" sort="day"/>
+	<predicate name="selected_subject" sort="subject"/>
+	<predicate name="selected_location" sort="location"/>
+	<predicate name="selected_subject_appointment" sort="subject"/>
+	<predicate name="selected_location_appointment" sort="location"/>
+	<predicate name="selected_subject_conference" sort="subject"/>
+	<predicate name="selected_location_conference" sort="location"/>
+	<predicate name="selected_subject_invitation" sort="subject"/>
+	<predicate name="selected_location_invitation" sort="location"/>
+</ontology>

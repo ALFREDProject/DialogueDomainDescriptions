@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<domain name="PersonalAssistantDomain" is_super_domain="true">
+  
+	<goal type="perform" action="top" reraise_on_resume="false">
+		<plan>     
+			<forget_all/>
+			<findout type="goal"/>
+		</plan>
+	</goal>
+
+	<goal type="perform" action="change_mic_color_action">  
+		<plan>
+			<findout type="wh_question" predicate="selected_mircophone_color"/>
+			<dev_perform action="ChangeMicrophoneColorAction" device="PersonalAssistantDevice" postconfirm="true"/>
+    		</plan>
+    		<postcond>
+      			<device_activity_terminated action="ChangeMicrophoneColorAction"/>
+    		</postcond>
+	</goal>
+
+</domain>

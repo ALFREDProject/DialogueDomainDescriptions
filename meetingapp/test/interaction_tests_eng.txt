@@ -1,0 +1,174 @@
+--- setup_meeting
+U> setup meeting
+S> Which year are we talking about?
+U> 2016
+S> Which month are we talking about?
+U> may
+S> Which day of month are we talking about?
+U> 20
+S> What is the subject of the meeting?
+U> going for launch
+S> Which location do you want to have for the meeting?
+U> whisky bar
+S> Invitation to your meeting has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- setup_meeting year one-shot
+U> setup meeting on 2016
+S> Which month are we talking about?
+U> may
+S> Which day of month are we talking about?
+U> 20
+S> What is the subject of the meeting?
+U> going for launch
+S> Which location do you want to have for the meeting?
+U> whisky bar
+S> Invitation to your meeting has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- setup_meeting year and month one-shot
+U> setup meeting on 2016 may
+S> Which day of month are we talking about?
+U> 20
+S> What is the subject of the meeting?
+U> going for launch
+S> Which location do you want to have for the meeting?
+U> whisky bar
+S> Invitation to your meeting has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- setup_meeting one-shot
+U> setup meeting on 2016 may 20
+S> What is the subject of the meeting?
+U> going for launch
+S> Which location do you want to have for the meeting?
+U> whisky bar
+S> Invitation to your meeting has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+
+--- create_meeting
+U> create meeting
+S> Which year are we talking about?
+U> 2016
+S> Which month are we talking about?
+U> may
+S> Which day of month are we talking about?
+U> 20
+S> What is the subject of the meeting?
+U> going for launch
+S> Which location do you want to have for the meeting?
+U> whisky bar
+S> Invitation to your meeting has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- create_meeting year one-shot
+U> create meeting on 2016
+S> Which month are we talking about?
+U> may
+S> Which day of month are we talking about?
+U> 20
+S> What is the subject of the meeting?
+U> going for launch
+S> Which location do you want to have for the meeting?
+U> whisky bar
+S> Invitation to your meeting has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- create_meeting year and month one-shot
+U> create meeting on 2016 may
+S> Which day of month are we talking about?
+U> 20
+S> What is the subject of the meeting?
+U> going for launch
+S> Which location do you want to have for the meeting?
+U> whisky bar
+S> Invitation to your meeting has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- create_meeting one-shot
+U> create meeting on 2016 may 20
+S> What is the subject of the meeting?
+U> going for launch
+S> Which location do you want to have for the meeting?
+U> whisky bar
+S> Invitation to your meeting has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- meeting
+U> meeting
+S> Which year are we talking about?
+U> 2016
+S> Which month are we talking about?
+U> may
+S> Which day of month are we talking about?
+U> 20
+S> What is the subject of the meeting?
+U> going for launch
+S> Which location do you want to have for the meeting?
+U> whisky bar
+S> Invitation to your meeting has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- appointment 
+U> appointment
+S> Which year are we talking about?
+U> 2016
+S> Which month are we talking about?
+U> may
+S> Which day of month are we talking about?
+U> 20
+S> What is the subject of the appointment?
+U> going for launch
+S> Which location do you want to have for the appointment?
+U> whisky bar
+S> Invitation to your appointment has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- appointment year one-shot
+U> appointment on 2016
+S> Which month are we talking about?
+U> may
+S> Which day of month are we talking about?
+U> 20
+S> What is the subject of the appointment?
+U> going for launch
+S> Which location do you want to have for the appointment?
+U> whisky bar
+S> Invitation to your appointment has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- appointment year and month one-shot
+U> appointment on 2016 may
+S> Which day of month are we talking about?
+U> 20
+S> What is the subject of the appointment?
+U> going for launch
+S> Which location do you want to have for the appointment?
+U> whisky bar
+S> Invitation to your appointment has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- appointment one-shot
+U> appointment on 2016 may 20
+S> What is the subject of the appointment?
+U> going for launch
+S> Which location do you want to have for the appointment?
+U> whisky bar
+S> Invitation to your appointment has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- conference 
+U> conference
+S> Which year are we talking about?
+U> 2016
+S> Which month are we talking about?
+U> may
+S> Which day of month are we talking about?
+U> 20
+S> What is the subject of the conference?
+U> going for launch
+S> Which location do you want to have for the conference?
+U> whisky bar
+S> Invitation to your conference has been sent may 20 2016 subject is going for launch and location is whisky bar.
+
+--- invitation 
+U> invitation
+S> Which year are we talking about?
+U> 2016
+S> Which month are we talking about?
+U> may
+S> Which day of month are we talking about?
+U> 20
+S> What is the subject of the invitation?
+U> going for launch
+S> Which location do you want to have for the invitation?
+U> whisky bar
+S> Invitation has been sent may 20 2016 subject is going for launch and location is whisky bar.

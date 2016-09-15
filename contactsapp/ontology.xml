@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ontology name="ContactsAppOntology">
+  <action name="compare_contacts_action"/>
+  <sort name="contact_name" dynamic="true"/>
+  <predicate name="selected_contact_name" sort="contact_name"/>
+</ontology>

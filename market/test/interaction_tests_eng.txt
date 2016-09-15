@@ -1,0 +1,23 @@
+--- 11
+S> What would you like to do?
+U> search
+S> What do you want to search?
+U> tools
+S> Showing tools search.
+
+--- 12
+S> What would you like to do?
+U> find
+S> What do you want to search?
+U> tools
+S> Showing tools search.
+
+--- 21
+S> What would you like to do?
+U> search tools
+S> Showing tools search.
+
+--- 22
+S> What would you like to do?
+U> find tools
+S> Showing tools search.

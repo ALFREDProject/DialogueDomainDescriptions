@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+  <question speaker="system" predicate="selected_feeling" type="wh_question">
+    <utterance>good morning, how do you feel</utterance>
+  </question>
+
+  <predicate name="response_to_feeling">
+    <noun-phrase>
+      <noun ref="feeling" />
+    </noun-phrase>
+  </predicate>
+
+  <question speaker="user" predicate="response_to_feeling">
+    <utterance>
+      <one-of>
+        <item>good morning</item>
+        <item>hello</item>
+        <item>good morning alfred</item>
+        <item>hello alfred</item>
+        <item>i am <individual sort="feeling"/></item>
+        <item>i feel <individual sort="feeling"/></item>
+        <item>i have <individual sort="feeling"/></item>
+      </one-of>
+    </utterance>
+  </question>
+
+  <answer speaker="system" predicate="response_to_feeling">
+    <utterance>
+      You are
+      <individual predicate="selected_feeling"/> ,
+      <individual predicate="response_to_feeling"/>
+    </utterance>
+  </answer>
+
+  <lexicon>
+    <noun id="feeling">
+      <singular>feeling</singular>
+    </noun>
+  </lexicon>
+</grammar>

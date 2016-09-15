@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+
+  	<action name="start_game">
+  		<verb-phrase>
+  			<verb ref="start"/>
+  		</verb-phrase>
+  	</action>
+
+	<request action="start_game">
+    		<utterance>
+      			<one-of>
+        			<item>démarrer un jeu</item>
+        			<item>démarrer <individual sort="game"/></item>
+      			</one-of>
+    		</utterance>
+  	</request>
+
+  	<question speaker="system" predicate="game_to_start">
+  		<utterance>quel jeu voulez-vous démarrer</utterance>
+  	</question>
+
+  	<report action="StartGame" status="ended">
+  		<utterance>démarrage de <individual predicate="game_to_start"/></utterance>
+  	</report>
+
+
+
+
+
+
+  	<action name="pause_game">
+  		<verb-phrase>
+  			<verb ref="pause"/>
+  		</verb-phrase>
+  	</action>
+
+	<request action="pause_game">
+    		<utterance>
+      			<one-of>
+        			<item>pause</item>
+        			<item>pause le jeu</item>
+      			</one-of>
+    		</utterance>
+  	</request>
+
+  	<report action="PauseGame" status="ended">
+    		<utterance>en pause</utterance>
+  	</report>
+
+
+
+
+
+
+  	<action name="resume_game">
+  		<verb-phrase>
+  			<verb ref="resume"/>
+  		</verb-phrase>
+  	</action>
+
+	<request action="resume_game">
+    		<utterance>
+      			<one-of>
+        			<item>poursuivre</item>
+        			<item>poursuite le jeu</item>
+      			</one-of>
+    		</utterance>
+  	</request>
+
+  	<report action="ResumeGame" status="ended">
+    		<utterance>poursuite du jeu</utterance>
+  	</report>
+
+
+
+
+
+
+
+  	<action name="stop_game">
+  		<verb-phrase>
+  			<verb ref="stop"/>
+  		</verb-phrase>
+  	</action>
+
+	<request action="stop_game">
+    		<utterance>
+      			<one-of>
+        			<item>arrêter</item>
+        			<item>arrêter le jeu</item>
+      			</one-of>
+    		</utterance>
+  	</request>
+
+  	<report action="StopGame" status="ended">
+    		<utterance>arrêt du jeu</utterance>
+  	</report>
+
+  	<lexicon>		
+		<verb id="start">
+  			<infinitive>démarrer</infinitive>
+  		</verb>
+  		<verb id="pause">
+  			<infinitive>pauser</infinitive>
+  		</verb>
+  		<verb id="resume">
+  			<infinitive>poursuivre</infinitive>
+  		</verb>
+  		<verb id="stop">
+  			<infinitive>arrêter</infinitive>
+  		</verb>
+  	</lexicon>
+</grammar>

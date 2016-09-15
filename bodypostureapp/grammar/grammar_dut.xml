@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar>
+	<action name="posture">
+		<noun-phrase>
+			<noun ref="posture"/>
+		</noun-phrase>
+	</action>
+
+	<request action="posture">
+		<utterance>
+			<one-of>
+				<item>hoe <individual sort="bodyposture"/> ik correct</item>
+				<item>hoe neem ik een goede houding aan</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<question speaker="system" predicate="selected_bodyposture" type="wh_question">
+		<utterance>
+			zit u, staat u of ligt u
+		</utterance>
+	</question>
+
+	<report action="HowToPostureAction" status="ended">
+		<utterance>
+			kijk naar deze foto. Het laat zien hoe u correct <individual predicate="selected_bodyposture"/> 
+		</utterance>
+	</report>
+
+	<lexicon>
+		<noun id="posture">
+			<singular>houding</singular>
+		</noun>
+	</lexicon>
+</grammar>

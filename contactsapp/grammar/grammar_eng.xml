@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+	<action name="compare_contacts_action">
+		<noun-phrase>
+			<noun ref="contact"/>
+		</noun-phrase>
+	</action>
+
+	<request action="compare_contacts_action">
+		<utterance>
+			<one-of>
+				<item>compare contact <individual sort="contact_name"/> </item>
+				<item>compare contacts</item>
+				<item>contacts</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<question speaker="system" predicate="selected_contact_name" type="wh_question">
+		<utterance>
+			how is the contact called
+		</utterance>
+	</question>
+
+	<report action="ContactsComparisonAction" status="ended">
+		<utterance>
+			here is your contact comparison of contact <individual predicate="selected_contact_name"/>
+		</utterance>
+	</report>
+
+	<lexicon>
+		<noun id="contact">
+			<singular>contact</singular>
+		</noun>
+	</lexicon>
+</grammar>

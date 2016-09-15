@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar>
+	<action name="posture">
+		<noun-phrase>
+			<noun ref="posture"/>
+		</noun-phrase>
+	</action>
+
+	<request action="posture">
+		<utterance>
+			<one-of>
+				<item>how to <individual sort="bodyposture"/> correctly</item>
+				<item>how to posture</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<question speaker="system" predicate="selected_bodyposture" type="wh_question">
+		<utterance>
+			do you sit, stand or lie
+		</utterance>
+	</question>
+
+	<report action="HowToPostureAction" status="ended">
+		<utterance>
+			look at this picture. It show you how to <individual predicate="selected_bodyposture"/> correctly
+		</utterance>
+	</report>
+
+	<lexicon>
+		<noun id="posture">
+			<singular>posture</singular>
+		</noun>
+	</lexicon>
+</grammar>

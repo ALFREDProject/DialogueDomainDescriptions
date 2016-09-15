@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<domain name="TutorialDomain" is_super_domain="true">
+    <goal type="perform" action="top" reraise_on_resume="false">
+        <plan>
+            <forget_all/>
+            <findout type="goal"/>
+        </plan>
+    </goal>
+
+    <goal type="perform" action="command_start">
+        <plan>
+            <dev_perform action="CommandStart" device="TutorialDevice" postconfirm="true"/>
+        </plan>
+        <postcond><device_activity_terminated action="CommandStart"/></postcond>
+    </goal>
+
+    <goal type="perform" action="command_continue">
+        <plan>
+            <dev_perform action="CommandContinue" device="TutorialDevice" postconfirm="true"/>
+        </plan>
+        <postcond><device_activity_terminated action="CommandContinue"/></postcond>
+    </goal>
+
+    <goal type="perform" action="command_i_understand">
+        <plan>
+            <dev_perform action="CommandIUnderstand" device="TutorialDevice" postconfirm="true"/>
+        </plan>
+        <postcond><device_activity_terminated action="CommandIUnderstand"/></postcond>
+    </goal>
+
+    <goal type="perform" action="command_play_a_sound">
+        <plan>
+            <dev_perform action="CommandPlayASound" device="TutorialDevice" postconfirm="true"/>
+            <dev_perform action="RecognizeName" device="TutorialDevice" postconfirm="false"/>
+            <findout type="wh_question" predicate="selected_name"/>
+            <dev_perform action="CommandWhatIsYourName" device="TutorialDevice" postconfirm="true"/>
+            <dev_perform action="RecognizeAge" device="TutorialDevice" postconfirm="false"/>
+            <findout type="wh_question" predicate="selected_age"/>
+            <dev_perform action="CommandAge" device="TutorialDevice" postconfirm="true"/>
+        </plan>
+        <postcond><device_activity_terminated action="CommandAge"/></postcond>
+    </goal>
+
+    <goal type="perform" action="command_show_an_image">
+        <plan>
+            <dev_perform action="CommandShowAnImage" device="TutorialDevice" postconfirm="true"/>
+            <dev_perform action="RecognizeName" device="TutorialDevice" postconfirm="false"/>
+            <findout type="wh_question" predicate="selected_name"/>
+            <dev_perform action="CommandWhatIsYourName" device="TutorialDevice" postconfirm="true"/>
+            <dev_perform action="RecognizeAge" device="TutorialDevice" postconfirm="false"/>
+            <findout type="wh_question" predicate="selected_age"/>
+            <dev_perform action="CommandAge" device="TutorialDevice" postconfirm="true"/>
+        </plan>
+        <postcond><device_activity_terminated action="CommandAge"/></postcond>
+    </goal>
+</domain>

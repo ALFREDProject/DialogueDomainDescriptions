@@ -1,0 +1,6 @@
+--- haal het nieuws op sport
+S> Wat wilt u doen?
+U> haal het nieuws op
+S> Wat voor nieuws wilt u hebben?
+U> sport
+S> Tonen sport.

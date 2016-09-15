@@ -1,0 +1,127 @@
+--- rendez-vous
+U> rendez-vous
+S> De quelle année parlons-nous?
+U> 2016
+S> De quel mois parlons nous?
+U> mai
+S> De quel jour du mois parlons-nous?
+U> 20
+S> Quel est l'objet du rendez-vous?
+U> celebrer
+S> Où aura lieu le rendez-vous?
+U> whisky bar
+S> L’invitation au rendez-vous a été envoyée pour le mai 20 2016 l'objet est celebrer et le lieu est whisky bar.
+
+--- rendez-vous year one-shot
+U> rendez-vous le 2016
+S> De quel mois parlons nous?
+U> mai
+S> De quel jour du mois parlons-nous?
+U> 20
+S> Quel est l'objet du rendez-vous?
+U> celebrer
+S> Où aura lieu le rendez-vous?
+U> whisky bar
+S> L’invitation au rendez-vous a été envoyée pour le mai 20 2016 l'objet est celebrer et le lieu est whisky bar.
+
+--- rendez-vous year and month one-shot
+U> rendez-vous le 2016 mai
+S> De quel jour du mois parlons-nous?
+U> 20
+S> Quel est l'objet du rendez-vous?
+U> celebrer
+S> Où aura lieu le rendez-vous?
+U> whisky bar
+S> L’invitation au rendez-vous a été envoyée pour le mai 20 2016 l'objet est celebrer et le lieu est whisky bar.
+
+--- rendez-vous one-shot
+U> rendez-vous le 2016 mai 20
+S> Quel est l'objet du rendez-vous?
+U> celebrer
+S> Où aura lieu le rendez-vous?
+U> whisky bar
+S> L’invitation au rendez-vous a été envoyée pour le mai 20 2016 l'objet est celebrer et le lieu est whisky bar.
+
+--- créer une rendez-vous
+U> créer une rendez-vous
+S> De quelle année parlons-nous?
+U> 2016
+S> De quel mois parlons nous?
+U> mai
+S> De quel jour du mois parlons-nous?
+U> 20
+S> Quel est l'objet du rendez-vous?
+U> celebrer
+S> Où aura lieu le rendez-vous?
+U> whisky bar
+S> L’invitation au rendez-vous a été envoyée pour le mai 20 2016 l'objet est celebrer et le lieu est whisky bar.
+
+--- réunion
+U> réunion
+S> De quelle année parlons-nous?
+U> 2016
+S> De quel mois parlons nous?
+U> mai
+S> De quel jour du mois parlons-nous?
+U> 20
+S> Quel est l'objet de la réunion?
+U> celebrer
+S> Où aura lieu la réunion?
+U> whisky bar
+S> L’invitation à la réunion a été envoyée pour le mai 20 2016 l'objet est celebrer et le lieu est whisky bar.
+
+--- créer une réunion
+U> créer une réunion
+S> De quelle année parlons-nous?
+U> 2016
+S> De quel mois parlons nous?
+U> mai
+S> De quel jour du mois parlons-nous?
+U> 20
+S> Quel est l'objet de la réunion?
+U> celebrer
+S> Où aura lieu la réunion?
+U> whisky bar
+S> L’invitation à la réunion a été envoyée pour le mai 20 2016 l'objet est celebrer et le lieu est whisky bar.
+
+--- organiser une réunion
+U> organiser une réunion
+S> De quelle année parlons-nous?
+U> 2016
+S> De quel mois parlons nous?
+U> mai
+S> De quel jour du mois parlons-nous?
+U> 20
+S> Quel est l'objet de la réunion?
+U> celebrer
+S> Où aura lieu la réunion?
+U> whisky bar
+S> L’invitation à la réunion a été envoyée pour le mai 20 2016 l'objet est celebrer et le lieu est whisky bar.
+
+--- créer une rencontre
+U> créer une rencontre
+S> De quelle année parlons-nous?
+U> 2016
+S> De quel mois parlons nous?
+U> mai
+S> De quel jour du mois parlons-nous?
+U> 20
+S> Quel est l'objet de la rencontre?
+U> celebrer
+S> Où aura lieu la rencontre?
+U> whisky bar
+S> L’invitation à la rencontre a été envoyée pour le mai 20 2016 l'objet est celebrer et le lieu est whisky bar.
+
+--- créer une invitation
+U> créer une invitation
+S> De quelle année parlons-nous?
+U> 2016
+S> De quel mois parlons nous?
+U> mai
+S> De quel jour du mois parlons-nous?
+U> 20
+S> Quel est l'objet de l'invitation?
+U> celebrer
+S> Quel est le lieu de l'invitation?
+U> whisky bar
+S> L’invitation a été envoyée pour le mai 20 2016 l'objet est celebrer et le lieu est whisky bar.

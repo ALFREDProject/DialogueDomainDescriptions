@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar>
+	<action name="create_meeting">
+		<noun-phrase>
+			<noun ref="meeting"/>
+		</noun-phrase>
+	</action>
+
+	<action name="create_appointment">
+		<noun-phrase>
+			<noun ref="appointment"/>
+		</noun-phrase>
+	</action>
+
+	<action name="create_conference">
+		<noun-phrase>
+			<noun ref="conference"/>
+		</noun-phrase>
+	</action>
+
+	<action name="create_invitation">
+		<noun-phrase>
+			<noun ref="invitation"/>
+		</noun-phrase>
+	</action>
+	
+	<request action="create_meeting">
+		<utterance>
+			<one-of>
+				<item>organiser une réunion le <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>organiser une réunion le <individual sort="year"/> <individual sort="month"/> </item>
+				<item>organiser une réunion le <individual sort="year"/></item>
+				<item>organiser une réunion</item>
+				<item>créer  une réunion le <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>créer  une réunion le <individual sort="year"/> <individual sort="month"/> </item>
+				<item>créer  une réunion le <individual sort="year"/></item>
+				<item>créer  une réunion</item>
+				<item>une réunion le <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>une réunion le <individual sort="year"/> <individual sort="month"/> </item>
+				<item>une réunion le <individual sort="year"/></item>
+				<item>réunion</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<request action="create_appointment">
+		<utterance>
+			<one-of>
+				<item>rendez-vous</item>
+				<item>rendez-vous le <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>rendez-vous le <individual sort="year"/> <individual sort="month"/> </item>
+				<item>rendez-vous le <individual sort="year"/></item>
+				<item>créer une rendez-vous</item>
+				<item>créer une rendez-vous le <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>créer une rendez-vous le <individual sort="year"/> <individual sort="month"/> </item>
+				<item>créer une rendez-vous le <individual sort="year"/></item>
+				<item>organiser une rendez-vous</item>
+				<item>organiser une rendez-vous le <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>organiser une rendez-vous le <individual sort="year"/> <individual sort="month"/> </item>
+				<item>organiser une rendez-vous le <individual sort="year"/></item>
+				<item>organiser une rendez-vous</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<request action="create_conference">
+		<utterance>
+			<one-of>
+				<item>rencontre</item>
+				<item>rencontre le <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>rencontre le <individual sort="year"/> <individual sort="month"/> </item>
+				<item>rencontre le <individual sort="year"/></item>
+				<item>créer une rencontre</item>
+				<item>créer une rencontre le <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>créer une rencontre le <individual sort="year"/> <individual sort="month"/> </item>
+				<item>créer une rencontre le <individual sort="year"/></item>
+				<item>organiser une rencontre</item>
+				<item>organiser une rencontre le <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>organiser une rencontre le <individual sort="year"/> <individual sort="month"/> </item>
+				<item>organiser une rencontre le <individual sort="year"/></item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<request action="create_invitation">
+		<utterance>
+			<one-of>
+				<item>invitation</item>
+				<item>invitater</item>
+				<item>invitation le <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>invitation le <individual sort="year"/> <individual sort="month"/> </item>
+				<item>invitation le <individual sort="year"/></item>
+				<item>créer une invitation</item>
+				<item>créer une invitation le <individual sort="year"/> <individual sort="month"/> <individual sort="day"/></item>
+				<item>créer une invitation le <individual sort="year"/> <individual sort="month"/> </item>
+				<item>créer une invitation le <individual sort="year"/></item>
+			</one-of>
+		</utterance>
+	</request>
+	
+	<question speaker="system" predicate="selected_year" type="wh_question">
+		<utterance>
+			de quelle année parlons-nous
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_month" type="wh_question">
+		<utterance>
+			de quel mois parlons nous
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_day" type="wh_question">
+		<utterance>
+			de quel jour du mois parlons-nous
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_subject" type="wh_question">
+		<utterance>
+			quel est l'objet de la réunion
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_location" type="wh_question">
+		<utterance>
+			où aura lieu la réunion
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_subject_appointment" type="wh_question">
+		<utterance>
+			quel est l'objet du rendez-vous
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_location_appointment" type="wh_question">
+		<utterance>
+			où aura lieu le rendez-vous
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_subject_conference" type="wh_question">
+		<utterance>
+			quel est l'objet de la rencontre
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_location_conference" type="wh_question">
+		<utterance>
+			où aura lieu la rencontre
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_subject_invitation" type="wh_question">
+		<utterance>
+			quel est l'objet de l'invitation
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_location_invitation" type="wh_question">
+		<utterance>
+			quel est le lieu de l'invitation
+		</utterance>
+	</question>
+	
+	<report action="CreateMeetingAction" status="ended">
+		<utterance>
+			L’invitation à la réunion a été envoyée pour le <individual predicate="selected_month"/> <individual predicate="selected_day"/> <individual predicate="selected_year"/> l'objet est  <individual predicate="selected_subject"/> et le lieu est  <individual predicate="selected_location"/>
+		</utterance>
+	</report>
+
+	<report action="CreateAppointmentAction" status="ended">
+		<utterance>
+			L’invitation au rendez-vous a été envoyée pour le <individual predicate="selected_month"/> <individual predicate="selected_day"/> <individual predicate="selected_year"/> l'objet est <individual predicate="selected_subject_appointment"/> et le lieu est <individual predicate="selected_location_appointment"/>
+		</utterance>
+	</report>
+
+	<report action="CreateConferenceAction" status="ended">
+		<utterance>
+			L’invitation à la rencontre a été envoyée pour le <individual predicate="selected_month"/> <individual predicate="selected_day"/> <individual predicate="selected_year"/> l'objet est <individual predicate="selected_subject_conference"/> et le lieu est <individual predicate="selected_location_conference"/>
+		</utterance>
+	</report>
+
+	<report action="CreateInvitationAction" status="ended">
+		<utterance>
+			L’invitation a été envoyée pour le <individual predicate="selected_month"/> <individual predicate="selected_day"/> <individual predicate="selected_year"/> l'objet est <individual predicate="selected_subject_invitation"/> et le lieu est <individual predicate="selected_location_invitation"/>
+		</utterance>
+	</report>
+	
+	<lexicon>
+		<noun id="meeting">
+			<singular>réunion</singular>
+		</noun>
+		<noun id="appointment">
+			<singular>rendez-vous</singular>
+		</noun>
+		<noun id="conference">
+			<singular>rencontre</singular>
+		</noun>
+		<noun id="invitation">
+			<singular>invitation</singular>
+		</noun>
+	</lexicon>
+</grammar>
+
+		

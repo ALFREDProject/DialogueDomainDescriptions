@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+
+	<action name="call">
+		<verb-phrase>
+			<verb ref="calling"/>
+		</verb-phrase>
+	</action>
+
+	<action name="send_message">
+		<noun-phrase>
+			<noun ref="message"/>
+		</noun-phrase>
+	</action>
+
+	<action name="videocall">
+		<noun-phrase>
+			<noun ref="video"/>
+		</noun-phrase>
+	</action>
+
+	<request action="call">
+		<utterance>
+			<one-of>
+				<item>call</item>
+				<item>make a call</item>
+				<item>call <individual sort="contact"/></item>
+				<item>call <individual sort="first_name"/> <individual sort="last_name"/></item>
+				<item>call <individual sort="first_name"/></item>
+				<item>call <individual sort="last_name"/></item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<request action="send_message">
+		<utterance>
+			<one-of>
+				<item>send message</item>
+				<item>send message to <individual sort="contact"/></item>
+				<item>send message to <individual sort="first_name"/> <individual sort="last_name"/></item>
+				<item>send message to <individual sort="first_name"/></item>
+				<item>send message to <individual sort="last_name"/></item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<request action="videocall">
+		<utterance>
+			<one-of>
+				<item>video call</item>
+				<item>make a video call</item>
+				<item>video call <individual sort="contact"/></item>
+				<item>video call <individual sort="first_name"/> <individual sort="last_name"/></item>
+				<item>video call <individual sort="first_name"/></item>
+				<item>video call <individual sort="last_name"/></item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<report action="Call" status="ended">
+		<utterance>
+			calling <individual predicate="selected_contact"/>
+		</utterance>
+	</report>
+
+	<report action="SendMessage" status="ended">
+		<utterance>
+			I sent your message to <individual predicate="selected_contact"/>. The message was <individual predicate="selected_message"/>
+		</utterance>
+	</report>
+
+	<report action="VideoCall" status="ended">
+		<utterance>
+			video calling <individual predicate="selected_contact"/>
+		</utterance>
+	</report>
+
+	<question speaker="system" predicate="selected_contact" type="wh_question">
+		<utterance>who do you want to call</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_first_name" type="wh_question">
+		<utterance>what is the first name</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_last_name" type="wh_question">
+		<utterance>what is the last name</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_message" type="wh_question">
+		<utterance>
+			what message do you want to put
+		</utterance>
+	</question>
+
+	<lexicon>
+		<verb id="calling">
+			<infinitive>call</infinitive>
+		</verb>
+		<noun id="message">
+			<singular>message</singular>
+		</noun>
+		<noun id="video">
+			<singular>video</singular>
+		</noun>
+	</lexicon>
+</grammar>

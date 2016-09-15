@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ontology name="QuestionnaireOntology">
+	
+	<action name="get_info"/>
+  	<sort name="info_type" dynamic="true"/>
+  	<predicate name="selected_info_type" sort="info_type"/>
+
+</ontology>

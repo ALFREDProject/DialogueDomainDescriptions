@@ -1,0 +1,41 @@
+--- get information culture
+S> What would you like to do?
+U> get information
+S> What type of information do you want?
+U> culture
+S> Here is culture information.
+
+--- get information sports
+S> What would you like to do?
+U> get information
+S> What type of information do you want?
+U> sports
+S> Here is sports information.
+
+--- get information world
+S> What would you like to do?
+U> get information
+S> What type of information do you want?
+U> world
+S> Here is world information.
+
+--- get information exhibitions
+S> What would you like to do?
+U> get information
+S> What type of information do you want?
+U> exhibitions
+S> Here is exhibitions information.
+
+--- get information cinema
+S> What would you like to do?
+U> get information
+S> What type of information do you want?
+U> cinema
+S> Here is cinema information.
+
+--- get information curiosities
+S> What would you like to do?
+U> get information
+S> What type of information do you want?
+U> curiosities
+S> Here is curiosities information.

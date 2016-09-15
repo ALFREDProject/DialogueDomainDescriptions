@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar>
+	<action name="create_social_group">
+		<noun-phrase>
+			<noun ref="group"/>
+		</noun-phrase>
+	</action>
+
+	<request action="create_social_group">
+		<utterance>
+			<one-of>
+				<item>het creeren van een groep</item>
+				<item>ik wil een groep aanmaken</item>
+				<item>groep</item>
+			</one-of>
+		</utterance>
+	</request>
+
+	<question speaker="system" predicate="selected_groupname" type="wh_question">
+		<utterance>
+			welke naam wil je hebben voor de groep
+		</utterance>
+	</question>
+
+	<question speaker="system" predicate="selected_groupdescription" type="wh_question">
+		<utterance>
+			wat is de beschrijving van de groep
+		</utterance>
+	</question>
+
+	<report action="CreateSocialGroupAction" status="ended">
+		<utterance>
+			groep <individual predicate="selected_groupname"/> met omscchrijving <individual predicate="selected_groupdescription"/> is gecreeerd
+		</utterance>
+	</report>
+
+	<lexicon>
+		<verb id="create">
+					<noun id="group">
+			<singular>groep</singular>
+		</noun>
+	</lexicon>
+</grammar>
+ 

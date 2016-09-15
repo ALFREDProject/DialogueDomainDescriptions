@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar>
+  <question speaker="system" predicate="selected_feeling" type="wh_question">
+    <utterance>goedemorgen, Hoe voelt u zich vandaag</utterance>
+  </question>
+
+  <predicate name="response_to_feeling">
+    <noun-phrase>
+      <noun ref="feeling" />
+    </noun-phrase>
+  </predicate>
+
+  <question speaker="user" predicate="response_to_feeling">
+    <utterance>
+      <one-of>
+        <item>hallo</item>
+        <item>hallo alfred</item>
+        <item>goedemorgen</item>
+        <item>goedemorgen alfred</item>
+        <item>hoe gaat het</item>
+        <item>ik ben <individual sort="feeling"/></item>
+        <item>ik voel mij <individual sort="feeling"/></item>
+        <item>vandaag voel ik mij <individual sort="feeling"/></item>
+        <item>ik maak mij <individual sort="feeling"/></item>
+        <item>vandaag heb ik <individual sort="feeling"/></item>
+      </one-of>
+    </utterance>
+  </question>
+
+  <answer speaker="system" predicate="response_to_feeling">
+    <utterance>
+      U voelt zich <individual predicate="selected_feeling"/> ,
+      <individual predicate="response_to_feeling"/>
+    </utterance>
+  </answer>
+
+  <lexicon>
+    <noun id="feeling">
+      <singular>nummer</singular>
+    </noun>
+  </lexicon>
+</grammar>

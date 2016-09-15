@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ontology name="CalendarAppOntology">
+	<action name="show_calendar"/>
+	<action name="insert_event"/>
+	<action name="show_event"/>
+	<sort name="month" dynamic="true"/>
+	<sort name="year" dynamic="true"/>
+	<sort name="day" dynamic="true"/>
+	<sort name="event" dynamic="true"/>
+	<predicate name="selected_month" sort="month"/>
+	<predicate name="selected_year" sort="year"/>
+	<predicate name="selected_day" sort="day"/>
+	<predicate name="selected_event" sort="event"/>
+</ontology>
